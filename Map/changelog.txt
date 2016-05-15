@@ -370,4 +370,5 @@ changelog = {
 	[[Added in the change for manara so please stop messaging me]],
 	[[Put azdun catacombs into their own area like the in game survey has it]],
 	[[Added in the Squall Cleft on Meropis]],
+	[[Added in the new rooms in Xhaiden Dale]],
 }
