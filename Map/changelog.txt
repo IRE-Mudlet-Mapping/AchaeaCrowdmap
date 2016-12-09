@@ -373,4 +373,5 @@ changelog = {
 	[[Added in the new rooms in Xhaiden Dale]],
 	[[Minor room changes along with the addition of the new shop in Delos]],
 	[[Rooms added in Genji and minor room changes in various places]],
+	[[Added several of the event areas and the underrealm]],
 }
