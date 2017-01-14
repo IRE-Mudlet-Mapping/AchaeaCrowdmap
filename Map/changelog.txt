@@ -375,4 +375,5 @@ changelog = {
 	[[Rooms added in Genji and minor room changes in various places]],
 	[[Added several of the event areas and the underrealm]],
 	[[Added in special exits for the Dun Valley vines]],
+	[[Added in portions of under realms and redid Nish a bit]],
 }
