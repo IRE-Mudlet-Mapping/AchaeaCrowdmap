@@ -376,4 +376,5 @@ changelog = {
 	[[Added several of the event areas and the underrealm]],
 	[[Added in special exits for the Dun Valley vines]],
 	[[Added in portions of under realms and redid Nish a bit]],
+	[[The change most of you have been bugging me about. Meropis wings should now work as well as island wings. If there are issues where it wont use wings when it should please let me know. YOU MUST UPDATE MAPPER SCRIPT FOR IT TO WORK AND RESTART MUDLET!!!]],
 }
