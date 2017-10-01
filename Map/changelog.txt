@@ -379,4 +379,5 @@ changelog = {
 	[[The change most of you have been bugging me about. Meropis wings should now work as well as island wings. If there are issues where it wont use wings when it should please let me know. YOU MUST UPDATE MAPPER SCRIPT FOR IT TO WORK AND RESTART MUDLET!!!]],
 	[[Fixed some rooms in great rock]],
 	[[This should fix wings not working. My bad]],
+	[[Updated all city shops; fixed targ entrance; added rooms in targ]],
 }
