@@ -380,4 +380,5 @@ changelog = {
 	[[Fixed some rooms in great rock]],
 	[[This should fix wings not working. My bad]],
 	[[Updated all city shops; fixed targ entrance; added rooms in targ]],
+	[[Fixed the artefact shops]],
 }
