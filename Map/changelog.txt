@@ -382,4 +382,5 @@ changelog = {
 	[[Updated all city shops; fixed targ entrance; added rooms in targ]],
 	[[Fixed the artefact shops]],
 	[[Partial update to a huge update. Fixed some rooms in Mhaldor and Targossas. Other misc fixes and the beginning of the World Tree areas which is massive so please be patient for me to get them all in.]],
+	[[Added in the rooms i missed in Mhaldor, sorry about that, and shop name updates]],
 }
