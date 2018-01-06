@@ -384,4 +384,5 @@ changelog = {
 	[[Partial update to a huge update. Fixed some rooms in Mhaldor and Targossas. Other misc fixes and the beginning of the World Tree areas which is massive so please be patient for me to get them all in.]],
 	[[Added in the rooms i missed in Mhaldor, sorry about that, and shop name updates]],
 	[[More rooms in the tree laid out though a bit more editing in some of the areas, fixed citadel of storms, and fixed some of the gare exits that got screwed up]],
+	[[All areas of Yggdrasil now mapped along with the elemental planes and the new artefact shop]],
 }
