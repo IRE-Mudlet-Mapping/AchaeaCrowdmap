@@ -385,6 +385,6 @@ changelog = {
 	[[Added in the rooms i missed in Mhaldor, sorry about that, and shop name updates]],
 	[[More rooms in the tree laid out though a bit more editing in some of the areas, fixed citadel of storms, and fixed some of the gare exits that got screwed up]],
 	[[All areas of Yggdrasil now mapped along with the elemental planes and the new artefact shop]],
-	[[Fixed some wormholes, shop marks and room in the World Tree areas and Hashan, pathing in the fire plane will avoid Kkracle's fingers, pathing in the water plane will not try and fail to take you to the Alcazar]]
-	[[Added in stratospheres accessed by Stratospheric Harness, Removed Mainad har-bain from continent 34, Updated south exit from Kyrra's cloud room, Added Yen's cloud rooms, increased room weight of room in Tasur'ke that sweeps one out to sea]]
+	[[Fixed some wormholes, shop marks and room in the World Tree areas and Hashan, pathing in the fire plane will avoid Kkracle's fingers, pathing in the water plane will not try and fail to take you to the Alcazar]],
+	[[Added in stratospheres accessed by Stratospheric Harness, Removed Mainad har-bain from continent 34, Updated south exit from Kyrra's cloud room, Added Yen's cloud rooms, increased room weight of room in Tasur'ke that sweeps one out to sea]],
 }
