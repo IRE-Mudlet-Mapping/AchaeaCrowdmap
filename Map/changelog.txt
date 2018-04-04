@@ -389,4 +389,5 @@ changelog = {
 	[[Added in stratospheres accessed by Stratospheric Harness, Removed Mainad har-bain from continent 34, Updated south exit from Kyrra's cloud room, Added Yen's cloud rooms, increased room weight of room in Tasur'ke that sweeps one out to sea]],
 	[[Added in game side area names for some room data. Not all areas done yet but will be done in time. All new rooms will automatically have it in the map data.]],
 	[[Fixed left over special exit that should have been cleared.]],
+	[[Fixed changed room below Porta Aquila in Hashan, added Digsites of Luck and Waves.]],
 }
