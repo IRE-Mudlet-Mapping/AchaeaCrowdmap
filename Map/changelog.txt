@@ -390,4 +390,5 @@ changelog = {
 	[[Added in game side area names for some room data. Not all areas done yet but will be done in time. All new rooms will automatically have it in the map data.]],
 	[[Fixed left over special exit that should have been cleared.]],
 	[[Fixed changed room below Porta Aquila in Hashan, added Digsites of Luck and Waves.]],
+	[[Added Hashan bath house, Somatikan Barracks and Digsite of Discord]],
 }
