@@ -391,4 +391,5 @@ changelog = {
 	[[Fixed left over special exit that should have been cleared.]],
 	[[Added in Old Aster Town and redid underworld for it current configuration.]],
 	[[A bunch of warps fixed and added in new rooms from new quests and such.]],
+	[[Nur added along with shop names updated in all the cities.]],
 }
