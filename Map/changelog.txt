@@ -393,4 +393,5 @@ changelog = {
 	[[A bunch of warps fixed and added in new rooms from new quests and such.]],
 	[[Nur added along with shop names updated in all the cities.]],
 	[[Quick fix for the leftover wings exits that stayed.]],
+	[[Added new rooms in Delos and updated the Mhaldor layout for room changes.]],
 }
