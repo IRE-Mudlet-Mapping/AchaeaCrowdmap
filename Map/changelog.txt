@@ -395,4 +395,5 @@ changelog = {
 	[[Quick fix for the leftover wings exits that stayed.]],
 	[[Added new rooms in Delos and updated the Mhaldor layout for room changes.]],
 	[[Fixed up and updated Cyrene with the changes.]],
+	[[Balan'maal and Balan'ukia added, added exits to tsol'teth houses in Morudai'anzari, fixed broken exits near duanathar exit rooms]],
 }
