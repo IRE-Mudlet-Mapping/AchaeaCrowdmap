@@ -397,4 +397,5 @@ changelog = {
 	[[Fixed up and updated Cyrene with the changes.]],
 	[[Balan'maal and Balan'ukia added, added exits to tsol'teth houses in Morudai'anzari, fixed broken exits near duanathar exit rooms]],
 	[[Fixed the couple of broken room exits around cloud exits that somehow persisted.]],
+	[[Added in the World's Fair tents and fixed Cyrene's tunnel]],
 }
