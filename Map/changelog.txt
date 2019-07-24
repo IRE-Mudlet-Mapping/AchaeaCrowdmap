@@ -398,4 +398,5 @@ changelog = {
 	[[Balan'maal and Balan'ukia added, added exits to tsol'teth houses in Morudai'anzari, fixed broken exits near duanathar exit rooms]],
 	[[Fixed the couple of broken room exits around cloud exits that somehow persisted.]],
 	[[Added in the World's Fair tents and fixed Cyrene's tunnel]],
+	[[Added in the west side of Batoac and the new Dakhota Lake section]],
 }
