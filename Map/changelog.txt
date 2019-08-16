@@ -400,4 +400,5 @@ changelog = {
 	[[Added in the World's Fair tents and fixed Cyrene's tunnel]],
 	[[Added in the west side of Batoac and the new Dakhota Lake section]],
 	[[Fixed the entrance to Bitterfolk and the changes for clouds and gare exits for Cyrene. Thanks Ictinus.]],
+	[[Updated Cyrene river changes and added Cyrene graveyard area.]],
 }
