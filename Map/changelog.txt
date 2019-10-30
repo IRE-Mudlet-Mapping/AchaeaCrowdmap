@@ -403,4 +403,5 @@ changelog = {
 	[[Updated Cyrene river changes and added Cyrene graveyard area.]],
 	[[Cleaned up Jaru to be more compact and align better with ingame map]],
 	[[Updated the ninja changed room in savannah and Cyrene room names along with my first bath of wormholes]],
+	[[Updated map for the Mayaween event]],
 }
