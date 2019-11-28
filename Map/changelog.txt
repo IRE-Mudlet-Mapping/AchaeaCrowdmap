@@ -396,4 +396,14 @@ changelog = {
 	[[Added new rooms in Delos and updated the Mhaldor layout for room changes.]],
 	[[Fixed up and updated Cyrene with the changes.]],
 	[[Balan'maal and Balan'ukia added, added exits to tsol'teth houses in Morudai'anzari, fixed broken exits near duanathar exit rooms]],
+	[[Fixed the couple of broken room exits around cloud exits that somehow persisted.]],
+	[[Added in the World's Fair tents and fixed Cyrene's tunnel]],
+	[[Added in the west side of Batoac and the new Dakhota Lake section]],
+	[[Fixed the entrance to Bitterfolk and the changes for clouds and gare exits for Cyrene. Thanks Ictinus.]],
+	[[Updated Cyrene river changes and added Cyrene graveyard area.]],
+	[[Cleaned up Jaru to be more compact and align better with ingame map]],
+	[[Updated the ninja changed room in savannah and Cyrene room names along with my first bath of wormholes]],
+	[[Updated map for the Mayaween event]],
+	[[Added in the Ziggurat of Malignancy and additional room in Nimick]]
+	[[Added new rooms in Hashan, fixed the Citadel and shops]]
 }
