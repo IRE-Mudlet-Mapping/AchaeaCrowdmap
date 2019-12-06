@@ -406,4 +406,5 @@ changelog = {
 	[[Updated map for the Mayaween event]],
 	[[Added in the Ziggurat of Malignancy and additional room in Nimick]],
 	[[Updated shop names in all cities, and fixed a couple wormholes -Lynara]],
+	[[Updated Hashan's map: New rooms added, Citadel fixed and updated shops' names]],
 }
