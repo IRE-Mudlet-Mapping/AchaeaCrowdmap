@@ -407,4 +407,5 @@ changelog = {
 	[[Added in the Ziggurat of Malignancy and additional room in Nimick]],
 	[[Updated shop names in all cities, and fixed a couple wormholes -Lynara]],
 	[[Updated Hashan's map: New rooms added, Citadel fixed and updated shops' names]],
+	[[Lots of wormhole updates, additions, and some removals. Updated some rooms in Cyrene]],
 }
