@@ -411,5 +411,6 @@ changelog = {
 	[[Added in the new moving island and updated what rooms I could easily get to in the outer islands]],
 	[[Updated new construction in Cyrene. New shop names in Cyrene, Targossas, and Ashtan]],
 	[[Converted Room Marks to Features. You can now GOTO FEATURE WILDERNESS for example]],
-	[[Fixed Cyrene Baths and Added Custom Exit Lines for Caverns of Chiada]]
+	[[Fixed Cyrene Baths and Added Custom Exit Lines for Caverns of Chiada]],
+	[[Added Cyrene roundabout bypass of Centre Crossing]],
 }
