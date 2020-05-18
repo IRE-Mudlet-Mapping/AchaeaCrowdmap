@@ -415,4 +415,5 @@ changelog = {
 	[[Added Cyrene roundabout bypass of Centre Crossing]],
 	[[Moved "Cyrene" room mark to gates, since Centre Crossing is inaccessible]],
 	[[Cyrene Centre Crossing back open, added back clocktower and renamed dozens of rooms]],
+	[[Added all Digsite rooms, Pandora's Temple, and Valley of the Dread Avian]],
 }
