@@ -417,4 +417,5 @@ changelog = {
 	[[Cyrene Centre Crossing back open, added back clocktower and renamed dozens of rooms]],
 	[[Added all Digsite rooms, Pandora's Temple, and Valley of the Dread Avian]],
 	[[Fixed a number of shop names and added Mirror Tower Foray]],
+	[[Massive wormhole update, updated shop names and fixed a few room characters]],
 }
