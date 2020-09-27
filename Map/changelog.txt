@@ -419,4 +419,5 @@ changelog = {
 	[[Fixed a number of shop names and added Mirror Tower Foray]],
 	[[Massive wormhole update, updated shop names and fixed a few room characters]],
 	[[Added Borgron Foray, Savannah GH Cave, Cleaned up GH Caves, Delos and Muurn Lake]],
+	[[Wormhole fixes, Shop name fixes, connected Nur archways]],
 }
