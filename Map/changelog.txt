@@ -421,4 +421,5 @@ changelog = {
 	[[Added Borgron Foray, Savannah GH Cave, Cleaned up GH Caves, Delos and Muurn Lake]],
 	[[Wormhole fixes, Shop name fixes, connected Nur archways]],
 	[[Black Dragon Lair, Fixed broken ferry to Ulangi, Outrider Estate]],
+	[[Wormholes, Shop Names, and Cyrene Resource Hub]],
 }
