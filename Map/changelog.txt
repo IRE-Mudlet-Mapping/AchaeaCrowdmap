@@ -422,4 +422,5 @@ changelog = {
 	[[Wormhole fixes, Shop name fixes, connected Nur archways]],
 	[[Black Dragon Lair, Fixed broken ferry to Ulangi, Outrider Estate]],
 	[[Wormholes, Shop Names, and Cyrene Resource Hub]],
+	[[Virtuosi Estate and Shield Estate]],
 }
