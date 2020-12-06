@@ -423,4 +423,5 @@ changelog = {
 	[[Black Dragon Lair, Fixed broken ferry to Ulangi, Outrider Estate]],
 	[[Wormholes, Shop Names, and Cyrene Resource Hub]],
 	[[Virtuosi Estate and Shield Estate]],
+        [[Maim and Pryla'ari Forays mapped, Mirror Tower foray map fixed]],
 }
