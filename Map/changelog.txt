@@ -426,4 +426,5 @@ changelog = {
         [[Maim and Pryla'ari Forays mapped, Mirror Tower foray map fixed]],
         [[Sevet and Margam mapped, Fortress fixed. Special exits for elemental planes added. Shop names everywhere.]],
 	[[Large Wormhole Update, Fixed wormhole/ferry issue on Ulangi]],
+	[[Added Ghezavat Commune, Fixed layout of Stone Forest]],
 }
