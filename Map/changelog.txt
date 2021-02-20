@@ -429,4 +429,5 @@ changelog = {
 	[[Added Ghezavat Commune, Fixed layout of Stone Forest]],
 	[[Removed tents from Mhojave desert, Added GRATES as features! GOTO FEATURE GRATE!]],
 	[[Untangled the mess that was Suliel Island]],
+	[[Untangled the mess that was Kuthalebak]],
 }
