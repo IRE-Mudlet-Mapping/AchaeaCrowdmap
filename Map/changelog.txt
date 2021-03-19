@@ -431,4 +431,5 @@ changelog = {
 	[[Untangled the mess that was Suliel Island]],
 	[[Untangled the mess that was Kuthalebak, Fixed up the Underworld]],
 	[[Wormhole update!]],
+	[[Southern Atrousian Jungle Cleanup]],
 }
