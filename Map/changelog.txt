@@ -432,4 +432,5 @@ changelog = {
 	[[Untangled the mess that was Kuthalebak, Fixed up the Underworld]],
 	[[Wormhole update!]],
 	[[Southern Atrousian Jungle Cleanup]],
+        [[Shop names fixed, minor changes in Eleusis, general wormhole cleanup, new room mark]],
 }
