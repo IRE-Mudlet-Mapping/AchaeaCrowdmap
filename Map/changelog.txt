@@ -432,4 +432,5 @@ changelog = {
 	[[Untangled the mess that was Kuthalebak, Fixed up the Underworld]],
 	[[Wormhole update!]],
 	[[Southern Atrousian Jungle Cleanup]],
+	[[Updated Hashan's map, fixed planetarium and added the new laboratory area]]
 }
