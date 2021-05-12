@@ -433,4 +433,5 @@ changelog = {
 	[[Wormhole update!]],
 	[[Southern Atrousian Jungle Cleanup]],
         [[Shop names fixed, minor changes in Eleusis, general wormhole cleanup, new room mark]],
+	[[Reverting previous map as it was causing mudlet crashes]],
 }
