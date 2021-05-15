@@ -435,4 +435,5 @@ changelog = {
         [[Shop names fixed, minor changes in Eleusis, general wormhole cleanup, new room mark]],
 	[[Reverting previous map as it was causing mudlet crashes]],
 	[[For real this time, reverting to previous version]],
+	[[Updated Hashan's map, deleted old Sentinels Guild estate, fixed planetarium and added the new laboratory area]],
 }
