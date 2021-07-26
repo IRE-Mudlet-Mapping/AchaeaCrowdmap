@@ -436,5 +436,6 @@ changelog = {
 	[[Reverting previous map as it was causing mudlet crashes]],
 	[[For real this time, reverting to previous version]],
 	[[Updated Hashan's map, deleted old Sentinels Guild estate, fixed planetarium and added the new laboratory area]],
-	[[Imperal Gardens are back! New room in Northreach. THE GREAT FLATTENING: Forestwatch, Prin, Nuskuwe, Annwyn, Fissure, Quartz, Riparium, Nilakantha, Vasnaris, Shala]]
+	[[Imperal Gardens are back! New room in Northreach. THE GREAT FLATTENING: Forestwatch, Prin, Nuskuwe, Annwyn, Fissure, Quartz, Riparium, Nilakantha, Vasnaris, Shala]],
+	[[Reckoning of Telaan! Continued Flattening: Nish, Shala, Poly, Arcadia and Isle, Tenwat, Maim, Ulangi, Mysia]],
 }
