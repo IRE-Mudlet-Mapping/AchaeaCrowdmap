@@ -440,4 +440,5 @@ changelog = {
 	[[Reckoning of Telaan! Continued Flattening: Nish, Shala, Poly, Arcadia and Isle, Tenwat, Maim, Ulangi, Mysia]],
 	[[Reckoning of Queen Titania! Continued Flattening: Zaphar Isle, Bella's, Tir, Petra, Harae, Dun Fort, Piraeus, Minos, Sunderland, Judgement Mount! Added new Outdoors tag for future functionality!]],
 	[[Added a few rooms in Mirror Tower Foray, Fixed misaligned rooms in Arcadia]],
+	[[Revert former change it (permanently) adds some wings exits]],
 }
