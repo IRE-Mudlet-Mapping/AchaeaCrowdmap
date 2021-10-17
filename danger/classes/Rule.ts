@@ -1,5 +1,7 @@
 //import { DangerDSLType, message, fail } from "danger";
 
+import { danger, DangerDSLType } from "danger";
+
 export class Rule {
     private readonly checkFunction: (danger: DangerDSLType) => Promise<boolean>;
     private readonly readableName: string;
@@ -28,5 +30,18 @@ export class MapChangeRule extends Rule {
         if (danger.git.fileMatch("Map/map").modified) {
             await super.check(danger);
         }
+    }
+}
+
+export class SimpleFileChangeRule extends MapChangeRule {
+    constructor(readableName: string, filePath: string) {
+        const checkFunction = async (danger: DangerDSLType) => {
+            const file = danger.git.fileMatch(filePath);
+            if (!file.edited) {
+                return false;
+            }
+            return true;
+        }
+        super(checkFunction, readableName);
     }
 }
