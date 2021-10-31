@@ -1,28 +1,38 @@
 //import { DangerDSLType, message, fail } from "danger";
 
-import { danger, DangerDSLType } from "danger";
+import { DangerDSLType } from "danger";
 
-export class Rule {
+declare type ReadableNameGetter = () => string;
+
+export interface Rule {
+    check: (danger: DangerDSLType) => Promise<void>;
+}
+
+export class RedGreenRule implements Rule {
     private readonly checkFunction: (danger: DangerDSLType) => Promise<boolean>;
-    private readonly readableName: string;
+    private readonly readableName: ReadableNameGetter;
 
-    constructor(checkFunction: (danger: DangerDSLType) => Promise<boolean>, readableName: string) {
+    constructor(checkFunction: (danger: DangerDSLType) => Promise<boolean>, readableName: ReadableNameGetter | string) {
         this.checkFunction = checkFunction;
-        this.readableName = readableName;
+        if (typeof readableName === "string") {
+            this.readableName = () => readableName;
+        } else {
+            this.readableName = readableName;
+        }
     }
 
     public async check(danger: DangerDSLType): Promise<void> {
         if (await this.checkFunction(danger)) {
-            message(this.readableName);
+            message(this.readableName(), {icon: ':heavy_check_mark:'});
         } else {
-            fail(this.readableName);
+            fail(this.readableName());
         }
     }
 }
 
-export class MapChangeRule extends Rule {
+export class MapChangeRule extends RedGreenRule {
 
-    constructor(checkFunction: (danger: DangerDSLType) => Promise<boolean>, readableName: string) {
+    constructor(checkFunction: (danger: DangerDSLType) => Promise<boolean>, readableName: ReadableNameGetter | string) {
         super(checkFunction, readableName);
     }
 

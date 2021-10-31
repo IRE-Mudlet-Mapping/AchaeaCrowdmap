@@ -17,7 +17,7 @@ jobs:
         node-version: "12.x"
     - name: Install yarn dependencies
       run: |
-        yarn add danger typescript --dev
+        yarn install --frozen-lockfile
         yarn danger ci -d danger/dangerfile.ts
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
