@@ -3,8 +3,9 @@ import * as _ from "lodash";
 import { RoomCheckRule } from "../classes/Rule";
 import mapModel from "../helpers/MapModel";
 
+
 const rooms = _.filter(mapModel.rooms, (room) =>
-    _.some(room.mSpecialExits, (_, exitCommand) => exitCommand.match("duana"))
+    room.symbol === '$' && room.down !== -1
 );
 
-export const disallowWingsExits = new RoomCheckRule(rooms, 'rooms with wings exits');
+export const disallowStockrooms = new RoomCheckRule(rooms, 'shops with stockrooms');
