@@ -58,11 +58,13 @@ export class SimpleFileChangeRule extends MapChangeRule {
 }
 
 export class RoomCheckRule extends MapChangeRule {
-    constructor(filteredRooms: any[], roomProperty: string){
+    constructor(filteredRooms: any[], roomProperty: string, echoFoundRooms: boolean = true){
         const checkFunction = (danger: DangerDSLType) =>
             Promise.resolve(filteredRooms.length === 0);
         const name = filteredRooms.length === 0 ? `No ${roomProperty}.` :
-            `Found ${roomProperty}: ${_.map(filteredRooms, (room) => room.id).toString()}`;
+            echoFoundRooms
+                ? `Found ${roomProperty}: ${_.map(filteredRooms, (room) => room.id).toString()}`
+                : `Found ${roomProperty}.`;
         super(checkFunction, name);
     }
 }
