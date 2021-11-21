@@ -1,3 +1,5 @@
+name: Map diffs
+
 on: [pull_request]
 
 jobs:
