@@ -12,12 +12,6 @@ jobs:
           ref: ${{github.event.pull_request.head.ref}}
           repository: ${{github.event.pull_request.head.repo.full_name}}
           fetch-depth: 0
-        
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          ref: ${{github.base_ref}}
-          path: 'base'
           
       - name: Check if the map was changed in this PR
         id: map-change-detected
@@ -29,10 +23,9 @@ jobs:
         
       - name: Create map diffs
         if: steps.map-change-detected.outputs.any_changed == 'true'
-        uses: Delwing/mudlet-map-diff-action@v1
+        uses: Delwing/mudlet-map-diff-action@v2
         with:
-          old-map: base/Map/map
-          new-map: Map/map
+          old-map: Map/map
         env:
           CLOUDINARY_NAME: ${{ secrets.CLOUDINARY_NAME }}
           CLOUDINARY_KEY: ${{ secrets.CLOUDINARY_KEY }}
