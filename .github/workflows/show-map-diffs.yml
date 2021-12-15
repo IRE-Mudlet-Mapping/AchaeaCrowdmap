@@ -20,7 +20,7 @@ jobs:
           # the only source of truth is the actual map
           files: Map/map
           sha: ${{github.event.pull_request.head.sha}}
-          base_sha: ${github.event.pull_request.base.sha}}
+          base_sha: ${{github.event.pull_request.base.sha}}
         
       - name: Create map diffs
         if: steps.map-change-detected.outputs.any_changed == 'true'
