@@ -15,11 +15,12 @@ jobs:
           
       - name: Check if the map was changed in this PR
         id: map-change-detected
-        uses: tj-actions/changed-files@v11
+        uses: tj-actions/changed-files@v12
         with:
           # the only source of truth is the actual map
           files: Map/map
-          sha: ${{github.event.pull_request.head.ref}}
+          sha: ${{github.event.pull_request.head.sha}}
+          base_sha: ${{github.event.pull_request.base.sha}}
         
       - name: Create map diffs
         if: steps.map-change-detected.outputs.any_changed == 'true'
