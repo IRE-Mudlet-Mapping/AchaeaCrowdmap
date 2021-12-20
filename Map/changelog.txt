@@ -442,5 +442,5 @@ changelog = {
 	[[Added a few rooms in Mirror Tower Foray, Fixed misaligned rooms in Arcadia]],
 	[[Revert former change it (permanently) adds some wings exits]],
 	[[Fixed Arcadia for real this time, Added Rooms in Mirror Tower Foray, Fixed Maze area in Griesly Family Manor]],
-	[[Cleaned up continent data, Added a few new wormholes, updated layout in Dun and Lothos for consistency, Fixed Shop Names]],
+	[[Added Merrywick! Cleaned up continent data, Added a few new wormholes, updated layout in Dun and Lothos for consistency, Fixed Shop Names]],
 }
