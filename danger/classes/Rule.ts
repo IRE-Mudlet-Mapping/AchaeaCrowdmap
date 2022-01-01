@@ -1,4 +1,4 @@
-//import { DangerDSLType, message, fail } from "danger";
+//import { DangerDSLType, message, warn, fail } from "danger";
 
 import { DangerDSLType } from "danger";
 import * as _ from "lodash";
@@ -18,6 +18,38 @@ export interface Rule {
      * @param {DangerDSLType} danger The data danger can provide about the change.
      */
     check: (danger: DangerDSLType) => Promise<void>;
+}
+
+/**
+ * Rule for sanity checks. It is usually silent, but prints a warning in case the check function returns a negative result.
+ */
+export class SanityCheckRule implements Rule {
+    private readonly checkFunction: (danger: DangerDSLType) => Promise<boolean>;
+    private readonly ruleCheckMessage: ruleCheckMessageConstructor;
+
+
+    /**
+     * Constructor of the rule.
+     *
+     * @param {(danger: DangerDSLType) => Promise<boolean>} checkFunction The implementation of the error check.
+     * @param {ruleCheckMessageConstructor | string} ruleCheckMessage Function that returns a human readable string or that string directly.
+     * Shown by danger in the resulting table.
+     */
+     constructor(checkFunction: (danger: DangerDSLType) => Promise<boolean>, ruleCheckMessage: ruleCheckMessageConstructor | string) {
+        this.checkFunction = checkFunction;
+        if (typeof ruleCheckMessage === "string") {
+            this.ruleCheckMessage = () => ruleCheckMessage;
+        } else {
+            this.ruleCheckMessage = ruleCheckMessage;
+        }
+    }
+
+    public async check(danger: DangerDSLType) {
+        if (!await this.checkFunction(danger)) {
+            warn(this.ruleCheckMessage());
+        }
+    };
+
 }
 
 /**
@@ -82,7 +114,7 @@ export class SimpleFileChangeRule extends MapChangeRule {
 
     /**
      * Constructor of the rule.
-     * 
+     *
      * @param {string} readableFileName Human readable name of the file that must have changed.
      * @param {string} filePath The path of the file that must have changed. Relative to the project root.
      */
