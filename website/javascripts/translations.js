@@ -148,7 +148,7 @@ jQuery(function () {
   if (savedLanguage) {
     translatePage(savedLanguage);
   } else {
-    translatePage("pl_PL");
+    translatePage("en_GB");
   }
 
   getActiveLanguages().forEach((langCode) => {
