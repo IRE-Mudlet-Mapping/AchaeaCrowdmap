@@ -1,0 +1,23 @@
+name: Publish new map version
+
+on:
+  push:
+    branches:
+      - development
+
+jobs:
+  publish-new-map:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Minfy json map
+      run: |
+        sudo apt-get install jq
+        jq -c < Map/map.json > Map/map_mini.json
+    - name: Copy map file to website directory
+      run: |
+        cp -R Map/ website/
+    - uses: JamesIves/github-pages-deploy-action@4.1.8
+      with:
+        branch: gh-pages
+        folder: website
