@@ -1798,7 +1798,7 @@ var MapReader = /*#__PURE__*/function () {
         return isWithinBounds;
       }), zIndex, levels);
 
-      if (!levels.has(zIndex)) {
+      if (area.rooms.length > 0 && !levels.has(zIndex)) {
         candidateArea = this.getArea(areaId, levels.values().next().value);
       }
 
