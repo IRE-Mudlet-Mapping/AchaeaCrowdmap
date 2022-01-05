@@ -10,6 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+    - name: Generate map data compatible with map reader
+      run: |
+        yarn install --frozen-lockfile
+        node ./map-generation/generate-map.js
     - name: Minfy json map
       run: |
         sudo apt-get install jq
