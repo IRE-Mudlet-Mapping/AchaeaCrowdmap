@@ -1,1 +1,3 @@
-position = 1;
+var position = {
+  area: 14
+};
