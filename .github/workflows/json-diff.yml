@@ -25,8 +25,7 @@ jobs:
         run: |
           sudo apt-get install jq diffutils
 
-      - name: get graphtage diff
-        id: graphtage
+      - name: get JSON diff
         run: |
           echo '## Textual map diff' > output.txt
           echo '<details>' >> output.txt
