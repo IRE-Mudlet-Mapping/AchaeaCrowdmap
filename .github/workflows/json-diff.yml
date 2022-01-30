@@ -1,0 +1,68 @@
+name: JSON diff
+
+on: pull_request_target
+
+jobs:
+  json-diff:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current version
+        uses: actions/checkout@v2
+        with:
+          ref: ${{github.event.pull_request.head.ref}}
+          repository: ${{github.event.pull_request.head.repo.full_name}}
+          fetch-depth: 0
+          path: current
+      - name: Checkout old version
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.base.ref }}
+          repository: ${{ github.event.pull_request.base.repo.full_name }}
+          fetch-depth: 0
+          path: old
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get install jq diffutils
+
+      - name: get JSON diff
+        run: |
+          echo '## Textual map diff' > output.txt
+          echo '<details>' >> output.txt
+          echo '<summary>Open to see the diff for commit ${{ github.event.pull_request.head.sha }}</summary>' >> output.txt
+          echo '' >> output.txt
+          echo '```diff' >> output.txt
+          ./old/map-utilities/create-diff.sh >> output.txt
+          echo '```' >> output.txt
+          echo '' >> output.txt
+          echo '</details>' >> output.txt
+
+      - name: Find Comment
+        uses: peter-evans/find-comment@v1
+        id: fc
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: 'github-actions[bot]'
+          body-includes: Textual map diff
+      - name: Create or update comment
+        uses: actions/github-script@v5
+        with:
+          script: |
+            const fs = require('fs');
+            const commentBody = fs.readFileSync('output.txt', 'utf8');
+            const commentId = ${{ steps.fc.outputs.comment-id }};
+            if(commentId){
+              github.rest.issues.updateComment({
+                comment_id: commentId,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: commentBody
+              })
+            } else {
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: commentBody
+            })
+            }
