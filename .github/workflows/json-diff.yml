@@ -32,7 +32,7 @@ jobs:
           echo '<summary>Open to see the diff for commit ${{ github.event.pull_request.head.sha }}</summary>' >> output.txt
           echo '' >> output.txt
           echo '```diff' >> output.txt
-          ./old/map-generation/create-diff.sh >> output.txt
+          ./old/map-utilities/create-diff.sh >> output.txt
           echo '```' >> output.txt
           echo '' >> output.txt
           echo '</details>' >> output.txt
