@@ -22,7 +22,7 @@ jobs:
     - name: Copy map file to website directory
       run: |
         cp -R Map/ website/
-    - uses: JamesIves/github-pages-deploy-action@4.1.8
+    - uses: JamesIves/github-pages-deploy-action@v4.2.5
       with:
         branch: gh-pages
         folder: website
