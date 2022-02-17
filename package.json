@@ -5,7 +5,7 @@
     "mudlet-map-binary-reader": "^0.0.4",
     "@types/js-yaml": "^4.0.5",
     "@types/lodash": "^4.14.176",
-    "danger": "^10.7.0",
+    "danger": "^11.0.2",
     "typescript": "^4.5.5"
   }
 }
