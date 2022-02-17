@@ -50,7 +50,7 @@ jobs:
           script: |
             const fs = require('fs');
             const commentBody = fs.readFileSync('output.txt', 'utf8');
-            const commentId = ${{ steps.fc.outputs.comment-id }};
+            const commentId = "${{ steps.fc.outputs.comment-id }}";
             if(commentId){
               github.rest.issues.updateComment({
                 comment_id: commentId,
