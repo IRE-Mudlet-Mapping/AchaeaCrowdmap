@@ -2,7 +2,7 @@
   "devDependencies": {
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
-    "mudlet-map-binary-reader": "^0.0.3",
+    "mudlet-map-binary-reader": "^0.0.4",
     "@types/js-yaml": "^4.0.5",
     "@types/lodash": "^4.14.176",
     "danger": "^10.7.0",
