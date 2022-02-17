@@ -24,7 +24,7 @@ jobs:
         
       - name: Create map diffs
         if: steps.map-change-detected.outputs.any_changed == 'true'
-        uses: Delwing/mudlet-map-diff-action@v2
+        uses: Delwing/mudlet-map-diff-action@v3
         with:
           old-map: Map/map
         env:
