@@ -27,6 +27,8 @@ jobs:
         uses: Delwing/mudlet-map-diff-action@v3
         with:
           old-map: Map/map
+          reuse-comment: true
+          collapse-diff: true
         env:
           CLOUDINARY_NAME: ${{ secrets.CLOUDINARY_NAME }}
           CLOUDINARY_KEY: ${{ secrets.CLOUDINARY_KEY }}
