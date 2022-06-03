@@ -7,7 +7,7 @@
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
     "mudlet-map-binary-reader": "^0.2.0",
-    "typescript": "^4.7.2",
+    "typescript": "^4.7.3",
     "yargs": "^17.5.1"
   }
 }
