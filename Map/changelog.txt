@@ -446,5 +446,5 @@ changelog = {
 	[[Fixed continent data for digsites and forays to enable fast travel again]],
 	[[Hesperia Estate fixed, also changed the layout of the Houses area a bit so they don't get all cluttered together and confusing]],
 	[[Added Lupine Hunting Grounds]],
-	[[Added Inner Aster Town, Boldarihm, and General fixes]]
+	[[Added Aster Town, Boldarihm, and General fixes]]
 }
