@@ -15,7 +15,7 @@ jobs:
           
       - name: Check if the map was changed in this PR
         id: map-change-detected
-        uses: tj-actions/changed-files@v18.4
+        uses: tj-actions/changed-files@v24
         with:
           # the only source of truth is the actual map
           files: Map/map
@@ -24,9 +24,11 @@ jobs:
         
       - name: Create map diffs
         if: steps.map-change-detected.outputs.any_changed == 'true'
-        uses: Delwing/mudlet-map-diff-action@v3
+        uses: Delwing/mudlet-map-diff-action@details-tag-fix
         with:
           old-map: Map/map
+          reuse-comment: true
+          collapse-diff: true
         env:
           CLOUDINARY_NAME: ${{ secrets.CLOUDINARY_NAME }}
           CLOUDINARY_KEY: ${{ secrets.CLOUDINARY_KEY }}

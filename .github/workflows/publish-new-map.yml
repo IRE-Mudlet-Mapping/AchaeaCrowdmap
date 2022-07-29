@@ -10,19 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3.0.0
-    - name: Generate map data compatible with map reader
+    - uses: actions/setup-node@v3.4.1
+    - name: Generate map data compatible with map reader as well as json files
       run: |
         yarn install --frozen-lockfile
         node ./map-utilities/generate-map.js
-    - name: Minfy json map
-      run: |
-        sudo apt-get install jq
-        jq -c < Map/map.json > Map/map_mini.json
     - name: Copy map file to website directory
       run: |
         cp -R Map/ website/
-    - uses: JamesIves/github-pages-deploy-action@v4.2.5
+    - uses: JamesIves/github-pages-deploy-action@v4.4.0
       with:
         branch: gh-pages
         folder: website
