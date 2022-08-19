@@ -256,10 +256,10 @@ core-js@^3.8.2:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.22.5.tgz#a5f5a58e663d5c0ebb4e680cd7be37536fb2a9cf"
   integrity sha512-VP/xYuvJ0MJWRAobcmQ8F2H6Bsn+s7zqAAjFaHGBMc5AQm7zaelhD1LGduFn2EehEcQcU+br6t+fwbpQ5d1ZWA==
 
-danger@^11.0.7:
-  version "11.0.7"
-  resolved "https://registry.yarnpkg.com/danger/-/danger-11.0.7.tgz#1d801f0b2e1ef89a74a9b1f2776cd8e5c1ce8e5e"
-  integrity sha512-4jdZ5xqQO03EDmoYf29EMvHluNFMXOi5u8msxKE/pAe4UlfvQ6yOpQC5jHF73f724OLP2x9paqVd+vumoC3lug==
+danger@^11.1.1:
+  version "11.1.1"
+  resolved "https://registry.yarnpkg.com/danger/-/danger-11.1.1.tgz#b745f6191c1478dd4ef81596ac96be8f8e2d0634"
+  integrity sha512-kQX1/Rggut/KFgArOloAdw6paB7hkoznRaUhpPFKVHKRgc6FtlhC8zpb480jVE71Z6eI7rrHVDGEYLv8x96yyA==
   dependencies:
     "@octokit/rest" "^18.12.0"
     async-retry "1.2.3"
