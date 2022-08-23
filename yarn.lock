@@ -716,10 +716,10 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
-mudlet-map-binary-reader@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/mudlet-map-binary-reader/-/mudlet-map-binary-reader-0.2.0.tgz#c0ced5a5113890ce73b8185371b37fda293eac46"
-  integrity sha512-gyBfVkg73b0l89lWxjfsx3YNNRl6J3miy4NBg4GAB53fit7n8TzxSI0voYTRFGmy6wsjX0RslsEvlIhYgpabEQ==
+mudlet-map-binary-reader@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/mudlet-map-binary-reader/-/mudlet-map-binary-reader-0.2.1.tgz#11bfcd90db0bc7b7cf0a613ec1dce8212b0cd911"
+  integrity sha512-3DxHn0zm22MOvg05dvkzs2q2PSDhuYGHkJs//tkcrzs0l9ZBncC+J4xAskgRnOjoBdyyOfGmQ87kQNJYaHdTQw==
   dependencies:
     lodash "^4.17.21"
     qtdatastream "^1.1.0"
