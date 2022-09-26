@@ -448,4 +448,5 @@ changelog = {
 	[[Added Lupine Hunting Grounds]],
 	[[Updated Eleusis shops]],
 	[[Aster/Bold update with general fixes]],
+	[[Updated Unnamed Fortress]],
 }
