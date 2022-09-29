@@ -6,7 +6,7 @@
     <title>Achaeacrowdmap by IRE-Mudlet-Mapping</title>
     <link href="stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="stylesheets/translations.css" rel="stylesheet" type="text/css">
-    <link href="stylesheets/map-viewer-style.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -35,11 +35,11 @@
       <div class="controls flex-wrap btn-toolbar">
           <button class="control copy-image btn btn-secondary" title="Kopiuj obraz">
               <img src="images/files.svg" alt="Copy">
-              <span id="trn-copy">Kopiuj obraz</span>
+            <span id="trn-copy">Kopiuj</span>
           </button>
           <button class="control save-image btn btn-secondary" title="Zapisz obraz">
               <img src="images/download.svg" alt="Download">
-              <span>Zapisz obraz</span>
+            <span>Zapisz</span>
           </button>
           <button class="control search btn btn-secondary" data-toggle="modal" data-target="#search" title="Szukaj">
               <img src="images/search.svg" alt="search">
@@ -61,11 +61,6 @@
             </div>
       </div>
   </header>
-  <div class="progress-container">
-      <div class="progress">
-          <div class="progress-bar" role="progressbar" style="width: 50%;"></div>
-      </div>
-  </div>
   <div class="modal fade" id="search" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -78,8 +73,8 @@
                   </div>
                   <div class="modal-body">
                       <div class="form-group">
-                          <label for="search-id">ID Lokacji:</label>
-                          <input class="form-control" type="text" id="search-id" name="roomId">
+                        <label for="search-id">Numer lokacji lub pełne imię adresata paczki:</label>
+                        <input class="form-control advancedAutoComplete" type="text" id="search-id" name="roomId" autocomplete="off">
                       </div>
                   </div>
                   <div class="modal-footer">
@@ -136,6 +131,12 @@
                               </label>
                           </div>
                           <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="emboss" value="0" id="emboss-check">
+                            <label class="form-check-label" for="emboss-check">
+                                Wypukłe lokacje
+                            </label>
+                        </div>
+                        <div class="form-check">
                               <input class="form-check-input" type="checkbox" name="isRound" value="1" id="round-check">
                               <label class="form-check-label" for="round-check">
                                   Okrągłe lokacje
@@ -158,6 +159,16 @@
                           <label for="map-background" class="form-label">Tło mapy</label>
                           <input type="color" class="form-control form-control-color" id="mapBackground" name="mapBackground" value="#000000" title="Wybierz kolor tła">
                       </div>
+                    <div class="form-group">
+                        <label for="linesColor" class="form-label">Kolor linii</label>
+                        <input type="color" class="form-control form-control-color" id="linesColor" name="linesColor" value="#ffffff" title="Wybierz kolor linii">
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="transparentLabels" value="1" id="transparentLabels-check">
+                        <label class="form-check-label" for="transparentLabels-check">
+                            Przezroczyste tło etykiet
+                        </label>
+                    </div>
                   </div>
                   <div class="modal-footer">
                       <button type="submit" class="btn btn-primary">Zapisz</button>
@@ -187,9 +198,12 @@
               </div>
               <div class="modal-footer">
                   <div>
-                      <span>Autor</span></spanAutor>: Dargoth
+                    <span>Autor</span>: Dargoth
                       <br>
-                      GitHub: <a target="_blank" href="https://github.com/Delwing/mudlet-map-reader">https://github.com/Delwing/mudlet-map-reader</a></div>
+                    GitHub: <a target="_blank" href="https://github.com/Delwing/mudlet-map-reader">https://github.com/Delwing/mudlet-map-reader</a>
+                    <br><br>
+                    Mapa powstała przy współpracy wielu osób ze społeczności Arkadii w projekcie <b>dzordzyka</b>
+                </div>
               </div>
           </div>
       </div>
@@ -208,8 +222,21 @@
       </button>
   </div>
   <div class="map-container">
+    <div class="progress-container">
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 50%;"></div>
+        </div>
+    </div>
+    <div class="preview-container">
+        <div class="preview">
+            <img src="" class="preview-img">
+        </div>
+        <div class="preview-pan-container">
+            <div class="preview-pan"></div>
+        </div>
+    </div>
       <div class="info-box">
-          <p><span>ID Lokacji</span>: <span class="room-id"></span></p>
+        <p><span>ID Lokacji</span>: <a class="room-link" href="#"><span class="room-id"></span></a></p>
           <p><span>Nazwa</span>: <span class="room-name"></span></p>
           <p>Env Id: <span class="room-env"></span></p>
           <p><span>Koordynaty</span>:
@@ -231,6 +258,10 @@
               <p><span>Inne</span>:</p>
               <ul></ul>
           </div>
+        <div class="npc">
+            <p><span>Paczki</span>:</p>
+            <ul></ul>
+        </div>
       </div>
       <canvas id="map" resize="true"></canvas>
       <script src="Map/mapExport.js"></script>
@@ -240,6 +271,7 @@
       <script src="javascripts/bootstrap.bundle.min.js"></script>
       <script src="javascripts/jquery-localization.min.js"></script>
       <script src="javascripts/translations.js"></script>
+      <script src="javascripts/bootstrap-autocomplete.min.js"></script>
       <script src="javascripts/bundle.js"></script>
   </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
