@@ -15,6 +15,7 @@ jobs:
       run: |
         yarn install --frozen-lockfile
         node ./map-utilities/generate-map.js
+        node ./map-utilities/generate-npcs.mjs
     - name: Copy map file to website directory
       run: |
         cp -R Map/ website/
