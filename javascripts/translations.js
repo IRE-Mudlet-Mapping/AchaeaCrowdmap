@@ -142,6 +142,9 @@ jQuery(function () {
             },
             "Przezroczyste tło etykiet" : {
                 'en_GB' : "Transparent labels background"
+            },
+            "Paczki" : {
+                'en_GB': "Denizen"
             }
         }
     });
