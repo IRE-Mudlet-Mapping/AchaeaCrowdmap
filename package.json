@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "dotenv": "^16.0.3",
-    "realm": "^10.21.1"
+    "realm": "^10.22.0"
   }
 }
