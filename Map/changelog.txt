@@ -449,4 +449,5 @@ changelog = {
 	[[Updated Eleusis shops]],
 	[[Aster/Bold update with general fixes]],
 	[[Updated Unnamed Fortress]],
+     [[Added Aster Keep, Ancyra Manor(house), Aerinwild. Oh my!]],
 }
