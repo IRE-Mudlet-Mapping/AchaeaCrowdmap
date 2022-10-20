@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const app = new Realm.App({ id: "nexmap-izeal" });
-const credentials = Realm.Credentials.serverApiKey(
+const credentials = Realm.Credentials.apiKey(
   process.env.MONGO_API_KEY
 );
 await app.logIn(credentials);
