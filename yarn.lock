@@ -1633,10 +1633,10 @@ readline-sync@^1.4.9:
   resolved "https://registry.yarnpkg.com/readline-sync/-/readline-sync-1.4.10.tgz#41df7fbb4b6312d673011594145705bf56d8873b"
   integrity sha512-gNva8/6UAe8QYepIQH/jQ2qn91Qj0B9sYjMBBs3QOB8F2CXcKgLxQaJRP76sWVRQt+QU+8fAkCbCvjjMFu7Ycw==
 
-realm@^11.1.0:
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/realm/-/realm-11.1.0.tgz#e1085eb045bb7155907cdf9960e89e2573cab94d"
-  integrity sha512-E3ZYw6jUXPcl1wGtZuGtqI2z2j/hoCeuP9Mq6KDVqLdfxXzJGciZpgF1szG8KXmqgHOslQboKJkIJmjGhGUvxg==
+realm@^11.2.0:
+  version "11.2.0"
+  resolved "https://registry.yarnpkg.com/realm/-/realm-11.2.0.tgz#b880a7db719694f03604713815743cf7a4f71683"
+  integrity sha512-hQ9tHOyDtIToeFafYLGg+F2ditYwKjUPKBK2V1EPcdU2amQks9UTcJJWKbdJ3l6W/w72IvjryX62zFomCwPfZQ==
   dependencies:
     "@realm/common" "^0.1.4"
     "@realm/network-transport" "^0.7.2"
