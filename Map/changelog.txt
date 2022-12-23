@@ -451,4 +451,5 @@ changelog = {
 	[[Updated Unnamed Fortress]],
      [[Added Aster Keep, Ancyra Manor(house), Aerinwild. Oh my!]],
 	[[Creville Update]],
+	[[Newbie areas update, Merrywick fix]],
 }
