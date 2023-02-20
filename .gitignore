@@ -1,7 +1,7 @@
 node_modules
 mongodb-realm
 website/Map
-Map
+Map/*
 !Map/changelog.txt
 !Map/current.js
 !Map/map
