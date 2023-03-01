@@ -452,4 +452,5 @@ changelog = {
      [[Added Aster Keep, Ancyra Manor(house), Aerinwild. Oh my!]],
 	[[Creville Update]],
 	[[Newbie areas update, Merrywick fix]],
+	[[New Pash-Jaru connection, Updated City shops]],
 }
