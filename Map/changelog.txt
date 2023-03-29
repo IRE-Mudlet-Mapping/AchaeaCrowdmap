@@ -453,4 +453,5 @@ changelog = {
 	[[Creville Update]],
 	[[Newbie areas update, Merrywick fix]],
 	[[New Pash-Jaru connection, Updated City shops]],
+	[[Added new rooms in Eleusis]],
 }
