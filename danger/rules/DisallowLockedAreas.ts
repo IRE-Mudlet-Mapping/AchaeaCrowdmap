@@ -3,13 +3,16 @@ import { MapChangeRule } from "../classes/Rule";
 import mapModel from "../helpers/MapModel";
 
 const areasWithAllRoomsLocked = _.chain(mapModel.areas)
-  .filter((area) => area.rooms.length > 0) // sort out areas with 0 rooms. Those seem to exist.
-  .filter((area) => // find areas with all rooms locked
-    _.every(area.rooms, (room) => mapModel.rooms[room].isLocked)
+  .map((area, id) => {return {area, id}})
+  .filter((obj) => obj.area.rooms.length > 0) // sort out areas with 0 rooms. Those seem to exist.
+  .filter((obj) => // find areas with all rooms locked
+    _.every(obj.area.rooms, (room) => mapModel.rooms[room].isLocked)
   )
-  .map((area) => area.id) // extract the ID from the area
+  .map((obj) => obj.id) // extract the ID from the area
   .map((id) => mapModel.areaNames[id])  // translate the area ID to its name
   .value();
+
+console.log(areasWithAllRoomsLocked)
 
 export const disallowLockedAreas = new MapChangeRule(
   async () => areasWithAllRoomsLocked.length === 0,
