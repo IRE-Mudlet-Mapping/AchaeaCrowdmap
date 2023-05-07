@@ -455,4 +455,6 @@ changelog = {
 	[[New Pash-Jaru connection, Updated City shops]],
 	[[Added new rooms in Eleusis]],
 	[[Updated bog of Ashtan]],
+	[[Updated + added missing rooms in Targossas]],
+	[[Added A Memory of Ember Tower]],
 }
