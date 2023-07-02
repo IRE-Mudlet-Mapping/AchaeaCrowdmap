@@ -458,4 +458,5 @@ changelog = {
 	[[Updated + added missing rooms in Targossas]],
 	[[Added A Memory of Ember Tower]],
 	[[Corrected Ashtan cloud exit]],
+	[[Updated Targossas Temple]],
 }
