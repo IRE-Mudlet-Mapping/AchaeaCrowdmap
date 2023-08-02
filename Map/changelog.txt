@@ -459,4 +459,5 @@ changelog = {
 	[[Added A Memory of Ember Tower]],
 	[[Corrected Ashtan cloud exit]],
 	[[Updated Targossas Temple]],
+	[[Updated - Shops, Baelgrim Fotress, West Ithimia, Southern Vashnars, Nur Circle 6, New Hope. 		  Disconnected - Sparrow's Rest, Aerinthein falls, Added - Cyrene Road]],
 }
