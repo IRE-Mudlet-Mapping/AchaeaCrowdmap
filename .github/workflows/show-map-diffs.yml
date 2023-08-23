@@ -15,7 +15,7 @@ jobs:
           
       - name: Check if the map was changed in this PR
         id: map-change-detected
-        uses: tj-actions/changed-files@v37.6.0
+        uses: tj-actions/changed-files@v38.0.0
         with:
           # the only source of truth is the actual map
           files: Map/map
