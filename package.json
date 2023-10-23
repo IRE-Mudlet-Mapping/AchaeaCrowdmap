@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "@types/js-yaml": "^4.0.8",
-    "@types/lodash": "^4.14.199",
+    "@types/lodash": "^4.14.200",
     "@types/yargs": "^17.0.29",
     "danger": "^11.3.0",
     "js-yaml": "^4.1.0",
