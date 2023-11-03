@@ -1122,10 +1122,10 @@ readline-sync@^1.4.9:
   resolved "https://registry.yarnpkg.com/readline-sync/-/readline-sync-1.4.10.tgz#41df7fbb4b6312d673011594145705bf56d8873b"
   integrity sha512-gNva8/6UAe8QYepIQH/jQ2qn91Qj0B9sYjMBBs3QOB8F2CXcKgLxQaJRP76sWVRQt+QU+8fAkCbCvjjMFu7Ycw==
 
-realm@^12.2.1:
-  version "12.2.1"
-  resolved "https://registry.yarnpkg.com/realm/-/realm-12.2.1.tgz#1a87bd36b38704223df6db5953898f7f0941cf83"
-  integrity sha512-r9lB5S3FiqS2QZmxRvwt8cRLAx/g8KGotz5neV/ky1AhG9b7FtqTwLyJwhVLjkstnV8j40GaY0xMjuAbURINDg==
+realm@^12.3.0:
+  version "12.3.0"
+  resolved "https://registry.yarnpkg.com/realm/-/realm-12.3.0.tgz#d18eb34086df42dac9330c12f20d7dff0f0aa513"
+  integrity sha512-qlWu8RpgGQhCllwutGZUJ+B37AF+7RNNXlyo5SftZoQFiTKVlmhN5w6B2fBmTd7R9J7Tw+lJcYUbvCZuZ4es0w==
   dependencies:
     bson "^4.7.2"
     debug "^4.3.4"
