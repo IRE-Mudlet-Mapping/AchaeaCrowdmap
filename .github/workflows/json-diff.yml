@@ -55,7 +55,7 @@ jobs:
           comment-author: 'github-actions[bot]'
           body-includes: Textual map diff
       - name: Create or update comment
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
