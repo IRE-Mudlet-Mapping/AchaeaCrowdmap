@@ -942,7 +942,7 @@ node-cleanup@^2.1.2:
   resolved "https://registry.yarnpkg.com/node-cleanup/-/node-cleanup-2.1.2.tgz#7ac19abd297e09a7f72a71545d951b517e4dde2c"
   integrity sha1-esGavSl+Caf3KnFUXZUbUX5N3iw=
 
-node-fetch@^2.6.7, node-fetch@^2.6.9:
+node-fetch@^2.6.7:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
   integrity sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==
@@ -1122,14 +1122,13 @@ readline-sync@^1.4.9:
   resolved "https://registry.yarnpkg.com/readline-sync/-/readline-sync-1.4.10.tgz#41df7fbb4b6312d673011594145705bf56d8873b"
   integrity sha512-gNva8/6UAe8QYepIQH/jQ2qn91Qj0B9sYjMBBs3QOB8F2CXcKgLxQaJRP76sWVRQt+QU+8fAkCbCvjjMFu7Ycw==
 
-realm@^12.5.1:
-  version "12.5.1"
-  resolved "https://registry.yarnpkg.com/realm/-/realm-12.5.1.tgz#d9e7efb836fb0c393770051d82fd5c9174e5d03d"
-  integrity sha512-8WfyMuCV80o7F25wCXofarcDPnOsf6TMFalprMqjZ02ibp9+Px3+Z1bTG6xgtXTfdreEI8Apl/fELgitv1kgaQ==
+realm@^12.6.0:
+  version "12.6.0"
+  resolved "https://registry.yarnpkg.com/realm/-/realm-12.6.0.tgz#da9488d2da9d47fb3d718ba58b5bbe6c9dbb12f7"
+  integrity sha512-lwixjVE8uiHXqRggJ9DwCxy3P1I0SUGBFG3dLQnXT20o6PdDVpXsTgE82m0svviKyDLs8yb5hLim5HRcHkH5rA==
   dependencies:
     bson "^4.7.2"
     debug "^4.3.4"
-    node-fetch "^2.6.9"
     node-machine-id "^1.1.12"
     prebuild-install "^7.1.1"
 
