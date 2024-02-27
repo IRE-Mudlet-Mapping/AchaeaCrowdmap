@@ -135,6 +135,11 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
+"@realm/fetch@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@realm/fetch/-/fetch-0.1.1.tgz#1a637d0a1fc3734a7ffca64361d764777dd3d80c"
+  integrity sha512-hkTprw79RXGv54Je0DrjpQPLaz4QID2dO3FmthAQQWAkqwyrqMzrCGzJzLlmTKWZFsgLrN8KQyNewod27P+nJg==
+
 "@sindresorhus/is@^4.0.0":
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.6.0.tgz#3c7c9c46e678feefe7a2e5bb609d3dbd665ffb3f"
@@ -1122,11 +1127,12 @@ readline-sync@^1.4.9:
   resolved "https://registry.yarnpkg.com/readline-sync/-/readline-sync-1.4.10.tgz#41df7fbb4b6312d673011594145705bf56d8873b"
   integrity sha512-gNva8/6UAe8QYepIQH/jQ2qn91Qj0B9sYjMBBs3QOB8F2CXcKgLxQaJRP76sWVRQt+QU+8fAkCbCvjjMFu7Ycw==
 
-realm@^12.6.0:
-  version "12.6.0"
-  resolved "https://registry.yarnpkg.com/realm/-/realm-12.6.0.tgz#da9488d2da9d47fb3d718ba58b5bbe6c9dbb12f7"
-  integrity sha512-lwixjVE8uiHXqRggJ9DwCxy3P1I0SUGBFG3dLQnXT20o6PdDVpXsTgE82m0svviKyDLs8yb5hLim5HRcHkH5rA==
+realm@^12.6.1:
+  version "12.6.1"
+  resolved "https://registry.yarnpkg.com/realm/-/realm-12.6.1.tgz#20098eed7d5314a9dbb1fa5f2c4743aa02ad3007"
+  integrity sha512-LOwDU01qDPH57TLLb9jtAgdmRI1kz98tQVptvOYPAGogFLHAQtXcSzUCQtr0ga2YznJwm9YHEepqXHa5EOrKNQ==
   dependencies:
+    "@realm/fetch" "^0.1.1"
     bson "^4.7.2"
     debug "^4.3.4"
     node-machine-id "^1.1.12"
