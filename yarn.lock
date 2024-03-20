@@ -135,6 +135,11 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
+"@realm/fetch@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@realm/fetch/-/fetch-0.1.1.tgz#1a637d0a1fc3734a7ffca64361d764777dd3d80c"
+  integrity sha512-hkTprw79RXGv54Je0DrjpQPLaz4QID2dO3FmthAQQWAkqwyrqMzrCGzJzLlmTKWZFsgLrN8KQyNewod27P+nJg==
+
 "@sindresorhus/is@^4.0.0":
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.6.0.tgz#3c7c9c46e678feefe7a2e5bb609d3dbd665ffb3f"
@@ -179,10 +184,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/lodash@^4.14.202":
-  version "4.14.202"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.202.tgz#f09dbd2fb082d507178b2f2a5c7e74bd72ff98f8"
-  integrity sha512-OvlIYQK9tNneDlS0VN54LLd5uiPCBOp7gS5Z0f1mjoJYBrtStzgmJBxONW3U6OZqdtNzZPmn9BS/7WI7BFFcFQ==
+"@types/lodash@^4.17.0":
+  version "4.17.0"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.0.tgz#d774355e41f372d5350a4d0714abb48194a489c3"
+  integrity sha512-t7dhREVv6dbNj0q17X12j7yDG4bD/DHYX7o5/DbDxobP0HnGPgpRz2Ej77aL7TZT3DSw13fqUTj8J4mMnqa7WA==
 
 "@types/node@*":
   version "18.8.2"
@@ -1024,6 +1029,11 @@ parse-passwd@^1.0.0:
   resolved "https://registry.yarnpkg.com/parse-passwd/-/parse-passwd-1.0.0.tgz#6d5b934a456993b23d37f40a382d6f1666a8e5c6"
   integrity sha1-bVuTSkVpk7I9N/QKOC1vFmao5cY=
 
+path-browserify@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/path-browserify/-/path-browserify-1.0.1.tgz#d98454a9c3753d5790860f16f68867b9e46be1fd"
+  integrity sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==
+
 picomatch@^2.2.3:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
@@ -1122,14 +1132,16 @@ readline-sync@^1.4.9:
   resolved "https://registry.yarnpkg.com/readline-sync/-/readline-sync-1.4.10.tgz#41df7fbb4b6312d673011594145705bf56d8873b"
   integrity sha512-gNva8/6UAe8QYepIQH/jQ2qn91Qj0B9sYjMBBs3QOB8F2CXcKgLxQaJRP76sWVRQt+QU+8fAkCbCvjjMFu7Ycw==
 
-realm@^12.6.0:
-  version "12.6.0"
-  resolved "https://registry.yarnpkg.com/realm/-/realm-12.6.0.tgz#da9488d2da9d47fb3d718ba58b5bbe6c9dbb12f7"
-  integrity sha512-lwixjVE8uiHXqRggJ9DwCxy3P1I0SUGBFG3dLQnXT20o6PdDVpXsTgE82m0svviKyDLs8yb5hLim5HRcHkH5rA==
+realm@^12.6.2:
+  version "12.6.2"
+  resolved "https://registry.yarnpkg.com/realm/-/realm-12.6.2.tgz#01736e056b9346c3ac928bda1422e25360c94526"
+  integrity sha512-6ICUaKHNeiEAwVIKC3AkCDTCVEtpkFAVeWvmUVdmVIUjcY/+2cMLe/tgFpLcY7pEB/n1EUg3pVyUBcVuMvwdqg==
   dependencies:
+    "@realm/fetch" "^0.1.1"
     bson "^4.7.2"
     debug "^4.3.4"
     node-machine-id "^1.1.12"
+    path-browserify "^1.0.1"
     prebuild-install "^7.1.1"
 
 regenerator-runtime@^0.13.9:
@@ -1292,10 +1304,10 @@ tunnel-agent@^0.6.0:
   dependencies:
     safe-buffer "^5.0.1"
 
-typescript@^5.3.3:
-  version "5.3.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.3.3.tgz#b3ce6ba258e72e6305ba66f5c9b452aaee3ffe37"
-  integrity sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==
+typescript@^5.4.2:
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.2.tgz#0ae9cebcfae970718474fe0da2c090cad6577372"
+  integrity sha512-+2/g0Fds1ERlP6JsakQQDXjZdZMM+rqpamFZJEKh4kwTIn3iDkgKtby0CeNd5ATNZ4Ry1ax15TMx0W2V+miizQ==
 
 universal-user-agent@^6.0.0:
   version "6.0.0"
