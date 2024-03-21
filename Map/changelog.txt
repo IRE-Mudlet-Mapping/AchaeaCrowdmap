@@ -465,5 +465,6 @@ changelog = {
 	[[Fixed Targossas2 after update, Eastern Reaches]],
 	[[Updated Milabar's estate, added missing shops in Delos, added magi workshops in Ashtan, Hashan and Targossas, art gallery in Ashtan, some sewer fixes in Targossas, updated a few shop names]],
 	[[Added Heartwood Kin estate, Gaia's Temple, and Eleusis resource hub]],
-	[[Added new room in hashan, updated shop names and new dog shelter room names]]
+	[[Added new room in hashan, updated shop names and new dog shelter room names]],
+	[[Added the Wavel foray area]]
 }
