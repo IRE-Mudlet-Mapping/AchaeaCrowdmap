@@ -873,10 +873,10 @@ pinpoint@^1.1.0:
   resolved "https://registry.yarnpkg.com/pinpoint/-/pinpoint-1.1.0.tgz#0cf7757a6977f1bf7f6a32207b709e377388e874"
   integrity sha1-DPd1eml38b9/ajIge3CeN3OI6HQ=
 
-prebuild-install@^7.1.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/prebuild-install/-/prebuild-install-7.1.1.tgz#de97d5b34a70a0c81334fd24641f2a1702352e45"
-  integrity sha512-jAXscXWMcCK8GgCoHOfIr0ODh5ai8mj63L2nWrjuAgXE6tDyYGnx4/8o/rCgU+B4JSyZBKbeZqzhtwtC3ovxjw==
+prebuild-install@^7.1.2:
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/prebuild-install/-/prebuild-install-7.1.2.tgz#a5fd9986f5a6251fbc47e1e5c65de71e68c0a056"
+  integrity sha512-UnNke3IQb6sgarcZIDU3gbMeTp/9SSU1DAIkil7PrqG1vZlBtY5msYccSKSHDqa3hNg436IXK+SNImReuA1wEQ==
   dependencies:
     detect-libc "^2.0.0"
     expand-template "^2.0.3"
@@ -946,17 +946,17 @@ readline-sync@^1.4.9:
   resolved "https://registry.yarnpkg.com/readline-sync/-/readline-sync-1.4.10.tgz#41df7fbb4b6312d673011594145705bf56d8873b"
   integrity sha512-gNva8/6UAe8QYepIQH/jQ2qn91Qj0B9sYjMBBs3QOB8F2CXcKgLxQaJRP76sWVRQt+QU+8fAkCbCvjjMFu7Ycw==
 
-realm@^12.7.1:
-  version "12.7.1"
-  resolved "https://registry.yarnpkg.com/realm/-/realm-12.7.1.tgz#3b796b38f1fe63f803c963bd2c0f7478326fb7f0"
-  integrity sha512-k3PERhZCWkf+wqDnrGeF8ipAzKuDUnnT5CiPMsBtjWP9Aps29VsCpmm6puNUJVuDGtT7wi0qa2BZg3BgJ5ct4Q==
+realm@^12.11.1:
+  version "12.11.1"
+  resolved "https://registry.yarnpkg.com/realm/-/realm-12.11.1.tgz#9077b157e1f50e8f5cc371dca61a0d33cfbd5128"
+  integrity sha512-I9o55+IIDhwyPpf2He3coaclplusCDFPRb3nWaMpOEDUkFWBjOy77JFDBu2PVDHmw1Yh8LrTX1YL/CNKPb88Mw==
   dependencies:
     "@realm/fetch" "^0.1.1"
     bson "^4.7.2"
     debug "^4.3.4"
     node-machine-id "^1.1.12"
     path-browserify "^1.0.1"
-    prebuild-install "^7.1.1"
+    prebuild-install "^7.1.2"
 
 regenerator-runtime@^0.13.9:
   version "0.13.9"
