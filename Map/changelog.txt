@@ -468,5 +468,6 @@ changelog = {
 	[[Added new room in hashan, updated shop names and new dog shelter room names]],
 	[[Added the Wavel foray area]],
 	[[April Shop Update, severed Dyissan pit]],
-	[[May shop update, Hashan Gatehouse name change, Coloseum Diabolus Invictia area fix, mirror connections and labels, Riagath-to-Istar rock pile patch]]
+	[[May shop update, Hashan Gatehouse name change, Coloseum Diabolus Invictia area fix, mirror connections and labels, Riagath-to-Istar rock pile patch]],
+	[[Eleusis shop update and added Magi workshop]]
 }
