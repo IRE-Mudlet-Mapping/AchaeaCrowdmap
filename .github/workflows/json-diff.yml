@@ -22,7 +22,7 @@ jobs:
           path: old
 
 
-      - uses: actions/setup-node@v4.0.3
+      - uses: actions/setup-node@v4.0.4
       - name: Install dependencies
         run: |
           sudo apt-get install jq diffutils
