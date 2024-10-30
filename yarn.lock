@@ -946,10 +946,10 @@ readline-sync@^1.4.9:
   resolved "https://registry.yarnpkg.com/readline-sync/-/readline-sync-1.4.10.tgz#41df7fbb4b6312d673011594145705bf56d8873b"
   integrity sha512-gNva8/6UAe8QYepIQH/jQ2qn91Qj0B9sYjMBBs3QOB8F2CXcKgLxQaJRP76sWVRQt+QU+8fAkCbCvjjMFu7Ycw==
 
-realm@^12.13.1:
-  version "12.13.1"
-  resolved "https://registry.yarnpkg.com/realm/-/realm-12.13.1.tgz#598a7c3e850071b73af73f1191047bc8bb2f8b5c"
-  integrity sha512-fAs70ZCBf1P7htVhOTrDMFHD6SzoGXVsALy6DpOPR6t0LXoK635cKxBMECX3bYdCgI7+riSfdoWXLA/7g5yTSQ==
+realm@^12.13.2:
+  version "12.13.2"
+  resolved "https://registry.yarnpkg.com/realm/-/realm-12.13.2.tgz#fd427653526735f78bdfb7f227b31201449982b3"
+  integrity sha512-Uo9oZ/ZPXRfapMqBaSo0NoC8S1R818DRoiW3WOkeNNCHgkNo1A87datp48cs7Av3pmuF1WgS2HDUWRhdYgWEJQ==
   dependencies:
     "@realm/fetch" "^0.1.1"
     bson "^4.7.2"
