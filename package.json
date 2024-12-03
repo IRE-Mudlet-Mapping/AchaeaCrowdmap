@@ -11,7 +11,7 @@
     "yargs": "^17.7.2"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "realm": "^12.13.1"
   }
 }
