@@ -470,5 +470,6 @@ changelog = {
 	[[April Shop Update, severed Dyissan pit]],
 	[[May shop update, Hashan Gatehouse name change, Coloseum Diabolus Invictia area fix, mirror connections and labels, Riagath-to-Istar rock pile patch]],
 	[[Eleusis shop update and added Magi workshop]],
-	[[Added rooms for accessible out-of-sub home/hub called Ethermere]]
+	[[Added rooms for accessible out-of-sub home/hub called Ethermere]],
+	[[Updated subdivision plot map]]
 }
