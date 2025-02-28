@@ -472,5 +472,5 @@ changelog = {
 	[[Eleusis shop update and added Magi workshop]],
 	[[Added rooms for accessible out-of-sub home/hub called Ethermere]],
 	[[Updated subdivision plot map]],
-	[[Updated shop names in all cities, minor updates in Eleusis and Delos, added Lake Narcisse's laboratory area]]
+	[[Updated shop names in all cities, minor updates in Eleusis and Delos, added Lake Narcisse's laboratory area, Ashtan's new exit direction]]
 }
