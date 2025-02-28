@@ -8018,7 +8018,7 @@
             "areaContinents": "{\"Outer\":[192,193,162,194,206,351,209,294,180,297,181,366,355,207,191],\"Western_Isles\":[162,209,207],\"Eastern_Isles\":[192,180,181,191],\"Arcadia\":[150,154],\"North\":[385,261,197,99,199,34,200,101,202,204,352,353,73,242,147,243,74,212,244,213,214,246,301,108,306,383,308,307],\"Northern_Isles\":[194,206,351,294],\"Island\":[224,161,225,195,98,164,165,464,240,91,317,92,314],\"Main\":[127,158,316,2,3,4,5,7,10,12,14,16,20,24,28,32,40,48,56,64,80,96,112,128,160,320,384,448,386,65,81,387,113,130,388,452,389,131,326,33,41,49,57,66,82,196,264,265,133,394,83,115,134,166,198,268,269,167,17,21,25,29,42,50,58,68,84,116,136,272,400,273,401,137,201,274,402,69,85,117,138,139,203,235,278,470,43,51,59,279,102,118,280,472,281,173,205,346,71,87,103,119,142,174,238,284,348,349,477,9,11,13,22,26,30,36,44,60,72,104,120,144,208,145,290,89,105,121,178,293,357,179,211,37,53,61,90,106,122,148,296,471,463,361,425,149,298,362,426,263,75,107,123,182,300,364,291,365,295,151,302,23,27,31,38,46,54,62,76,124,152,398,368,185,391,77,125,186,267,372,318,367,309,359,155,187,350,310,374,55,63,78,375,110,126,156,319,376,315,270,311,303,299,157,275,259,175,79,95,111,159,462,379,465,443,380,444,378,381,390,377,393,35,489,468,476,466,473,474,488,450,475,467,490,491,109],\"Meropis\":[256,322,325,328,329,330,67,332,396,333,399,336,337,338,340,341,342,343,344,345,141,282,285,286,210,487,445,339,215,305,217,218,334,347,335,39,331,327,283,492,494],\"Arena\":[228,229,230,231,232,233,369],\"Off\":[190,380,444,6,257,321,449,324,453,163,390,454,455,456,393,457,458,460,397,168,465,169,170,404,405,469,171,406,35,408,409,410,412,413,15,176,288,416,480,289,417,481,418,482,292,356,420,484,421,485,358,422,45,483,479,478,462,459,245,451,446,443,428,439,363,429,183,379,184,248,415,432,431,430,427,423,419,433,414,411,249,407,434,395,382,381,371,435,436,373,437,438,47,252,440,377,441,271,253,378,442,255,93,100]}",
             "audit.remapped_area": "0",
             "ferry rooms": "[31545,6558,6559,31520,11654,31562,6550,6551,18439,38156,39208,19432,31605]",
-            "gotoMapping": "{\"riagath\":\"30234\",\"kunapi\":\"52123\",\"qboard\":\"23900\",\"ioje\":\"52029\",\"eleusis\":\"6738\",\"qerstead\":\"52298\",\"yggdrasil\":54133,\"rip\":\"3415\",\"catacombs\":\"36697\",\"tree\":\"2898\",\"newhope\":24310,\"inbhir\":\"10913\",\"poly\":5656,\"sirocco\":\"30152\",\"lhitsu\":\"52391\",\"moghedu\":\"6\",\"ur\":\"50935\",\"istarion\":\"22385\",\"targossas\":2054,\"dun\":\"3886\",\"myrinia\":\"52554\",\"revenant\":\"7211\",\"tir\":\"1102\",\"genji\":\"10095\",\"loramere\":\"52516\",\"letum\":\"8489\",\"hashan\":\"4472\",\"mysia\":\"9869\",\"thera\":\"20386\",\"ashtan\":\"436\",\"wegava\":\"33127\",\"grukai\":\"27931\",\"cyrene\":\"6298\",\"yudhi\":5918,\"judgement\":\"35548\",\"excrucio\":\"8121\",\"flame\":\"2898\",\"prialysh\":\"50884\",\"invidia\":\"8162\",\"everglade\":62062,\"kuthalebak\":\"51850\",\"taryen\":\"21767\",\"uw\":\"14594\",\"not\":\"1299\",\"kamleikan\":\"9578\",\"mhaldor\":\"11400\",\"radak\":\"45519\",\"mourning\":\"37797\",\"quaskan\":\"50832\",\"delos\":1181,\"meropis\":\"1226\"}"
+            "gotoMapping": "{\"mysia\":\"9869\",\"kunapi\":\"52123\",\"qboard\":\"23900\",\"ioje\":\"52029\",\"eleusis\":\"6738\",\"ur\":\"50935\",\"yggdrasil\":\"54133\",\"rip\":\"3415\",\"catacombs\":\"36697\",\"tree\":\"2898\",\"newhope\":24310,\"inbhir\":\"10913\",\"poly\":5656,\"meropis\":\"1226\",\"lhitsu\":\"52391\",\"moghedu\":\"6\",\"sirocco\":\"30152\",\"qerstead\":\"52298\",\"mourning\":\"37797\",\"dun\":\"3886\",\"radak\":\"45519\",\"revenant\":\"7211\",\"tir\":\"1102\",\"genji\":\"10095\",\"loramere\":\"52516\",\"letum\":\"8489\",\"hashan\":\"4472\",\"kamleikan\":\"9578\",\"thera\":\"20386\",\"ashtan\":\"436\",\"istarion\":\"22385\",\"not\":\"1299\",\"invidia\":\"8162\",\"taryen\":\"21767\",\"judgement\":\"35548\",\"excrucio\":\"8121\",\"flame\":\"2898\",\"grukai\":\"27931\",\"cyrene\":\"6298\",\"everglade\":62062,\"kuthalebak\":\"51850\",\"yudhi\":5918,\"uw\":\"14594\",\"prialysh\":\"50884\",\"riagath\":\"30234\",\"mhaldor\":\"11400\",\"wegava\":\"33127\",\"myrinia\":\"52554\",\"quaskan\":\"50832\",\"delos\":1181,\"targossas\":2054}"
           }
         },
         {
@@ -23410,7 +23410,7 @@
     {
       "id": 14,
       "name": "Delos, the Isle of",
-      "roomCount": 162,
+      "roomCount": 163,
       "rooms": [
         {
           "id": 726,
@@ -24914,7 +24914,7 @@
             }
           ],
           "userData": {
-            "Game Area": "the Isle of Delos",
+            "Game Area": "the Itinerant Bazaar",
             "outdoors": "y"
           }
         },
@@ -24938,7 +24938,7 @@
             }
           ],
           "userData": {
-            "Game Area": "the Isle of Delos",
+            "Game Area": "the Itinerant Bazaar",
             "outdoors": "y"
           }
         },
@@ -25449,7 +25449,7 @@
             }
           ],
           "userData": {
-            "Game Area": "the Isle of Delos",
+            "Game Area": "the Itinerant Bazaar",
             "outdoors": "y"
           }
         },
@@ -25549,7 +25549,7 @@
             }
           ],
           "userData": {
-            "Game Area": "the Isle of Delos",
+            "Game Area": "the Itinerant Bazaar",
             "outdoors": "y"
           }
         },
@@ -25575,7 +25575,7 @@
         },
         {
           "id": 13159,
-          "name": "a cavernous entrance hall",
+          "name": "A cavernous entrance hall",
           "coordinates": [
             6,
             -1,
@@ -25617,7 +25617,7 @@
             }
           ],
           "userData": {
-            "Game Area": "the Isle of Delos",
+            "Game Area": "the Itinerant Bazaar",
             "outdoors": "y"
           }
         },
@@ -25765,12 +25765,26 @@
             {
               "exitId": 5326,
               "name": "southwest"
+            },
+            {
+              "exitId": 19071,
+              "name": "in"
             }
           ],
           "userData": {
             "Game Area": "the Isle of Delos",
             "outdoors": "y"
           }
+        },
+        {
+          "id": 19071,
+          "coordinates": [
+            19,
+            2,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 20317,
@@ -26797,7 +26811,7 @@
         },
         {
           "id": 41082,
-          "name": "The Treasure Trove",
+          "name": "Needle Little Love",
           "coordinates": [
             16,
             -5,
@@ -27482,13 +27496,23 @@
         },
         {
           "id": 64136,
+          "name": "An enigmatic atelier bedecked with arcane paraphernalia",
           "coordinates": [
             7,
             -4,
             0
           ],
           "environment": 8,
-          "exits": []
+          "exits": [
+            {
+              "exitId": 14001,
+              "name": "northwest"
+            }
+          ],
+          "userData": {
+            "Game Area": "the Isle of Delos",
+            "outdoors": "y"
+          }
         },
         {
           "id": 64475,
@@ -27512,7 +27536,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "8.88024"
       }
     },
     {
@@ -76100,7 +76124,7 @@
     {
       "id": 44,
       "name": "Mhaldor, the City of",
-      "roomCount": 231,
+      "roomCount": 237,
       "rooms": [
         {
           "id": 4415,
@@ -79088,7 +79112,7 @@
         },
         {
           "id": 12438,
-          "name": "Grimtooth",
+          "name": "Bulk War Supplies",
           "coordinates": [
             1,
             5,
@@ -79109,6 +79133,46 @@
             "feature-shop": "true",
             "indoors": "y"
           }
+        },
+        {
+          "id": 12445,
+          "coordinates": [
+            1,
+            0,
+            0
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
+          "id": 12447,
+          "coordinates": [
+            -1,
+            0,
+            0
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
+          "id": 12448,
+          "coordinates": [
+            3,
+            10,
+            0
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
+          "id": 12449,
+          "coordinates": [
+            1,
+            5,
+            0
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 12451,
@@ -80148,7 +80212,7 @@
         },
         {
           "id": 12817,
-          "name": "The Anvil's Bounty",
+          "name": "The Angel and Hammer",
           "coordinates": [
             -1,
             6,
@@ -80616,7 +80680,7 @@
         },
         {
           "id": 16838,
-          "name": "Layta's Treasure Trove",
+          "name": "Course of Hardship",
           "coordinates": [
             4,
             5,
@@ -80746,7 +80810,7 @@
         },
         {
           "id": 22328,
-          "name": "Red Isle Wholesale",
+          "name": "Redwater Armoury",
           "coordinates": [
             1,
             7,
@@ -80767,6 +80831,26 @@
             "feature-shop": "true",
             "indoors": "y"
           }
+        },
+        {
+          "id": 22404,
+          "coordinates": [
+            0,
+            6,
+            0
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
+          "id": 22495,
+          "coordinates": [
+            1,
+            7,
+            0
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 22531,
@@ -84981,7 +85065,7 @@
             },
             {
               "exitId": 1284,
-              "name": "south"
+              "name": "southeast"
             }
           ],
           "userData": {
@@ -92484,7 +92568,7 @@
         },
         {
           "id": 3736,
-          "name": "Pantherly",
+          "name": "The Fractured Muse",
           "coordinates": [
             -2,
             -7,
@@ -92798,7 +92882,7 @@
         },
         {
           "id": 4217,
-          "name": "Endless Time",
+          "name": "Maralyn's Forest",
           "coordinates": [
             7,
             -3,
@@ -92959,7 +93043,7 @@
         },
         {
           "id": 4406,
-          "name": "Wayward Wares",
+          "name": "Cryptic Visions",
           "coordinates": [
             5,
             7,
@@ -93106,7 +93190,7 @@
         },
         {
           "id": 4964,
-          "name": "Rousseau's Bounty",
+          "name": "Wicked Ways",
           "coordinates": [
             8,
             -5,
@@ -93378,7 +93462,7 @@
         },
         {
           "id": 5421,
-          "name": "Shadows of Mischief",
+          "name": "Inklings",
           "coordinates": [
             10,
             -3,
@@ -93480,7 +93564,7 @@
         },
         {
           "id": 5529,
-          "name": "Delacroix Emporium",
+          "name": "Crone's Cauldron",
           "coordinates": [
             -1,
             -9,
@@ -93772,7 +93856,7 @@
         },
         {
           "id": 7690,
-          "name": "Curios and Curiosities",
+          "name": "Otter Mayhem",
           "coordinates": [
             0,
             -8,
@@ -99691,7 +99775,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "15.2579"
       }
     },
     {
@@ -103981,7 +104065,7 @@
     {
       "id": 51,
       "name": "Eleusis",
-      "roomCount": 266,
+      "roomCount": 261,
       "rooms": [
         {
           "id": 2377,
@@ -106971,7 +107055,7 @@
         },
         {
           "id": 12785,
-          "name": "Memento Morti's",
+          "name": "Arrow's Rest",
           "coordinates": [
             9,
             4,
@@ -108702,16 +108786,6 @@
           "exits": []
         },
         {
-          "id": 35007,
-          "coordinates": [
-            9,
-            4,
-            1
-          ],
-          "environment": 28,
-          "exits": []
-        },
-        {
           "id": 35033,
           "coordinates": [
             11,
@@ -108747,16 +108821,6 @@
             14,
             4,
             0
-          ],
-          "environment": 28,
-          "exits": []
-        },
-        {
-          "id": 35042,
-          "coordinates": [
-            13,
-            6,
-            1
           ],
           "environment": 28,
           "exits": []
@@ -108801,16 +108865,6 @@
           }
         },
         {
-          "id": 36283,
-          "coordinates": [
-            12,
-            3,
-            1
-          ],
-          "environment": 28,
-          "exits": []
-        },
-        {
           "id": 36526,
           "name": "The Bramble Thicket",
           "coordinates": [
@@ -108833,16 +108887,6 @@
             "feature-shop": "true",
             "indoors": "y"
           }
-        },
-        {
-          "id": 36593,
-          "coordinates": [
-            13,
-            5,
-            1
-          ],
-          "environment": 28,
-          "exits": []
         },
         {
           "id": 37107,
@@ -110129,7 +110173,7 @@
         },
         {
           "id": 45473,
-          "name": "Fernacular",
+          "name": "The Gilded Acorn",
           "coordinates": [
             12,
             3,
@@ -110150,16 +110194,6 @@
             "feature-shop": "true",
             "indoors": "y"
           }
-        },
-        {
-          "id": 45495,
-          "coordinates": [
-            13,
-            4,
-            1
-          ],
-          "environment": 28,
-          "exits": []
         },
         {
           "id": 45671,
@@ -110911,7 +110945,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "10.167"
       }
     },
     {
@@ -122194,7 +122228,7 @@
         },
         {
           "id": 4962,
-          "name": "Spectre",
+          "name": "Inklings",
           "coordinates": [
             -3,
             11,
@@ -123234,7 +123268,7 @@
         },
         {
           "id": 6816,
-          "name": "Starlit Boutique",
+          "name": "Black Diamond Atelier",
           "coordinates": [
             8,
             1,
@@ -123268,7 +123302,7 @@
         },
         {
           "id": 6818,
-          "name": "The Botanist's Bounty",
+          "name": "Starlit Boutique",
           "coordinates": [
             3,
             -2,
@@ -123507,7 +123541,7 @@
         },
         {
           "id": 6832,
-          "name": "Carnivalis Imaginarium",
+          "name": "The Silent Exchange",
           "coordinates": [
             -2,
             -2,
@@ -123745,7 +123779,7 @@
         },
         {
           "id": 6866,
-          "name": "Small Wicked Things",
+          "name": "Krymenian Insights",
           "coordinates": [
             4,
             -2,
@@ -126952,7 +126986,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "10.8787"
       }
     },
     {
@@ -133881,7 +133915,7 @@
         },
         {
           "id": 9619,
-          "name": "Make It Sew",
+          "name": "Tweet Dreams",
           "coordinates": [
             -13,
             -1,
@@ -134221,7 +134255,7 @@
         },
         {
           "id": 9652,
-          "name": "Firedancer's",
+          "name": "The Import Emporium",
           "coordinates": [
             -13,
             -2,
@@ -134503,7 +134537,7 @@
         },
         {
           "id": 10081,
-          "name": "Lurching Around",
+          "name": "Minshoppe",
           "coordinates": [
             -20,
             -17,
@@ -136409,7 +136443,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "8.29929"
       }
     },
     {
@@ -170342,7 +170376,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "13.3268"
       }
     },
     {
@@ -173445,7 +173479,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "11.6402"
       }
     },
     {
@@ -178963,7 +178997,7 @@
           ],
           "userData": {
             "Game Area": "the Northern Ithmia",
-            "indoors": ""
+            "outdoors": "y"
           }
         },
         {
@@ -178987,7 +179021,7 @@
           ],
           "userData": {
             "Game Area": "the Northern Ithmia",
-            "indoors": ""
+            "outdoors": "y"
           }
         },
         {
@@ -194198,7 +194232,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "8.29929"
       }
     },
     {
@@ -226954,7 +226988,7 @@
     {
       "id": 106,
       "name": "Lake Narcisse",
-      "roomCount": 44,
+      "roomCount": 50,
       "rooms": [
         {
           "id": 886,
@@ -227201,6 +227235,10 @@
             {
               "exitId": 27240,
               "name": "west"
+            },
+            {
+              "exitId": 63994,
+              "name": "in"
             }
           ],
           "userData": {
@@ -227848,6 +227886,10 @@
             {
               "exitId": 25598,
               "name": "up"
+            },
+            {
+              "exitId": 55131,
+              "name": "down"
             }
           ],
           "userData": {
@@ -228360,10 +228402,146 @@
             "Game Area": "Lake Narcisse",
             "indoors": "y"
           }
+        },
+        {
+          "id": 55131,
+          "name": "A submerged tunnel beneath the lakebed",
+          "coordinates": [
+            0,
+            -1,
+            -2
+          ],
+          "environment": 22,
+          "exits": [
+            {
+              "exitId": 63254,
+              "name": "north"
+            },
+            {
+              "exitId": 27423,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "Game Area": "Lake Narcisse",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 63254,
+          "name": "A waterlogged cavern choked in creeping blight",
+          "coordinates": [
+            0,
+            0,
+            -2
+          ],
+          "environment": 3,
+          "exits": [
+            {
+              "exitId": 67005,
+              "name": "north"
+            },
+            {
+              "exitId": 55131,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "Game Area": "Lake Narcisse",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 63994,
+          "name": "A secluded cave by the lake",
+          "coordinates": [
+            1,
+            -3,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 27078,
+              "name": "out"
+            }
+          ],
+          "userData": {
+            "Game Area": "the Western Ithmia",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 67005,
+          "name": "A cavernous chamber filled with experiments",
+          "coordinates": [
+            0,
+            1,
+            -2
+          ],
+          "environment": 3,
+          "exits": [
+            {
+              "exitId": 67013,
+              "name": "west"
+            },
+            {
+              "exitId": 63254,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "Game Area": "Lake Narcisse",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 67013,
+          "name": "Sunken holding cells",
+          "coordinates": [
+            -1,
+            1,
+            -2
+          ],
+          "environment": 3,
+          "exits": [
+            {
+              "exitId": 67015,
+              "name": "north"
+            },
+            {
+              "exitId": 67005,
+              "name": "east"
+            }
+          ],
+          "userData": {
+            "Game Area": "Lake Narcisse",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 67015,
+          "name": "The heart of the blight",
+          "coordinates": [
+            -1,
+            2,
+            -2
+          ],
+          "environment": 3,
+          "exits": [
+            {
+              "exitId": 67013,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "Game Area": "Lake Narcisse",
+            "indoors": "y"
+          }
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "8.29929"
       }
     },
     {
@@ -239697,7 +239875,7 @@
         },
         {
           "id": 3725,
-          "name": "Hearth to Hearth",
+          "name": "Targossian Trinkets",
           "coordinates": [
             26,
             -18,
@@ -240689,7 +240867,7 @@
         },
         {
           "id": 6848,
-          "name": "Squidly Inks",
+          "name": "Targossian Repository",
           "coordinates": [
             6,
             -12,
@@ -240723,7 +240901,7 @@
         },
         {
           "id": 6850,
-          "name": "The Warrior's Way",
+          "name": "The Compass Rose",
           "coordinates": [
             22,
             -18,
@@ -240825,7 +241003,7 @@
         },
         {
           "id": 6856,
-          "name": "Miner's Mercantile",
+          "name": "Declaimed Goods",
           "coordinates": [
             18,
             -20,
@@ -240859,7 +241037,7 @@
         },
         {
           "id": 6858,
-          "name": "Argent Phoenix Creations",
+          "name": "A Light Eatery",
           "coordinates": [
             6,
             -13,
@@ -240927,7 +241105,7 @@
         },
         {
           "id": 6862,
-          "name": "Starburst Kawhe",
+          "name": "Acacia's Bloom",
           "coordinates": [
             23,
             -20,
@@ -243940,7 +244118,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "22.8981"
       }
     },
     {
@@ -292440,6 +292618,10 @@
             {
               "exitId": 7159,
               "name": "southeast"
+            },
+            {
+              "exitId": 3534,
+              "name": "southwest"
             }
           ],
           "userData": {
@@ -296881,7 +297063,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "11.6402"
       }
     },
     {
@@ -488587,7 +488769,8 @@
             }
           ],
           "userData": {
-            "Game Area": "the Skies"
+            "Game Area": "the Skies",
+            "outdoors": "y"
           }
         },
         {
@@ -488679,7 +488862,8 @@
             }
           ],
           "userData": {
-            "Game Area": "the Skies"
+            "Game Area": "the Skies",
+            "outdoors": "y"
           }
         }
       ],
@@ -497283,7 +497467,7 @@
           "exits": [
             {
               "exitId": 436,
-              "name": "north"
+              "name": "northwest"
             },
             {
               "exitId": 1285,
@@ -498823,7 +499007,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "7.24892"
       }
     },
     {
@@ -589406,7 +589590,8 @@
             }
           ],
           "userData": {
-            "Game Area": "the Aurulent Highway"
+            "Game Area": "the Aurulent Highway",
+            "outdoors": "y"
           }
         },
         {
@@ -589429,7 +589614,8 @@
             }
           ],
           "userData": {
-            "Game Area": "the Aurulent Highway"
+            "Game Area": "the Aurulent Highway",
+            "outdoors": "y"
           }
         },
         {
@@ -589452,7 +589638,8 @@
             }
           ],
           "userData": {
-            "Game Area": "the Aurulent Highway"
+            "Game Area": "the Aurulent Highway",
+            "outdoors": "y"
           }
         },
         {
@@ -589475,7 +589662,8 @@
             }
           ],
           "userData": {
-            "Game Area": "the Aurulent Highway"
+            "Game Area": "the Aurulent Highway",
+            "outdoors": "y"
           }
         },
         {
@@ -589498,7 +589686,8 @@
             }
           ],
           "userData": {
-            "Game Area": "the Aurulent Highway"
+            "Game Area": "the Aurulent Highway",
+            "outdoors": "y"
           }
         },
         {
@@ -589525,7 +589714,8 @@
             }
           ],
           "userData": {
-            "Game Area": "the Aurulent Highway"
+            "Game Area": "the Aurulent Highway",
+            "outdoors": "y"
           }
         },
         {
@@ -589825,7 +590015,8 @@
             }
           ],
           "userData": {
-            "Game Area": "the Aurulent Highway"
+            "Game Area": "the Aurulent Highway",
+            "outdoors": "y"
           }
         },
         {
@@ -589848,7 +590039,8 @@
             }
           ],
           "userData": {
-            "Game Area": "the Aurulent Highway"
+            "Game Area": "the Aurulent Highway",
+            "outdoors": "y"
           }
         },
         {
@@ -589871,7 +590063,8 @@
             }
           ],
           "userData": {
-            "Game Area": "the Aurulent Highway"
+            "Game Area": "the Aurulent Highway",
+            "outdoors": "y"
           }
         },
         {
@@ -589898,7 +590091,8 @@
             }
           ],
           "userData": {
-            "Game Area": "the Aurulent Highway"
+            "Game Area": "the Aurulent Highway",
+            "outdoors": "y"
           }
         },
         {
@@ -589925,7 +590119,8 @@
             }
           ],
           "userData": {
-            "Game Area": "the Aurulent Highway"
+            "Game Area": "the Aurulent Highway",
+            "outdoors": "y"
           }
         },
         {
@@ -600609,7 +600804,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "8.29929"
       }
     },
     {
@@ -636643,7 +636838,7 @@
     {
       "id": 369,
       "name": "The Gauntlet",
-      "roomCount": 877,
+      "roomCount": 874,
       "rooms": [
         {
           "id": 3438,
@@ -648999,19 +649194,6 @@
           "exits": []
         },
         {
-          "id": 67005,
-          "coordinates": [
-            4,
-            99,
-            0
-          ],
-          "symbol": {
-            "text": "."
-          },
-          "environment": 264,
-          "exits": []
-        },
-        {
           "id": 67006,
           "coordinates": [
             5,
@@ -649103,35 +649285,9 @@
           "exits": []
         },
         {
-          "id": 67013,
-          "coordinates": [
-            12,
-            99,
-            0
-          ],
-          "symbol": {
-            "text": ";"
-          },
-          "environment": 264,
-          "exits": []
-        },
-        {
           "id": 67014,
           "coordinates": [
             13,
-            99,
-            0
-          ],
-          "symbol": {
-            "text": ";"
-          },
-          "environment": 264,
-          "exits": []
-        },
-        {
-          "id": 67015,
-          "coordinates": [
-            14,
             99,
             0
           ],
@@ -795181,7 +795337,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "8.29929"
       }
     },
     {
@@ -811172,7 +811328,7 @@
     }
   ],
   "areaCount": 470,
-  "roomCount": 30136,
+  "roomCount": 30141,
   "labelCount": 10,
   "defaultAreaName": "Default Area",
   "anonymousAreaName": "Unnamed Area",
@@ -811212,23 +811368,23 @@
     "36": 3
   },
   "playersRoomId": {
-    "Test": 1299,
-    "Achaea5_inclient": 4472,
-    "Aeowynn x Legacy 1.0 map": 2083,
+    "Achaea": 12647,
     "Achaea1": 18691,
-    "AchaeaLeg": 35925,
-    "Achaea3_inclient": 2206,
-    "Aeowynn x Legacy 0.9": 40190,
-    "ACHAEA MAPPING": 23387,
-    "Achaea Legacy": 6739,
+    "Achaea5_inclient": 4472,
     "Achaea5": 46104,
-    "Tahquil - FaFo - Gui": 4474,
-    "Achaea": 6738,
+    "Achaea3_inclient": 6740,
+    "AchaeaLeg": 35925,
+    "Aeowynn x Legacy 0.9": 40190,
     "Achaea - Rekhyr": 35705,
-    "Achaea - Thaisen": 12695,
-    "Qwindor": 436,
+    "Achaea NewUI": 1299,
     "Aeowynn Mapper": 28627,
-    "Achaea NewUI": 1299
+    "ACHAEA MAPPING": 23387,
+    "Aeowynn x Legacy 1.0 map": 2083,
+    "Test": 1299,
+    "Tahquil - FaFo - Gui": 4474,
+    "Qwindor": 436,
+    "Achaea - Thaisen": 12695,
+    "Achaea Legacy": 6739
   },
   "customEnvColors": [
     {
@@ -811562,7 +811718,7 @@
     {
       "color24RGB": [
         0,
-        128,
+        179,
         0
       ],
       "id": 258
@@ -811609,9 +811765,9 @@
     },
     {
       "color24RGB": [
-        0,
-        0,
-        0
+        36,
+        36,
+        36
       ],
       "id": 264
     },
