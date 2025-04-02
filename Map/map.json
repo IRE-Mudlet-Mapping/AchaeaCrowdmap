@@ -8018,7 +8018,7 @@
             "areaContinents": "{\"Outer\":[192,193,162,194,206,351,209,294,180,297,181,366,355,207,191],\"Western_Isles\":[162,209,207],\"Eastern_Isles\":[192,180,181,191],\"Arcadia\":[150,154],\"North\":[385,261,197,99,199,34,200,101,202,204,352,353,73,242,147,243,74,212,244,213,214,246,301,108,306,383,308,307],\"Northern_Isles\":[194,206,351,294],\"Island\":[224,161,225,195,98,164,165,464,240,91,317,92,314],\"Main\":[127,158,316,2,3,4,5,7,10,12,14,16,20,24,28,32,40,48,56,64,80,96,112,128,160,320,384,448,386,65,81,387,113,130,388,452,389,131,326,33,41,49,57,66,82,196,264,265,133,394,83,115,134,166,198,268,269,167,17,21,25,29,42,50,58,68,84,116,136,272,400,273,401,137,201,274,402,69,85,117,138,139,203,235,278,470,43,51,59,279,102,118,280,472,281,173,205,346,71,87,103,119,142,174,238,284,348,349,477,9,11,13,22,26,30,36,44,60,72,104,120,144,208,145,290,89,105,121,178,293,357,179,211,37,53,61,90,106,122,148,296,471,463,361,425,149,298,362,426,263,75,107,123,182,300,364,291,365,295,151,302,23,27,31,38,46,54,62,76,124,152,398,368,185,391,77,125,186,267,372,318,367,309,359,155,187,350,310,374,55,63,78,375,110,126,156,319,376,315,270,311,303,299,157,275,259,175,79,95,111,159,462,379,465,443,380,444,378,381,390,377,393,35,489,468,476,466,473,474,488,450,475,467,490,491,109],\"Meropis\":[256,322,325,328,329,330,67,332,396,333,399,336,337,338,340,341,342,343,344,345,141,282,285,286,210,487,445,339,215,305,217,218,334,347,335,39,331,327,283,492,494],\"Arena\":[228,229,230,231,232,233,369],\"Off\":[190,380,444,6,257,321,449,324,453,163,390,454,455,456,393,457,458,460,397,168,465,169,170,404,405,469,171,406,35,408,409,410,412,413,15,176,288,416,480,289,417,481,418,482,292,356,420,484,421,485,358,422,45,483,479,478,462,459,245,451,446,443,428,439,363,429,183,379,184,248,415,432,431,430,427,423,419,433,414,411,249,407,434,395,382,381,371,435,436,373,437,438,47,252,440,377,441,271,253,378,442,255,93,100]}",
             "audit.remapped_area": "0",
             "ferry rooms": "[31545,6558,6559,31520,11654,31562,6550,6551,18439,38156,39208,19432,31605]",
-            "gotoMapping": "{\"mysia\":\"9869\",\"kunapi\":\"52123\",\"qboard\":\"23900\",\"ioje\":\"52029\",\"eleusis\":\"6738\",\"ur\":\"50935\",\"yggdrasil\":\"54133\",\"rip\":\"3415\",\"catacombs\":\"36697\",\"tree\":\"2898\",\"newhope\":24310,\"inbhir\":\"10913\",\"poly\":5656,\"meropis\":\"1226\",\"lhitsu\":\"52391\",\"moghedu\":\"6\",\"sirocco\":\"30152\",\"qerstead\":\"52298\",\"mourning\":\"37797\",\"dun\":\"3886\",\"radak\":\"45519\",\"revenant\":\"7211\",\"tir\":\"1102\",\"genji\":\"10095\",\"loramere\":\"52516\",\"letum\":\"8489\",\"hashan\":\"4472\",\"kamleikan\":\"9578\",\"thera\":\"20386\",\"ashtan\":\"436\",\"istarion\":\"22385\",\"not\":\"1299\",\"invidia\":\"8162\",\"taryen\":\"21767\",\"judgement\":\"35548\",\"excrucio\":\"8121\",\"flame\":\"2898\",\"grukai\":\"27931\",\"cyrene\":\"6298\",\"everglade\":62062,\"kuthalebak\":\"51850\",\"yudhi\":5918,\"uw\":\"14594\",\"prialysh\":\"50884\",\"riagath\":\"30234\",\"mhaldor\":\"11400\",\"wegava\":\"33127\",\"myrinia\":\"52554\",\"quaskan\":\"50832\",\"delos\":1181,\"targossas\":2054}"
+            "gotoMapping": "{\"mysia\":\"9869\",\"kamleikan\":\"9578\",\"qboard\":\"23900\",\"radak\":\"45519\",\"eleusis\":\"6738\",\"qerstead\":\"52298\",\"yggdrasil\":54133,\"rip\":\"3415\",\"catacombs\":\"36697\",\"tree\":\"2898\",\"newhope\":24310,\"inbhir\":\"10913\",\"sirocco\":\"30152\",\"targossas\":2054,\"lhitsu\":\"52391\",\"moghedu\":\"6\",\"poly\":5656,\"ur\":\"50935\",\"myrinia\":\"52554\",\"dun\":\"3886\",\"wegava\":\"33127\",\"revenant\":\"7211\",\"tir\":\"1102\",\"genji\":\"10095\",\"loramere\":\"52516\",\"letum\":\"8489\",\"hashan\":\"4472\",\"riagath\":\"30234\",\"thera\":\"20386\",\"ashtan\":\"436\",\"mourning\":\"37797\",\"prialysh\":\"50884\",\"cyrene\":\"6298\",\"yudhi\":5918,\"judgement\":\"35548\",\"excrucio\":\"8121\",\"not\":\"1299\",\"grukai\":\"27931\",\"invidia\":\"8162\",\"everglade\":62062,\"kuthalebak\":\"51850\",\"taryen\":\"21767\",\"uw\":\"14594\",\"flame\":\"2898\",\"kunapi\":\"52123\",\"mhaldor\":\"11400\",\"ioje\":\"52029\",\"istarion\":\"22385\",\"quaskan\":\"50832\",\"delos\":1181,\"meropis\":\"1226\"}"
           }
         },
         {
@@ -636838,7 +636838,7 @@
     {
       "id": 369,
       "name": "The Gauntlet",
-      "roomCount": 874,
+      "roomCount": 870,
       "rooms": [
         {
           "id": 3438,
@@ -638016,33 +638016,6 @@
           ]
         },
         {
-          "id": 16262,
-          "coordinates": [
-            10,
-            86,
-            0
-          ],
-          "environment": -1,
-          "exits": [
-            {
-              "exitId": 16263,
-              "name": "east"
-            },
-            {
-              "exitId": 16284,
-              "name": "south"
-            },
-            {
-              "exitId": 16287,
-              "name": "southeast"
-            },
-            {
-              "exitId": 16280,
-              "name": "southwest"
-            }
-          ]
-        },
-        {
           "id": 16263,
           "coordinates": [
             11,
@@ -638054,10 +638027,6 @@
             {
               "exitId": 16265,
               "name": "east"
-            },
-            {
-              "exitId": 16262,
-              "name": "west"
             },
             {
               "exitId": 16287,
@@ -638586,10 +638555,6 @@
           "environment": -1,
           "exits": [
             {
-              "exitId": 16262,
-              "name": "northeast"
-            },
-            {
               "exitId": 16284,
               "name": "east"
             },
@@ -638608,10 +638573,6 @@
           ],
           "environment": -1,
           "exits": [
-            {
-              "exitId": 16262,
-              "name": "north"
-            },
             {
               "exitId": 16263,
               "name": "northeast"
@@ -638650,10 +638611,6 @@
             {
               "exitId": 16265,
               "name": "northeast"
-            },
-            {
-              "exitId": 16262,
-              "name": "northwest"
             },
             {
               "exitId": 16288,
@@ -641408,19 +641365,6 @@
           "id": 16469,
           "coordinates": [
             9,
-            96,
-            0
-          ],
-          "symbol": {
-            "text": ";"
-          },
-          "environment": 264,
-          "exits": []
-        },
-        {
-          "id": 16470,
-          "coordinates": [
-            10,
             96,
             0
           ],
@@ -646704,33 +646648,6 @@
           ]
         },
         {
-          "id": 66937,
-          "coordinates": [
-            10,
-            86,
-            0
-          ],
-          "environment": -1,
-          "exits": [
-            {
-              "exitId": 66938,
-              "name": "east"
-            },
-            {
-              "exitId": 66954,
-              "name": "south"
-            },
-            {
-              "exitId": 66955,
-              "name": "southeast"
-            },
-            {
-              "exitId": 66953,
-              "name": "southwest"
-            }
-          ]
-        },
-        {
           "id": 66938,
           "coordinates": [
             11,
@@ -646742,10 +646659,6 @@
             {
               "exitId": 66939,
               "name": "east"
-            },
-            {
-              "exitId": 66937,
-              "name": "west"
             },
             {
               "exitId": 66955,
@@ -647325,10 +647238,6 @@
           "environment": -1,
           "exits": [
             {
-              "exitId": 66937,
-              "name": "northeast"
-            },
-            {
               "exitId": 66954,
               "name": "east"
             },
@@ -647347,10 +647256,6 @@
           ],
           "environment": -1,
           "exits": [
-            {
-              "exitId": 66937,
-              "name": "north"
-            },
             {
               "exitId": 66938,
               "name": "northeast"
@@ -647389,10 +647294,6 @@
             {
               "exitId": 66939,
               "name": "northeast"
-            },
-            {
-              "exitId": 66937,
-              "name": "northwest"
             },
             {
               "exitId": 66956,
@@ -650198,19 +650099,6 @@
           "id": 67085,
           "coordinates": [
             9,
-            96,
-            0
-          ],
-          "symbol": {
-            "text": ";"
-          },
-          "environment": 264,
-          "exits": []
-        },
-        {
-          "id": 67086,
-          "coordinates": [
-            10,
             96,
             0
           ],
@@ -809299,25 +809187,37 @@
     {
       "id": 497,
       "name": "Eleusis Subdivision",
-      "roomCount": 23,
+      "roomCount": 48,
       "rooms": [
         {
           "id": 29899,
           "name": "A very boring room. Change this",
           "coordinates": [
-            0,
+            2,
             2,
             0
           ],
           "environment": 21,
           "exits": [
             {
-              "exitId": 60029,
+              "exitId": 64927,
               "name": "north"
             },
             {
+              "exitId": 63387,
+              "name": "northeast"
+            },
+            {
+              "exitId": 54979,
+              "name": "east"
+            },
+            {
+              "exitId": 67350,
+              "name": "west"
+            },
+            {
               "exitId": 58639,
-              "name": "southeast"
+              "name": "southwest"
             }
           ],
           "userData": {
@@ -809336,8 +809236,44 @@
           "environment": 8,
           "exits": [
             {
+              "exitId": 65328,
+              "name": "northeast"
+            },
+            {
               "exitId": 59110,
               "name": "west"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 47541,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            1,
+            2,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 65217,
+              "name": "east"
+            },
+            {
+              "exitId": 65941,
+              "name": "west"
+            },
+            {
+              "exitId": 63332,
+              "name": "south"
+            },
+            {
+              "exitId": 66937,
+              "name": "southeast"
             }
           ],
           "userData": {
@@ -809349,22 +809285,30 @@
           "id": 54979,
           "name": "The Meraki family garden",
           "coordinates": [
+            3,
             2,
-            1,
-            -1
+            0
           ],
           "environment": 21,
           "exits": [
             {
-              "exitId": 56661,
-              "name": "northeast"
+              "exitId": 63387,
+              "name": "north"
             },
             {
-              "exitId": 58844,
+              "exitId": 64927,
+              "name": "northwest"
+            },
+            {
+              "exitId": 66315,
+              "name": "east"
+            },
+            {
+              "exitId": 29899,
               "name": "west"
             },
             {
-              "exitId": 61367,
+              "exitId": 65328,
               "name": "southeast"
             }
           ],
@@ -809397,7 +809341,7 @@
           "id": 55924,
           "name": "A relaxing stretch of beach",
           "coordinates": [
-            -3,
+            -2,
             1,
             0
           ],
@@ -809408,7 +809352,11 @@
               "name": "north"
             },
             {
-              "exitId": 58981,
+              "exitId": 58314,
+              "name": "northeast"
+            },
+            {
+              "exitId": 66663,
               "name": "east"
             }
           ],
@@ -809428,8 +809376,8 @@
           "environment": 8,
           "exits": [
             {
-              "exitId": 54979,
-              "name": "southwest"
+              "exitId": 65217,
+              "name": "west"
             }
           ],
           "userData": {
@@ -809448,7 +809396,7 @@
           "environment": 8,
           "exits": [
             {
-              "exitId": 58844,
+              "exitId": 63332,
               "name": "east"
             }
           ],
@@ -809489,7 +809437,7 @@
           "id": 58314,
           "name": "A bubbling hot spring",
           "coordinates": [
-            -2,
+            -1,
             2,
             0
           ],
@@ -809500,8 +809448,24 @@
               "name": "northeast"
             },
             {
+              "exitId": 66347,
+              "name": "east"
+            },
+            {
               "exitId": 59151,
               "name": "west"
+            },
+            {
+              "exitId": 66663,
+              "name": "south"
+            },
+            {
+              "exitId": 59054,
+              "name": "southeast"
+            },
+            {
+              "exitId": 55924,
+              "name": "southwest"
             }
           ],
           "userData": {
@@ -809530,7 +809494,15 @@
           "environment": 21,
           "exits": [
             {
+              "exitId": 67350,
+              "name": "north"
+            },
+            {
               "exitId": 29899,
+              "name": "northeast"
+            },
+            {
+              "exitId": 66347,
               "name": "northwest"
             },
             {
@@ -809538,11 +809510,23 @@
               "name": "east"
             },
             {
+              "exitId": 59054,
+              "name": "west"
+            },
+            {
+              "exitId": 58931,
+              "name": "south"
+            },
+            {
               "exitId": 59110,
               "name": "southeast"
             },
             {
               "exitId": 58844,
+              "name": "southwest"
+            },
+            {
+              "exitId": 63332,
               "name": "down"
             }
           ],
@@ -809555,27 +809539,27 @@
           "id": 58844,
           "name": "A very boring room. Change this",
           "coordinates": [
-            1,
-            1,
-            -1
+            0,
+            0,
+            0
           ],
           "environment": 21,
           "exits": [
             {
-              "exitId": 58931,
-              "name": "northwest"
-            },
-            {
-              "exitId": 54979,
-              "name": "east"
-            },
-            {
-              "exitId": 56677,
-              "name": "west"
+              "exitId": 59054,
+              "name": "north"
             },
             {
               "exitId": 58639,
-              "name": "up"
+              "name": "northeast"
+            },
+            {
+              "exitId": 66663,
+              "name": "northwest"
+            },
+            {
+              "exitId": 58931,
+              "name": "east"
             }
           ],
           "userData": {
@@ -809587,19 +809571,27 @@
           "id": 58931,
           "name": "East of the greenhouse entrance",
           "coordinates": [
+            1,
             0,
-            2,
-            -1
+            0
           ],
           "environment": 21,
           "exits": [
             {
-              "exitId": 61546,
-              "name": "west"
+              "exitId": 58639,
+              "name": "north"
+            },
+            {
+              "exitId": 59054,
+              "name": "northwest"
+            },
+            {
+              "exitId": 59110,
+              "name": "east"
             },
             {
               "exitId": 58844,
-              "name": "southeast"
+              "name": "west"
             }
           ],
           "userData": {
@@ -809611,15 +809603,19 @@
           "id": 58981,
           "name": "A relaxing indoor pool",
           "coordinates": [
-            -2,
-            1,
-            0
+            -3,
+            0,
+            -1
           ],
           "environment": 22,
           "exits": [
             {
-              "exitId": 55924,
-              "name": "west"
+              "exitId": 65994,
+              "name": "east"
+            },
+            {
+              "exitId": 62805,
+              "name": "south"
             }
           ],
           "userData": {
@@ -809631,19 +809627,39 @@
           "id": 59054,
           "name": "Shady corner of a greenhouse",
           "coordinates": [
-            -1,
-            3,
-            -1
+            0,
+            1,
+            0
           ],
           "environment": 21,
           "exits": [
             {
-              "exitId": 62221,
+              "exitId": 66347,
+              "name": "north"
+            },
+            {
+              "exitId": 67350,
               "name": "northeast"
             },
             {
-              "exitId": 61546,
+              "exitId": 58314,
+              "name": "northwest"
+            },
+            {
+              "exitId": 58639,
+              "name": "east"
+            },
+            {
+              "exitId": 66663,
+              "name": "west"
+            },
+            {
+              "exitId": 58844,
               "name": "south"
+            },
+            {
+              "exitId": 58931,
+              "name": "southeast"
             }
           ],
           "userData": {
@@ -809668,6 +809684,10 @@
             {
               "exitId": 34486,
               "name": "east"
+            },
+            {
+              "exitId": 58931,
+              "name": "west"
             }
           ],
           "userData": {
@@ -809679,7 +809699,7 @@
           "id": 59151,
           "name": "A small indoor waterfall",
           "coordinates": [
-            -3,
+            -2,
             2,
             0
           ],
@@ -809692,6 +809712,10 @@
             {
               "exitId": 55924,
               "name": "south"
+            },
+            {
+              "exitId": 66663,
+              "name": "southeast"
             }
           ],
           "userData": {
@@ -809703,19 +809727,27 @@
           "id": 60029,
           "name": "Southeast corner of a large indoor pond",
           "coordinates": [
-            0,
+            1,
             3,
             0
           ],
           "environment": 22,
           "exits": [
             {
+              "exitId": 64927,
+              "name": "east"
+            },
+            {
               "exitId": 60842,
               "name": "west"
             },
             {
-              "exitId": 29899,
+              "exitId": 67350,
               "name": "south"
+            },
+            {
+              "exitId": 66347,
+              "name": "southwest"
             }
           ],
           "userData": {
@@ -809727,7 +809759,7 @@
           "id": 60842,
           "name": "Southwest corner of a large indoor pond",
           "coordinates": [
-            -1,
+            0,
             3,
             0
           ],
@@ -809736,6 +809768,14 @@
             {
               "exitId": 60029,
               "name": "east"
+            },
+            {
+              "exitId": 66347,
+              "name": "south"
+            },
+            {
+              "exitId": 67350,
+              "name": "southeast"
             },
             {
               "exitId": 58314,
@@ -809758,7 +809798,7 @@
           "environment": 8,
           "exits": [
             {
-              "exitId": 54979,
+              "exitId": 66937,
               "name": "northwest"
             }
           ],
@@ -809778,12 +809818,20 @@
           "environment": 8,
           "exits": [
             {
-              "exitId": 59054,
+              "exitId": 66660,
               "name": "north"
             },
             {
-              "exitId": 58931,
+              "exitId": 65941,
               "name": "east"
+            },
+            {
+              "exitId": 66648,
+              "name": "west"
+            },
+            {
+              "exitId": 66650,
+              "name": "south"
             }
           ],
           "userData": {
@@ -809802,8 +809850,776 @@
           "environment": 8,
           "exits": [
             {
+              "exitId": 66660,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 62805,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            -3,
+            -1,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 58981,
+              "name": "north"
+            },
+            {
+              "exitId": 65994,
+              "name": "northeast"
+            },
+            {
+              "exitId": 66237,
+              "name": "east"
+            },
+            {
+              "exitId": 64546,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 63332,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            1,
+            1,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 47541,
+              "name": "north"
+            },
+            {
+              "exitId": 65941,
+              "name": "northwest"
+            },
+            {
+              "exitId": 66937,
+              "name": "east"
+            },
+            {
+              "exitId": 56677,
+              "name": "west"
+            },
+            {
+              "exitId": 67086,
+              "name": "south"
+            },
+            {
+              "exitId": 58639,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 63338,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            3,
+            3,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 65217,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 63387,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            3,
+            3,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 64927,
+              "name": "west"
+            },
+            {
+              "exitId": 54979,
+              "name": "south"
+            },
+            {
+              "exitId": 66315,
+              "name": "southeast"
+            },
+            {
+              "exitId": 29899,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 63735,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            0,
+            0,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66650,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67086,
+              "name": "east"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 64318,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            -1,
+            -1,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 65994,
+              "name": "northwest"
+            },
+            {
+              "exitId": 66237,
+              "name": "west"
+            },
+            {
+              "exitId": 64546,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 64546,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            -2,
+            -2,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66237,
+              "name": "north"
+            },
+            {
+              "exitId": 64318,
+              "name": "northeast"
+            },
+            {
+              "exitId": 62805,
+              "name": "northwest"
+            },
+            {
+              "exitId": 66082,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 64927,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            2,
+            3,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 63387,
+              "name": "east"
+            },
+            {
+              "exitId": 60029,
+              "name": "west"
+            },
+            {
+              "exitId": 29899,
+              "name": "south"
+            },
+            {
+              "exitId": 54979,
+              "name": "southeast"
+            },
+            {
+              "exitId": 67350,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 65217,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            2,
+            2,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68451,
+              "name": "north"
+            },
+            {
+              "exitId": 63338,
+              "name": "northeast"
+            },
+            {
+              "exitId": 56661,
+              "name": "east"
+            },
+            {
+              "exitId": 47541,
+              "name": "west"
+            },
+            {
+              "exitId": 66937,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 65328,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            4,
+            1,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66315,
+              "name": "north"
+            },
+            {
+              "exitId": 54979,
+              "name": "northwest"
+            },
+            {
+              "exitId": 34486,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 65941,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            0,
+            2,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66660,
+              "name": "northwest"
+            },
+            {
+              "exitId": 47541,
+              "name": "east"
+            },
+            {
+              "exitId": 61546,
+              "name": "west"
+            },
+            {
+              "exitId": 63332,
+              "name": "southeast"
+            },
+            {
+              "exitId": 66650,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 65994,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            -2,
+            0,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66650,
+              "name": "northeast"
+            },
+            {
+              "exitId": 58981,
+              "name": "west"
+            },
+            {
+              "exitId": 66237,
+              "name": "south"
+            },
+            {
+              "exitId": 64318,
+              "name": "southeast"
+            },
+            {
+              "exitId": 62805,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 66082,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            -3,
+            -3,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 64546,
+              "name": "northeast"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 66237,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            -2,
+            -1,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 65994,
+              "name": "north"
+            },
+            {
+              "exitId": 64318,
+              "name": "east"
+            },
+            {
+              "exitId": 62805,
+              "name": "west"
+            },
+            {
+              "exitId": 64546,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 66315,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            4,
+            2,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 63387,
+              "name": "northwest"
+            },
+            {
+              "exitId": 54979,
+              "name": "west"
+            },
+            {
+              "exitId": 65328,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 66347,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            0,
+            2,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 60842,
+              "name": "north"
+            },
+            {
+              "exitId": 60029,
+              "name": "northeast"
+            },
+            {
+              "exitId": 67350,
+              "name": "east"
+            },
+            {
+              "exitId": 58314,
+              "name": "west"
+            },
+            {
+              "exitId": 59054,
+              "name": "south"
+            },
+            {
+              "exitId": 58639,
+              "name": "southeast"
+            },
+            {
+              "exitId": 66663,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 66648,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            -2,
+            2,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66660,
+              "name": "northeast"
+            },
+            {
+              "exitId": 61546,
+              "name": "east"
+            },
+            {
+              "exitId": 66650,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 66650,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            -1,
+            1,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 61546,
+              "name": "north"
+            },
+            {
+              "exitId": 65941,
+              "name": "northeast"
+            },
+            {
+              "exitId": 66648,
+              "name": "northwest"
+            },
+            {
+              "exitId": 63735,
+              "name": "southeast"
+            },
+            {
+              "exitId": 65994,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 66660,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            -1,
+            3,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 62221,
+              "name": "northeast"
+            },
+            {
+              "exitId": 61546,
+              "name": "south"
+            },
+            {
+              "exitId": 65941,
+              "name": "southeast"
+            },
+            {
+              "exitId": 66648,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 66663,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            -1,
+            1,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 58314,
+              "name": "north"
+            },
+            {
+              "exitId": 66347,
+              "name": "northeast"
+            },
+            {
+              "exitId": 59151,
+              "name": "northwest"
+            },
+            {
+              "exitId": 59054,
+              "name": "east"
+            },
+            {
+              "exitId": 55924,
+              "name": "west"
+            },
+            {
+              "exitId": 58844,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 66937,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            2,
+            1,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 65217,
+              "name": "north"
+            },
+            {
+              "exitId": 47541,
+              "name": "northwest"
+            },
+            {
+              "exitId": 63332,
+              "name": "west"
+            },
+            {
+              "exitId": 61367,
+              "name": "southeast"
+            },
+            {
+              "exitId": 67086,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 67086,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            1,
+            0,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 63332,
+              "name": "north"
+            },
+            {
+              "exitId": 66937,
+              "name": "northeast"
+            },
+            {
+              "exitId": 63735,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 67350,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            1,
+            2,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 60029,
+              "name": "north"
+            },
+            {
+              "exitId": 64927,
+              "name": "northeast"
+            },
+            {
+              "exitId": 60842,
+              "name": "northwest"
+            },
+            {
+              "exitId": 29899,
+              "name": "east"
+            },
+            {
+              "exitId": 66347,
+              "name": "west"
+            },
+            {
+              "exitId": 58639,
+              "name": "south"
+            },
+            {
               "exitId": 59054,
               "name": "southwest"
+            }
+          ],
+          "userData": {
+            "Game Area": "Eleusis",
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 68451,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            2,
+            3,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 65217,
+              "name": "south"
             }
           ],
           "userData": {
@@ -809820,12 +810636,7 @@
             1
           ],
           "environment": 28,
-          "exits": [
-            {
-              "exitId": 56799,
-              "name": "in"
-            }
-          ],
+          "exits": [],
           "userData": {
             "Game Area": "Eleusis",
             "outdoors": "y"
@@ -811328,7 +812139,7 @@
     }
   ],
   "areaCount": 470,
-  "roomCount": 30141,
+  "roomCount": 30162,
   "labelCount": 10,
   "defaultAreaName": "Default Area",
   "anonymousAreaName": "Unnamed Area",
@@ -811368,23 +812179,23 @@
     "36": 3
   },
   "playersRoomId": {
-    "Achaea": 12647,
-    "Achaea1": 18691,
-    "Achaea5_inclient": 4472,
-    "Achaea5": 46104,
-    "Achaea3_inclient": 6740,
-    "AchaeaLeg": 35925,
     "Aeowynn x Legacy 0.9": 40190,
-    "Achaea - Rekhyr": 35705,
-    "Achaea NewUI": 1299,
+    "Achaea": 12647,
+    "Achaea - Thaisen": 12695,
+    "Achaea Legacy": 56677,
     "Aeowynn Mapper": 28627,
-    "ACHAEA MAPPING": 23387,
-    "Aeowynn x Legacy 1.0 map": 2083,
-    "Test": 1299,
+    "Achaea5": 46104,
     "Tahquil - FaFo - Gui": 4474,
     "Qwindor": 436,
-    "Achaea - Thaisen": 12695,
-    "Achaea Legacy": 6739
+    "Achaea5_inclient": 4472,
+    "Achaea NewUI": 1299,
+    "ACHAEA MAPPING": 23387,
+    "Achaea - Rekhyr": 35705,
+    "Achaea1": 18691,
+    "Aeowynn x Legacy 1.0 map": 2083,
+    "Achaea3_inclient": 6740,
+    "Test": 1299,
+    "AchaeaLeg": 35925
   },
   "customEnvColors": [
     {
@@ -811718,7 +812529,7 @@
     {
       "color24RGB": [
         0,
-        179,
+        128,
         0
       ],
       "id": 258
@@ -811765,9 +812576,9 @@
     },
     {
       "color24RGB": [
-        36,
-        36,
-        36
+        0,
+        0,
+        0
       ],
       "id": 264
     },
