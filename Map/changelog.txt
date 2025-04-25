@@ -474,5 +474,5 @@ changelog = {
 	[[Updated subdivision plot map]],
 	[[Updated shop names in all cities, minor updates in Eleusis and Delos, added Lake Narcisse's laboratory area, Ashtan's new exit direction]],
 	[[Eleusis subdivision update]],
-	[[Another Narcisse update, Warpwood, Barrow Foray. Shop name update, Sangre Plains + Savannah touch up, Lion's Rest + Ancyra (Houses), Aster Town fix]]
+	[[Another Narcisse update, Warpwood, Barrow Foray, Flooded Vashnars, Red'Teth Lady's bossfight arena, Sangre Plains, Savannah, Flooded Vashnars, Harae, Aster Town updates. Shop name update, Lion's Rest + Ancyra (Houses)]]
 }
