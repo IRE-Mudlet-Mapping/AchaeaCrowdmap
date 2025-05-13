@@ -990,10 +990,10 @@ readline-sync@^1.4.9:
   resolved "https://registry.npmjs.org/readline-sync/-/readline-sync-1.4.10.tgz"
   integrity sha512-gNva8/6UAe8QYepIQH/jQ2qn91Qj0B9sYjMBBs3QOB8F2CXcKgLxQaJRP76sWVRQt+QU+8fAkCbCvjjMFu7Ycw==
 
-realm@^12.14.2:
-  version "12.14.2"
-  resolved "https://registry.npmjs.org/realm/-/realm-12.14.2.tgz"
-  integrity sha512-T74cCPifng4TAVZCjKh3bRueFczo4OFqbHvzpIe/SshUN5J9/RVpXNidtPvRzKnP7XbigzP9158+usLXuz2y5A==
+realm@^20.1.0:
+  version "20.1.0"
+  resolved "https://registry.yarnpkg.com/realm/-/realm-20.1.0.tgz#52794a16724d364de3974d68c45c5bdec91ac90d"
+  integrity sha512-m/8y4Yad8x++ZL6BCRvsr+AGqxKJg2jErcXW2ZO48CwNYjw9YRERv4V0JWsLw9sFkzVZIw1e4u9I/Dd+hmMhzw==
   dependencies:
     "@realm/fetch" "^0.1.1"
     bson "^4.7.2"
