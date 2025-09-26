@@ -9,7 +9,7 @@ jobs:
   publish-new-map:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - uses: actions/setup-node@v5.0.0
     - name: Generate map data compatible with map reader as well as json files
       run: |
