@@ -8,7 +8,7 @@
     "lodash": "^4.17.21",
     "mudlet-map-binary-reader": "^0.5.3",
     "typescript": "^5.9.2",
-    "yargs": "^17.7.2"
+    "yargs": "^18.0.0"
   },
   "dependencies": {
     "dotenv": "^17.2.2",
