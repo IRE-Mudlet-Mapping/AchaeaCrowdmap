@@ -1,7 +1,7 @@
 const { MudletMapReader } = require("mudlet-map-binary-reader");
 const yargs = require("yargs");
 
-const argv = yargs.option("base-dir", {
+const argv = yargs(process.argv).option("base-dir", {
   default: ".",
   type: "string",
   description: "The base directory to use the Maps directory from",
