@@ -477,5 +477,6 @@ changelog = {
 	[[Another Narcisse update, Warpwood, Barrow Foray, Flooded Vashnars, Red'Teth Lady's bossfight arena, Sangre Plains, Savannah, Flooded Vashnars, Harae, Aster Town updates. Shop name update, Lion's Rest + Ancyra (Houses)]],
 	[[June Shop Update, Cyrene entry fix, Ibhnir Ness update, Arcadian Resistance Camp, HMS Iridescent Moon]],
 	[[Remapped the Gauntlet (Targossas Arena)]],
-	[[Elemental fringe areas, City shop updates, Added to Cyrene Eleusis Coterie, Disconnected Sea Temple, Ishana Steppes split, ]]
+	[[Elemental fringe areas, City shop updates, Added to Cyrene Eleusis Coterie, Disconnected Sea Temple, Ishana Steppes split]],
+	[[Changes to Cyrene, Eastern Road, Cormorant Rock, Targossas, Ashtan, Mhaldor, Dun Fortress/Valley, Asterian Pennisula, Ancreage(House), Ancyra(House), Shop Update]]
 }
