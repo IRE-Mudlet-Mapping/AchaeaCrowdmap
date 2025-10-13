@@ -14,8 +14,15 @@ jobs:
     - name: Generate map data compatible with map reader as well as json files
       run: |
         yarn install --frozen-lockfile
+        mkdir -p Map
         node ./map-utilities/generate-map.js
-        node ./map-utilities/generate-npcs.mjs
+        # Temporarily download the existing denizen.json from the live site as the update service got sunset
+        # We are working on a replacement for this.
+        curl -s -f -o Map/denizen.json https://ire-mudlet-mapping.github.io/AchaeaCrowdmap/Map/denizen.json
+        if [ $? -ne 0 ]; then
+          echo "Failed to download denizen.json"
+          exit 1
+        fi
       env:
         MONGO_API_KEY: ${{ secrets.MONGO_API_KEY }}
 
