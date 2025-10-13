@@ -18,7 +18,11 @@ jobs:
         node ./map-utilities/generate-map.js
         # Temporarily download the existing denizen.json from the live site as the update service got sunset
         # We are working on a replacement for this.
-        curl -s -o Map/denizen.json https://ire-mudlet-mapping.github.io/AchaeaCrowdmap/Map/denizen.json
+        curl -s -f -o Map/denizen.json https://ire-mudlet-mapping.github.io/AchaeaCrowdmap/Map/denizen.json
+        if [ $? -ne 0 ]; then
+          echo "Failed to download denizen.json"
+          exit 1
+        fi
       env:
         MONGO_API_KEY: ${{ secrets.MONGO_API_KEY }}
 
