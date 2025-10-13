@@ -91,7 +91,7 @@
     {
       "id": 2,
       "name": "Tasur'ke",
-      "roomCount": 139,
+      "roomCount": 140,
       "rooms": [
         {
           "id": 3431,
@@ -1779,10 +1779,6 @@
             {
               "exitId": 4443,
               "name": "south"
-            },
-            {
-              "exitId": 20843,
-              "name": "up"
             }
           ],
           "userData": {
@@ -2986,6 +2982,26 @@
               "exitId": 19755,
               "name": "south",
               "door": "open"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the village of Tasur'ke"
+          }
+        },
+        {
+          "id": 19235,
+          "name": "A cozy room overlooking the beach",
+          "coordinates": [
+            10,
+            -9,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 4438,
+              "name": "out"
             }
           ],
           "userData": {
@@ -7206,8 +7222,28 @@
     {
       "id": 5,
       "name": "Ka'doloki, the Village of",
-      "roomCount": 31,
+      "roomCount": 33,
       "rooms": [
+        {
+          "id": 7,
+          "coordinates": [
+            12,
+            -3,
+            0
+          ],
+          "environment": 5,
+          "exits": []
+        },
+        {
+          "id": 13751,
+          "coordinates": [
+            7,
+            -3,
+            -1
+          ],
+          "environment": 5,
+          "exits": []
+        },
         {
           "id": 18469,
           "name": "A tottering rope bridge",
@@ -7353,7 +7389,7 @@
         },
         {
           "id": 24663,
-          "name": "A sandy pathway",
+          "name": "A sculpted memorial",
           "coordinates": [
             7,
             -1,
@@ -7469,11 +7505,15 @@
             -3,
             0
           ],
-          "environment": 33,
+          "environment": 52,
           "exits": [
             {
               "exitId": 24731,
               "name": "northwest"
+            },
+            {
+              "exitId": 66768,
+              "name": "east"
             }
           ],
           "userData": {
@@ -8087,6 +8127,10 @@
             {
               "exitId": 24812,
               "name": "west"
+            },
+            {
+              "exitId": 13751,
+              "name": "in"
             }
           ],
           "userData": {
@@ -8114,10 +8158,10 @@
           "environment": -1,
           "exits": [],
           "userData": {
-            "gotoMapping": "{\"mysia\":\"9869\",\"kunapi\":\"52123\",\"qboard\":\"23900\",\"radak\":\"45519\",\"eleusis\":\"6738\",\"ur\":\"50935\",\"yggdrasil\":\"54133\",\"rip\":\"3415\",\"catacombs\":\"36697\",\"tree\":\"2898\",\"newhope\":24310,\"inbhir\":\"10913\",\"sirocco\":\"30152\",\"poly\":5656,\"qerstead\":\"52298\",\"lhitsu\":\"52391\",\"moghedu\":\"6\",\"targossas\":2054,\"letum\":\"8489\",\"kamleikan\":\"9578\",\"dun\":\"3886\",\"istarion\":\"22385\",\"revenant\":\"7211\",\"tir\":\"1102\",\"genji\":\"10095\",\"loramere\":\"52516\",\"everglade\":62062,\"hashan\":\"4472\",\"thera\":\"20386\",\"ashtan\":\"436\",\"wegava\":\"33127\",\"not\":\"1299\",\"taryen\":\"21767\",\"prialysh\":\"50884\",\"judgement\":\"35548\",\"excrucio\":\"8121\",\"flame\":\"2898\",\"grukai\":\"27931\",\"invidia\":\"8162\",\"cyrene\":\"6298\",\"kuthalebak\":\"51850\",\"yudhi\":5918,\"uw\":\"14594\",\"mourning\":\"37797\",\"riagath\":\"30234\",\"mhaldor\":\"11400\",\"ioje\":\"52029\",\"myrinia\":\"52554\",\"quaskan\":\"50832\",\"delos\":1181,\"meropis\":\"1226\"}",
+            "gotoMapping": "{\"riagath\":\"30234\",\"kamleikan\":\"9578\",\"qboard\":\"23900\",\"ioje\":\"52029\",\"eleusis\":\"6738\",\"ur\":\"50935\",\"yggdrasil\":\"54133\",\"rip\":\"3415\",\"catacombs\":\"36697\",\"tree\":\"2898\",\"newhope\":\"24310\",\"inbhir\":\"10913\",\"sirocco\":\"30152\",\"targossas\":2054,\"lhitsu\":\"52391\",\"moghedu\":\"6\",\"meropis\":\"1226\",\"poly\":5656,\"qerstead\":\"52298\",\"dun\":\"5129\",\"radak\":\"45519\",\"revenant\":\"7211\",\"tir\":\"1102\",\"genji\":\"10095\",\"loramere\":\"52516\",\"kunapi\":\"52123\",\"hashan\":\"4472\",\"mourning\":\"37797\",\"thera\":\"20386\",\"ashtan\":\"436\",\"myrinia\":\"52554\",\"mysia\":\"9869\",\"grukai\":\"27931\",\"yudhi\":5918,\"judgement\":\"35548\",\"excrucio\":\"8121\",\"flame\":\"2898\",\"prialysh\":\"50884\",\"invidia\":\"8162\",\"cyrene\":6298,\"kuthalebak\":\"51850\",\"taryen\":\"21767\",\"uw\":\"14594\",\"not\":\"1299\",\"everglade\":62062,\"mhaldor\":\"11400\",\"letum\":\"8489\",\"istarion\":\"22385\",\"quaskan\":\"50832\",\"delos\":\"1181\",\"wegava\":\"33127\"}",
             "ferry rooms": "[31545,6558,6559,31520,11654,31562,6550,6551,18439,38156,39208,19432,31605]",
             "audit.remapped_area": "0",
-            "areaContinents": "{\"Outer\":[192,193,162,194,206,351,209,294,180,297,181,366,355,207,191],\"Western_Isles\":[162,209,207],\"Eastern_Isles\":[192,180,181,191],\"Arcadia\":[150,154],\"North\":[385,261,197,99,199,34,200,101,202,204,352,353,73,242,147,243,74,212,244,213,214,246,301,108,306,383,308,307],\"Northern_Isles\":[194,206,351,294],\"Island\":[224,161,225,195,98,164,165,464,240,91,317,92,314],\"Main\":[127,158,316,2,3,4,5,7,10,12,14,16,20,24,28,32,40,48,56,64,80,96,112,128,160,320,384,448,386,65,81,387,113,130,388,452,389,131,326,33,41,49,57,66,82,196,264,265,133,394,83,115,134,166,198,268,269,167,17,21,25,29,42,50,58,68,84,116,136,272,400,273,401,137,201,274,402,69,85,117,138,139,203,235,278,470,43,51,59,279,102,118,280,472,281,173,205,346,71,87,103,119,142,174,238,284,348,349,477,9,11,13,22,26,30,36,44,60,72,104,120,144,208,145,290,89,105,121,178,293,357,179,211,37,53,61,90,106,122,148,296,471,463,361,425,149,298,362,426,263,75,107,123,182,300,364,291,365,295,151,302,23,27,31,38,46,54,62,76,124,152,398,368,185,391,77,125,186,267,372,318,367,309,359,155,187,350,310,374,55,63,78,375,110,126,156,319,376,315,270,311,303,299,157,275,259,175,79,95,111,159,462,379,465,443,380,444,378,381,390,377,393,35,489,468,476,466,473,474,488,450,475,467,490,491,109],\"Meropis\":[256,322,325,328,329,330,67,332,396,333,399,336,337,338,340,341,342,343,344,345,141,282,285,286,210,487,445,339,215,305,217,218,334,347,335,39,331,327,283,492,494],\"Arena\":[228,229,230,231,232,233,369],\"Northen_Isles\":[351],\"Off\":[190,380,444,6,257,321,449,324,453,163,390,454,455,456,393,457,458,460,397,168,465,169,170,404,405,469,171,406,35,408,409,410,412,413,15,176,288,416,480,289,417,481,418,482,292,356,420,484,421,485,358,422,45,483,479,478,462,459,245,451,446,443,428,439,363,429,183,379,184,248,415,432,431,430,427,423,419,433,414,411,249,407,434,395,382,381,371,435,436,373,437,438,47,252,440,377,441,271,253,378,442,255,93,100,500,54]}",
+            "areaContinents": "{\"Outer\":[192,193,162,194,206,351,209,294,180,297,181,366,355,207,191],\"Western_Isles\":[162,209,207],\"Eastern_Isles\":[192,180,181,191],\"Arcadia\":[150,154],\"North\":[385,261,197,99,199,34,200,101,202,204,352,353,73,242,147,243,74,212,244,213,214,246,301,108,306,383,308,307],\"Northern_Isles\":[194,206,351,294],\"Island\":[224,161,225,195,98,164,165,464,240,91,317,92,314],\"Main\":[127,158,316,2,3,4,5,7,10,12,14,16,20,24,28,32,40,48,56,64,80,96,112,128,160,320,384,448,386,65,81,387,113,130,388,452,389,131,326,33,41,49,57,66,82,196,264,265,133,394,83,115,134,166,198,268,269,167,17,21,25,29,42,50,58,68,84,116,136,272,400,273,401,137,201,274,402,69,85,117,138,139,203,235,278,470,43,51,59,279,102,118,280,472,281,173,205,346,71,87,103,119,142,174,238,284,348,349,477,9,11,13,22,26,30,36,44,60,72,104,120,144,208,145,290,89,105,121,178,293,357,179,211,37,53,61,90,106,122,148,296,471,463,361,425,149,298,362,426,263,75,107,123,182,300,364,291,365,295,151,302,23,27,31,38,46,54,62,76,124,152,398,368,185,391,77,125,186,267,372,318,367,309,359,155,187,350,310,374,55,63,78,375,110,126,156,319,376,315,270,311,303,299,157,275,259,175,79,95,111,159,462,379,465,443,380,444,378,381,390,377,393,35,489,468,476,466,473,474,488,450,475,467,490,491,109,323],\"Meropis\":[256,322,325,328,329,330,67,332,396,333,399,336,337,338,340,341,342,343,344,345,141,282,285,286,210,487,445,339,215,305,217,218,334,347,335,39,331,327,283,492,494],\"Arena\":[228,229,230,231,232,233,369],\"Off\":[190,380,444,6,257,321,449,324,453,163,390,454,455,456,393,457,458,460,397,168,465,169,170,404,405,469,171,406,35,408,409,410,412,413,15,176,288,416,480,289,417,481,418,482,292,356,420,484,421,485,358,422,45,483,479,478,462,459,245,451,446,443,428,439,363,429,183,379,184,248,415,432,431,430,427,423,419,433,414,411,249,407,434,395,382,381,371,435,436,373,437,438,47,252,440,377,441,271,253,378,442,255,93,100,500,54],\"Northen_Isles\":[351]}",
             "Game Area": "Haila-ele"
           }
         },
@@ -23518,7 +23562,7 @@
     {
       "id": 14,
       "name": "Delos, the Isle of",
-      "roomCount": 158,
+      "roomCount": 163,
       "rooms": [
         {
           "id": 726,
@@ -24328,6 +24372,16 @@
           }
         },
         {
+          "id": 4971,
+          "coordinates": [
+            12,
+            4,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 5223,
           "name": "Dove and Dwarf",
           "coordinates": [
@@ -24445,6 +24499,16 @@
           }
         },
         {
+          "id": 5391,
+          "coordinates": [
+            13,
+            2,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 5423,
           "name": "Clan Headquarters",
           "coordinates": [
@@ -24490,7 +24554,7 @@
         },
         {
           "id": 5448,
-          "name": "The Broken Anvil",
+          "name": "Drunken Dwarf Outfitters",
           "coordinates": [
             7,
             2,
@@ -24545,6 +24609,16 @@
             "feature-shop": "true",
             "Game Area": "the Isle of Delos"
           }
+        },
+        {
+          "id": 5499,
+          "coordinates": [
+            15,
+            2,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 5551,
@@ -24993,7 +25067,7 @@
           ],
           "userData": {
             "outdoors": "y",
-            "Game Area": "the Itinerant Bazaar"
+            "Game Area": "the Isle of Delos"
           }
         },
         {
@@ -25017,7 +25091,7 @@
           ],
           "userData": {
             "outdoors": "y",
-            "Game Area": "the Itinerant Bazaar"
+            "Game Area": "the Isle of Delos"
           }
         },
         {
@@ -25528,7 +25602,7 @@
           ],
           "userData": {
             "outdoors": "y",
-            "Game Area": "the Itinerant Bazaar"
+            "Game Area": "the Isle of Delos"
           }
         },
         {
@@ -25628,7 +25702,7 @@
           ],
           "userData": {
             "outdoors": "y",
-            "Game Area": "the Itinerant Bazaar"
+            "Game Area": "the Isle of Delos"
           }
         },
         {
@@ -25696,7 +25770,7 @@
           ],
           "userData": {
             "outdoors": "y",
-            "Game Area": "the Itinerant Bazaar"
+            "Game Area": "the Isle of Delos"
           }
         },
         {
@@ -25975,7 +26049,7 @@
         },
         {
           "id": 28401,
-          "name": "The Serpents Secret",
+          "name": "The Serpent's Secret",
           "coordinates": [
             8,
             -5,
@@ -26050,6 +26124,26 @@
           "coordinates": [
             8,
             -5,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
+          "id": 31412,
+          "coordinates": [
+            11,
+            2,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
+          "id": 31471,
+          "coordinates": [
+            12,
+            2,
             -1
           ],
           "environment": 8,
@@ -27530,7 +27624,7 @@
         },
         {
           "id": 58808,
-          "name": "Seffy's Secret",
+          "name": "Blackstone Industries",
           "coordinates": [
             4,
             2,
@@ -27588,7 +27682,7 @@
             }
           ],
           "userData": {
-            "outdoors": "y",
+            "indoors": "y",
             "Game Area": "the Isle of Delos"
           }
         }
@@ -47424,6 +47518,10 @@
             {
               "exitId": 27148,
               "name": "south"
+            },
+            {
+              "exitId": 62727,
+              "name": "up"
             }
           ],
           "userData": {
@@ -76188,7 +76286,7 @@
     {
       "id": 44,
       "name": "Mhaldor, the City of",
-      "roomCount": 234,
+      "roomCount": 218,
       "rooms": [
         {
           "id": 4415,
@@ -76231,7 +76329,7 @@
           "coordinates": [
             0,
             2,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -76255,7 +76353,7 @@
           "coordinates": [
             -9,
             10,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -76275,7 +76373,7 @@
           "coordinates": [
             -8,
             9,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -76338,7 +76436,7 @@
           "coordinates": [
             -1,
             -2,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -76362,7 +76460,7 @@
           "coordinates": [
             -9,
             9,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -76390,7 +76488,7 @@
           "coordinates": [
             -10,
             9,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -76415,7 +76513,7 @@
           "coordinates": [
             -1,
             -3,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -76497,21 +76595,21 @@
           "coordinates": [
             0,
             6,
-            0
+            -1
           ],
+          "symbol": {
+            "text": "$"
+          },
           "environment": 8,
           "exits": [
             {
               "exitId": 12665,
               "name": "north"
-            },
-            {
-              "exitId": 8434,
-              "name": "down"
             }
           ],
           "userData": {
             "indoors": "y",
+            "feature-shop": "true",
             "Game Area": "Mhaldor"
           }
         },
@@ -76521,7 +76619,7 @@
           "coordinates": [
             -1,
             8,
-            0
+            -1
           ],
           "symbol": {
             "text": "$"
@@ -76540,32 +76638,12 @@
           }
         },
         {
-          "id": 8420,
-          "coordinates": [
-            0,
-            8,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
-          "id": 8434,
-          "coordinates": [
-            0,
-            6,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 8521,
           "name": "Colosseum Diabolus staging grounds",
           "coordinates": [
             -5,
             0,
-            0
+            -1
           ],
           "symbol": {
             "text": "A"
@@ -76597,7 +76675,7 @@
           "coordinates": [
             -5,
             1,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -76612,32 +76690,12 @@
           }
         },
         {
-          "id": 8565,
-          "coordinates": [
-            -1,
-            8,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
-          "id": 8594,
-          "coordinates": [
-            -1,
-            6,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 9766,
           "name": "The guillotine",
           "coordinates": [
             -5,
             7,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -76657,7 +76715,7 @@
           "coordinates": [
             -4,
             6,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -76677,7 +76735,7 @@
           "coordinates": [
             -4,
             7,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -76697,7 +76755,7 @@
           "coordinates": [
             4,
             4,
-            0
+            -1
           ],
           "symbol": {
             "text": "$"
@@ -76716,22 +76774,12 @@
           }
         },
         {
-          "id": 9840,
-          "coordinates": [
-            4,
-            4,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 9843,
           "name": "Merchant Emporium Mhaldor",
           "coordinates": [
             2,
             3,
-            0
+            -1
           ],
           "symbol": {
             "text": "$"
@@ -76750,22 +76798,12 @@
           }
         },
         {
-          "id": 9853,
-          "coordinates": [
-            2,
-            3,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 9965,
           "name": "The burning stake",
           "coordinates": [
             -6,
             7,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -76875,7 +76913,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 15510
+              "exitId": 15510,
+              "locked": true
             }
           ],
           "userData": {
@@ -78351,7 +78390,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 14829
+              "exitId": 14829,
+              "locked": true
             }
           ],
           "userData": {
@@ -78488,7 +78528,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 14551
+              "exitId": 14551,
+              "locked": true
             }
           ],
           "userData": {
@@ -78605,7 +78646,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 15610
+              "exitId": 15610,
+              "locked": true
             }
           ],
           "userData": {
@@ -78957,7 +78999,7 @@
           "coordinates": [
             0,
             18,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -78992,7 +79034,7 @@
           "coordinates": [
             0,
             19,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79011,7 +79053,7 @@
           "coordinates": [
             -1,
             18,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79030,7 +79072,7 @@
           "coordinates": [
             0,
             17,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79073,7 +79115,7 @@
           "coordinates": [
             -9,
             7,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79107,7 +79149,7 @@
           "coordinates": [
             -10,
             8,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79137,7 +79179,7 @@
           "coordinates": [
             -11,
             7,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79157,7 +79199,7 @@
           "coordinates": [
             1,
             18,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79195,42 +79237,12 @@
           }
         },
         {
-          "id": 12445,
-          "coordinates": [
-            1,
-            0,
-            0
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
-          "id": 12447,
-          "coordinates": [
-            -1,
-            0,
-            0
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
-          "id": 12449,
-          "coordinates": [
-            1,
-            5,
-            0
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 12451,
           "name": "Circle of Damnation",
           "coordinates": [
             2,
             0,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79278,7 +79290,7 @@
           "coordinates": [
             3,
             9,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79302,7 +79314,7 @@
           "coordinates": [
             2,
             10,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79326,7 +79338,7 @@
           "coordinates": [
             1,
             11,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79350,7 +79362,7 @@
           "coordinates": [
             -1,
             11,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79378,7 +79390,7 @@
           "coordinates": [
             -2,
             11,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79402,7 +79414,7 @@
           "coordinates": [
             -4,
             11,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79489,7 +79501,7 @@
           "coordinates": [
             3,
             1,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79517,7 +79529,7 @@
           "coordinates": [
             -5,
             10,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79545,7 +79557,7 @@
           "coordinates": [
             -7,
             8,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79573,7 +79585,7 @@
           "coordinates": [
             -7,
             7,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79597,7 +79609,7 @@
           "coordinates": [
             -7,
             4,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79621,7 +79633,7 @@
           "coordinates": [
             -7,
             1,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79685,7 +79697,7 @@
           "coordinates": [
             -6,
             0,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79709,7 +79721,7 @@
           "coordinates": [
             -5,
             -1,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79752,7 +79764,7 @@
           "coordinates": [
             -3,
             -1,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79776,7 +79788,7 @@
           "coordinates": [
             -2,
             -1,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79804,7 +79816,7 @@
           "coordinates": [
             -1,
             -1,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79832,7 +79844,7 @@
           "coordinates": [
             1,
             -1,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -79856,7 +79868,7 @@
           "coordinates": [
             -7,
             6,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -80095,7 +80107,7 @@
           "coordinates": [
             3,
             7,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -80147,7 +80159,7 @@
           "coordinates": [
             3,
             4,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -80193,7 +80205,7 @@
           "coordinates": [
             -1,
             7,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -80213,7 +80225,7 @@
           "coordinates": [
             0,
             7,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -80266,7 +80278,7 @@
           "coordinates": [
             -1,
             6,
-            0
+            -1
           ],
           "symbol": {
             "text": "$"
@@ -80397,7 +80409,7 @@
           "coordinates": [
             0,
             -3,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -80437,7 +80449,7 @@
           "coordinates": [
             0,
             8,
-            0
+            -1
           ],
           "symbol": {
             "text": "$"
@@ -80461,7 +80473,7 @@
           "coordinates": [
             1,
             6,
-            0
+            -1
           ],
           "symbol": {
             "text": "$"
@@ -80481,22 +80493,12 @@
           }
         },
         {
-          "id": 13662,
-          "coordinates": [
-            1,
-            6,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 14018,
           "name": "Drogo's misappropriated stash",
           "coordinates": [
             1,
             8,
-            0
+            -1
           ],
           "symbol": {
             "text": "$"
@@ -80520,7 +80522,7 @@
           "coordinates": [
             2,
             6,
-            0
+            -1
           ],
           "symbol": {
             "text": "$"
@@ -80537,16 +80539,6 @@
             "feature-shop": "true",
             "Game Area": "Mhaldor"
           }
-        },
-        {
-          "id": 14307,
-          "coordinates": [
-            2,
-            6,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 14314,
@@ -80573,7 +80565,7 @@
           "coordinates": [
             4,
             7,
-            0
+            -1
           ],
           "symbol": {
             "text": "$"
@@ -80592,22 +80584,12 @@
           }
         },
         {
-          "id": 15082,
-          "coordinates": [
-            4,
-            7,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 15163,
           "name": "Smashy's",
           "coordinates": [
             4,
             6,
-            0
+            -1
           ],
           "symbol": {
             "text": "$"
@@ -80624,16 +80606,6 @@
             "feature-shop": "true",
             "Game Area": "Mhaldor"
           }
-        },
-        {
-          "id": 15175,
-          "coordinates": [
-            4,
-            6,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 15590,
@@ -80665,7 +80637,7 @@
           "coordinates": [
             4,
             8,
-            0
+            -1
           ],
           "symbol": {
             "text": "$"
@@ -80684,22 +80656,12 @@
           }
         },
         {
-          "id": 15785,
-          "coordinates": [
-            4,
-            8,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 16447,
           "name": "The Art of Evil",
           "coordinates": [
             2,
             8,
-            0
+            -1
           ],
           "symbol": {
             "text": "$"
@@ -80719,22 +80681,12 @@
           }
         },
         {
-          "id": 16448,
-          "coordinates": [
-            2,
-            8,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 16838,
           "name": "Course of Hardship",
           "coordinates": [
             4,
             5,
-            0
+            -1
           ],
           "symbol": {
             "text": "$"
@@ -80758,7 +80710,7 @@
           "coordinates": [
             -5,
             6,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -80801,22 +80753,12 @@
           }
         },
         {
-          "id": 17802,
-          "coordinates": [
-            4,
-            5,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 18235,
           "name": "Ebon shores",
           "coordinates": [
             4,
             3,
-            0
+            -1
           ],
           "symbol": {
             "text": "$"
@@ -80840,7 +80782,7 @@
           "coordinates": [
             2,
             4,
-            0
+            -1
           ],
           "symbol": {
             "text": "$"
@@ -80936,7 +80878,7 @@
           "coordinates": [
             -2,
             0,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -80968,7 +80910,7 @@
           "coordinates": [
             -3,
             1,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -80996,7 +80938,7 @@
           "coordinates": [
             -4,
             2,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81020,7 +80962,7 @@
           "coordinates": [
             -4,
             3,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81044,7 +80986,7 @@
           "coordinates": [
             -3,
             2,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81068,7 +81010,7 @@
           "coordinates": [
             -3,
             3,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81092,7 +81034,7 @@
           "coordinates": [
             -2,
             1,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81116,7 +81058,7 @@
           "coordinates": [
             -2,
             3,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81136,7 +81078,7 @@
           "coordinates": [
             -2,
             2,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81160,7 +81102,7 @@
           "coordinates": [
             -1,
             1,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81188,7 +81130,7 @@
           "coordinates": [
             0,
             1,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81212,7 +81154,7 @@
           "coordinates": [
             1,
             1,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81236,7 +81178,7 @@
           "coordinates": [
             1,
             2,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81363,7 +81305,7 @@
           "coordinates": [
             -1,
             12,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81491,7 +81433,7 @@
           "coordinates": [
             -4,
             0,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81555,7 +81497,7 @@
           "coordinates": [
             -5,
             5,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81599,7 +81541,7 @@
           "coordinates": [
             -4,
             5,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81643,7 +81585,7 @@
           "coordinates": [
             -6,
             5,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81663,7 +81605,7 @@
           "coordinates": [
             -1,
             2,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81687,7 +81629,7 @@
           "coordinates": [
             0,
             12,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81707,7 +81649,7 @@
           "coordinates": [
             -2,
             12,
-            0
+            -1
           ],
           "environment": 8,
           "exits": [
@@ -81727,7 +81669,7 @@
           "coordinates": [
             -7,
             10,
-            0
+            -1
           ],
           "environment": 2,
           "exits": [
@@ -82111,7 +82053,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "18.6916"
       }
     },
     {
@@ -83805,7 +83747,7 @@
         },
         {
           "id": 41583,
-          "name": "Jacaranda corridor",
+          "name": "An amphitheatre beneath the jacaranda trees",
           "coordinates": [
             -1,
             -1,
@@ -85043,18 +84985,8 @@
     {
       "id": 49,
       "name": "Ashtan, the City of",
-      "roomCount": 574,
+      "roomCount": 546,
       "rooms": [
-        {
-          "id": 11,
-          "coordinates": [
-            20,
-            8,
-            0
-          ],
-          "environment": 21,
-          "exits": []
-        },
         {
           "id": 107,
           "name": "Cluttered workshop",
@@ -85266,7 +85198,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 2559
+              "exitId": 2559,
+              "locked": true
             }
           ],
           "userData": {
@@ -85390,7 +85323,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 2565
+              "exitId": 2565,
+              "locked": true
             }
           ],
           "userData": {
@@ -85837,7 +85771,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 2554
+              "exitId": 2554,
+              "locked": true
             },
             {
               "name": "worm warp",
@@ -86065,7 +86000,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 2576
+              "exitId": 2576,
+              "locked": true
             }
           ],
           "userData": {
@@ -86454,7 +86390,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 2610
+              "exitId": 2610,
+              "locked": true
             }
           ],
           "userData": {
@@ -86809,7 +86746,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 2586
+              "exitId": 2586,
+              "locked": true
             }
           ],
           "userData": {
@@ -87070,7 +87008,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 2579
+              "exitId": 2579,
+              "locked": true
             }
           ],
           "userData": {
@@ -87517,7 +87456,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 2549
+              "exitId": 2549,
+              "locked": true
             }
           ],
           "userData": {
@@ -87797,7 +87737,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 2544
+              "exitId": 2544,
+              "locked": true
             }
           ],
           "userData": {
@@ -87955,7 +87896,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 2542
+              "exitId": 2542,
+              "locked": true
             }
           ],
           "userData": {
@@ -88058,7 +88000,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 2598
+              "exitId": 2598,
+              "locked": true
             }
           ],
           "userData": {
@@ -88346,7 +88289,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 2601
+              "exitId": 2601,
+              "locked": true
             }
           ],
           "userData": {
@@ -89802,7 +89746,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 2647
+              "exitId": 2647,
+              "locked": true
             }
           ],
           "userData": {
@@ -90410,7 +90355,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 2642
+              "exitId": 2642,
+              "locked": true
             }
           ],
           "userData": {
@@ -90560,7 +90506,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 2637
+              "exitId": 2637,
+              "locked": true
             }
           ],
           "userData": {
@@ -91188,10 +91135,6 @@
           "environment": 11,
           "exits": [
             {
-              "exitId": 66967,
-              "name": "north"
-            },
-            {
               "exitId": 1768,
               "name": "east"
             },
@@ -91274,6 +91217,10 @@
             {
               "exitId": 674,
               "name": "east"
+            },
+            {
+              "exitId": 66967,
+              "name": "west"
             }
           ],
           "userData": {
@@ -92369,16 +92316,6 @@
           }
         },
         {
-          "id": 2524,
-          "coordinates": [
-            -3,
-            -6,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 2878,
           "name": "The Withered Fig",
           "coordinates": [
@@ -92403,16 +92340,6 @@
           }
         },
         {
-          "id": 2879,
-          "coordinates": [
-            6,
-            6,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 3654,
           "name": "The Usual Place",
           "coordinates": [
@@ -92422,10 +92349,6 @@
           ],
           "environment": 8,
           "exits": [
-            {
-              "exitId": 3655,
-              "name": "down"
-            },
             {
               "exitId": 531,
               "name": "out",
@@ -92452,16 +92375,6 @@
           }
         },
         {
-          "id": 3655,
-          "coordinates": [
-            -10,
-            21,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 3656,
           "name": "Needful Things",
           "coordinates": [
@@ -92484,16 +92397,6 @@
             "feature-shop": "true",
             "Game Area": "Ashtan"
           }
-        },
-        {
-          "id": 3657,
-          "coordinates": [
-            -3,
-            -3,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 3658,
@@ -92520,16 +92423,6 @@
           }
         },
         {
-          "id": 3659,
-          "coordinates": [
-            0,
-            -4,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 3694,
           "name": "More East of Central Market",
           "coordinates": [
@@ -92552,16 +92445,6 @@
             "feature-shop": "true",
             "Game Area": "Ashtan"
           }
-        },
-        {
-          "id": 3695,
-          "coordinates": [
-            0,
-            -5,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 3727,
@@ -92746,16 +92629,6 @@
             "feature-shop": "true",
             "Game Area": "Ashtan"
           }
-        },
-        {
-          "id": 3737,
-          "coordinates": [
-            -2,
-            -7,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 3761,
@@ -93062,16 +92935,6 @@
           }
         },
         {
-          "id": 4218,
-          "coordinates": [
-            7,
-            -3,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 4296,
           "name": "The roulette room in the Pheidas Parlour",
           "coordinates": [
@@ -93126,16 +92989,6 @@
           }
         },
         {
-          "id": 4308,
-          "coordinates": [
-            -12,
-            19,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 4385,
           "name": "Tentacle Treasures",
           "coordinates": [
@@ -93158,16 +93011,6 @@
             "feature-shop": "true",
             "Game Area": "Ashtan"
           }
-        },
-        {
-          "id": 4386,
-          "coordinates": [
-            -10,
-            2,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 4389,
@@ -93221,16 +93064,6 @@
             "feature-shop": "true",
             "Game Area": "Ashtan"
           }
-        },
-        {
-          "id": 4407,
-          "coordinates": [
-            5,
-            7,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 4408,
@@ -93302,16 +93135,6 @@
           }
         },
         {
-          "id": 4732,
-          "coordinates": [
-            -2,
-            -3,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 4885,
           "name": "Savants of the Wheel",
           "coordinates": [
@@ -93334,16 +93157,6 @@
             "feature-shop": "true",
             "Game Area": "Ashtan"
           }
-        },
-        {
-          "id": 4886,
-          "coordinates": [
-            -11,
-            21,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 4964,
@@ -93370,16 +93183,6 @@
           }
         },
         {
-          "id": 4965,
-          "coordinates": [
-            8,
-            -5,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 4975,
           "name": "The Mall of Carnage",
           "coordinates": [
@@ -93402,16 +93205,6 @@
             "feature-shop": "true",
             "Game Area": "Ashtan"
           }
-        },
-        {
-          "id": 4976,
-          "coordinates": [
-            -2,
-            -2,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 4980,
@@ -93438,16 +93231,6 @@
           }
         },
         {
-          "id": 4981,
-          "coordinates": [
-            4,
-            6,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 5241,
           "name": "The Tools of Fate",
           "coordinates": [
@@ -93472,18 +93255,8 @@
           }
         },
         {
-          "id": 5242,
-          "coordinates": [
-            -4,
-            -5,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 5319,
-          "name": "Chaos Corner",
+          "name": "Pandora's Boutique",
           "coordinates": [
             -3,
             -7,
@@ -93504,16 +93277,6 @@
             "feature-shop": "true",
             "Game Area": "Ashtan"
           }
-        },
-        {
-          "id": 5320,
-          "coordinates": [
-            -3,
-            -7,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 5392,
@@ -93540,16 +93303,6 @@
           }
         },
         {
-          "id": 5393,
-          "coordinates": [
-            -11,
-            19,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 5417,
           "name": "The Serpent's Eye",
           "coordinates": [
@@ -93572,16 +93325,6 @@
             "feature-shop": "true",
             "Game Area": "Ashtan"
           }
-        },
-        {
-          "id": 5418,
-          "coordinates": [
-            6,
-            7,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 5419,
@@ -93608,16 +93351,6 @@
           }
         },
         {
-          "id": 5420,
-          "coordinates": [
-            -6,
-            0,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 5421,
           "name": "Inklings",
           "coordinates": [
@@ -93640,16 +93373,6 @@
             "feature-shop": "true",
             "Game Area": "Ashtan"
           }
-        },
-        {
-          "id": 5422,
-          "coordinates": [
-            10,
-            -3,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 5438,
@@ -93676,16 +93399,6 @@
           }
         },
         {
-          "id": 5439,
-          "coordinates": [
-            0,
-            -6,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 5445,
           "name": "Pacts and Promises",
           "coordinates": [
@@ -93708,16 +93421,6 @@
             "feature-shop": "true",
             "Game Area": "Ashtan"
           }
-        },
-        {
-          "id": 5447,
-          "coordinates": [
-            4,
-            7,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 5529,
@@ -93744,16 +93447,6 @@
           }
         },
         {
-          "id": 5530,
-          "coordinates": [
-            -1,
-            -9,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 5555,
           "name": "Merchant Emporium Ashtan",
           "coordinates": [
@@ -93776,16 +93469,6 @@
             "feature-shop": "true",
             "Game Area": "Ashtan"
           }
-        },
-        {
-          "id": 5556,
-          "coordinates": [
-            -4,
-            -4,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 5681,
@@ -94436,46 +94119,6 @@
           }
         },
         {
-          "id": 14234,
-          "coordinates": [
-            5,
-            3,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
-          "id": 14317,
-          "coordinates": [
-            -1,
-            -3,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
-          "id": 14410,
-          "coordinates": [
-            0,
-            -8,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
-          "id": 14485,
-          "coordinates": [
-            -2,
-            -8,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 14682,
           "name": "The Rook and Quill",
           "coordinates": [
@@ -94608,7 +94251,7 @@
             19,
             0
           ],
-          "environment": 30,
+          "environment": 52,
           "exits": [
             {
               "exitId": 17834,
@@ -96411,7 +96054,7 @@
         },
         {
           "id": 41803,
-          "name": "Hall of Ascendants",
+          "name": "Hall of Overseers",
           "coordinates": [
             16,
             18,
@@ -96450,10 +96093,6 @@
             {
               "exitId": 63559,
               "name": "northeast"
-            },
-            {
-              "exitId": 63559,
-              "name": "east"
             },
             {
               "exitId": 62631,
@@ -96888,14 +96527,14 @@
           "name": "A dark bedchamber",
           "coordinates": [
             29,
-            28,
-            0
+            23,
+            2
           ],
           "environment": 8,
           "exits": [
             {
-              "exitId": 61113,
-              "name": "southwest"
+              "exitId": 63287,
+              "name": "east"
             }
           ],
           "userData": {
@@ -97195,7 +96834,7 @@
         },
         {
           "id": 54796,
-          "name": "Hall of Oracles",
+          "name": "Hall of Magisters",
           "coordinates": [
             17,
             19,
@@ -97420,7 +97059,7 @@
             17,
             0
           ],
-          "environment": 262,
+          "environment": 8,
           "exits": [
             {
               "exitId": 60769,
@@ -97444,7 +97083,7 @@
             17,
             0
           ],
-          "environment": 262,
+          "environment": 8,
           "exits": [
             {
               "exitId": 55149,
@@ -97459,6 +97098,16 @@
             "indoors": "y",
             "Game Area": "Ashtan"
           }
+        },
+        {
+          "id": 55972,
+          "coordinates": [
+            34,
+            20,
+            2
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 56534,
@@ -97482,7 +97131,7 @@
         },
         {
           "id": 56581,
-          "name": "Hall of Principals",
+          "name": "Hall of Singularities",
           "coordinates": [
             15,
             19,
@@ -97560,7 +97209,7 @@
             13,
             0
           ],
-          "environment": 262,
+          "environment": 8,
           "exits": [
             {
               "exitId": 61661,
@@ -97800,7 +97449,7 @@
             14,
             0
           ],
-          "environment": 272,
+          "environment": 8,
           "exits": [
             {
               "exitId": 41823,
@@ -98366,7 +98015,7 @@
             10,
             0
           ],
-          "environment": 262,
+          "environment": 8,
           "exits": [
             {
               "exitId": 60866,
@@ -98414,7 +98063,7 @@
             17,
             0
           ],
-          "environment": 262,
+          "environment": 8,
           "exits": [
             {
               "exitId": 55149,
@@ -98438,7 +98087,7 @@
             11,
             0
           ],
-          "environment": 262,
+          "environment": 8,
           "exits": [
             {
               "exitId": 57449,
@@ -98462,7 +98111,7 @@
             10,
             0
           ],
-          "environment": 262,
+          "environment": 8,
           "exits": [
             {
               "exitId": 60777,
@@ -98486,7 +98135,7 @@
             12,
             0
           ],
-          "environment": 262,
+          "environment": 8,
           "exits": [
             {
               "exitId": 61394,
@@ -98754,6 +98403,10 @@
               "name": "northwest"
             },
             {
+              "exitId": 55972,
+              "name": "east"
+            },
+            {
               "exitId": 38564,
               "name": "down"
             }
@@ -98798,12 +98451,12 @@
           "environment": 8,
           "exits": [
             {
-              "exitId": 50838,
-              "name": "northeast"
-            },
-            {
               "exitId": 50841,
               "name": "south"
+            },
+            {
+              "exitId": 63287,
+              "name": "up"
             }
           ],
           "userData": {
@@ -99034,6 +98687,10 @@
               "name": "northeast"
             },
             {
+              "exitId": 63287,
+              "name": "northwest"
+            },
+            {
               "exitId": 61358,
               "name": "east"
             },
@@ -99147,7 +98804,7 @@
             12,
             0
           ],
-          "environment": 262,
+          "environment": 8,
           "exits": [
             {
               "exitId": 61487,
@@ -99180,6 +98837,10 @@
             {
               "exitId": 42587,
               "name": "west"
+            },
+            {
+              "exitId": 60688,
+              "name": "down"
             }
           ],
           "userData": {
@@ -99281,7 +98942,7 @@
             14,
             0
           ],
-          "environment": 262,
+          "environment": 8,
           "exits": [
             {
               "exitId": 60769,
@@ -99352,7 +99013,7 @@
             14,
             0
           ],
-          "environment": 262,
+          "environment": 8,
           "exits": [
             {
               "exitId": 55240,
@@ -99479,6 +99140,10 @@
           "environment": 8,
           "exits": [
             {
+              "exitId": 60459,
+              "name": "south"
+            },
+            {
               "exitId": 61294,
               "name": "up",
               "customLine": {
@@ -99541,6 +99206,10 @@
           ],
           "environment": 8,
           "exits": [
+            {
+              "exitId": 63314,
+              "name": "northeast"
+            },
             {
               "exitId": 61294,
               "name": "south"
@@ -99767,6 +99436,38 @@
           }
         },
         {
+          "id": 63287,
+          "name": "Cavernous maw atop Xeh'ria Tower",
+          "coordinates": [
+            30,
+            23,
+            2
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66131,
+              "name": "north"
+            },
+            {
+              "exitId": 50838,
+              "name": "west"
+            },
+            {
+              "exitId": 61294,
+              "name": "southeast"
+            },
+            {
+              "exitId": 61113,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "Ashtan"
+          }
+        },
+        {
           "id": 63312,
           "name": "Eastern shore of Riikeh Pond",
           "coordinates": [
@@ -99793,6 +99494,16 @@
             "indoors": "y",
             "Game Area": "Ashtan"
           }
+        },
+        {
+          "id": 63314,
+          "coordinates": [
+            32,
+            26,
+            2
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 63495,
@@ -99887,10 +99598,6 @@
             {
               "exitId": 62171,
               "name": "northwest"
-            },
-            {
-              "exitId": 41823,
-              "name": "west"
             },
             {
               "exitId": 63312,
@@ -100006,12 +99713,17 @@
           "id": 66131,
           "name": "An amethyst bedchamber",
           "coordinates": [
-            29,
-            25,
+            30,
+            24,
             2
           ],
           "environment": 8,
-          "exits": [],
+          "exits": [
+            {
+              "exitId": 63287,
+              "name": "south"
+            }
+          ],
           "userData": {
             "indoors": "y",
             "Game Area": "Ashtan"
@@ -100043,17 +99755,17 @@
         },
         {
           "id": 66967,
-          "name": "Garden of the Goddess",
+          "name": "A quiet garden clearing",
           "coordinates": [
-            20,
-            8,
+            15,
+            2,
             0
           ],
           "environment": 21,
           "exits": [
             {
-              "exitId": 670,
-              "name": "south"
+              "exitId": 673,
+              "name": "east"
             }
           ],
           "userData": {
@@ -100063,7 +99775,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "59.0433"
       }
     },
     {
@@ -104353,7 +104065,7 @@
     {
       "id": 51,
       "name": "Eleusis",
-      "roomCount": 261,
+      "roomCount": 262,
       "rooms": [
         {
           "id": 2377,
@@ -106772,11 +106484,6 @@
               "name": "west"
             }
           ],
-          "stubExits": [
-            {
-              "name": "southeast"
-            }
-          ],
           "userData": {
             "outdoors": "y",
             "Game Area": "Eleusis"
@@ -108631,7 +108338,7 @@
           "symbol": {
             "text": "$"
           },
-          "environment": 8,
+          "environment": 28,
           "exits": [
             {
               "exitId": 45671,
@@ -109047,12 +108754,7 @@
             "text": "$"
           },
           "environment": 28,
-          "exits": [
-            {
-              "exitId": 6771,
-              "name": "west"
-            }
-          ],
+          "exits": [],
           "userData": {
             "indoors": "y",
             "feature-shop": "true",
@@ -109145,6 +108847,16 @@
             "feature-shop": "true",
             "Game Area": "Eleusis"
           }
+        },
+        {
+          "id": 36593,
+          "coordinates": [
+            13,
+            5,
+            1
+          ],
+          "environment": 28,
+          "exits": []
         },
         {
           "id": 37107,
@@ -110471,7 +110183,7 @@
         },
         {
           "id": 45473,
-          "name": "The Gilded Acorn",
+          "name": "Thorn & Petal",
           "coordinates": [
             12,
             3,
@@ -111303,7 +111015,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "34.3637"
       }
     },
     {
@@ -115804,7 +115516,7 @@
     {
       "id": 55,
       "name": "Hashan, the City of",
-      "roomCount": 469,
+      "roomCount": 437,
       "rooms": [
         {
           "id": 747,
@@ -117196,16 +116908,6 @@
           }
         },
         {
-          "id": 3490,
-          "coordinates": [
-            -2,
-            11,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 3647,
           "name": "Platform on the roof",
           "coordinates": [
@@ -117304,16 +117006,6 @@
           }
         },
         {
-          "id": 4400,
-          "coordinates": [
-            -19,
-            -8,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 4405,
           "name": "Postal Office of Hashan",
           "coordinates": [
@@ -117360,16 +117052,6 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
-        },
-        {
-          "id": 4429,
-          "coordinates": [
-            -13,
-            -3,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 4464,
@@ -117426,7 +117108,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 5199
+              "exitId": 5199,
+              "locked": true
             }
           ],
           "userData": {
@@ -118892,7 +118575,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 5219
+              "exitId": 5219,
+              "locked": true
             }
           ],
           "userData": {
@@ -119149,7 +118833,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 5287
+              "exitId": 5287,
+              "locked": true
             }
           ],
           "userData": {
@@ -119270,7 +118955,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 5295
+              "exitId": 5295,
+              "locked": true
             }
           ],
           "userData": {
@@ -119806,7 +119492,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 5282
+              "exitId": 5282,
+              "locked": true
             }
           ],
           "userData": {
@@ -120095,7 +119782,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 5211
+              "exitId": 5211,
+              "locked": true
             }
           ],
           "userData": {
@@ -120187,7 +119875,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 5246
+              "exitId": 5246,
+              "locked": true
             }
           ],
           "userData": {
@@ -120343,7 +120032,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 5270
+              "exitId": 5270,
+              "locked": true
             }
           ],
           "userData": {
@@ -121506,7 +121196,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 5255
+              "exitId": 5255,
+              "locked": true
             }
           ],
           "userData": {
@@ -121931,7 +121622,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 5278
+              "exitId": 5278,
+              "locked": true
             }
           ],
           "userData": {
@@ -122648,16 +122340,6 @@
           }
         },
         {
-          "id": 4690,
-          "coordinates": [
-            -4,
-            0,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 4728,
           "name": "The Gift Shop in the House of Delights",
           "coordinates": [
@@ -122706,16 +122388,6 @@
           }
         },
         {
-          "id": 4963,
-          "coordinates": [
-            -3,
-            11,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 4973,
           "name": "Drunken Dwarf Outfitters",
           "coordinates": [
@@ -122738,16 +122410,6 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
-        },
-        {
-          "id": 4974,
-          "coordinates": [
-            -19,
-            -6,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 5008,
@@ -122774,16 +122436,6 @@
           }
         },
         {
-          "id": 5009,
-          "coordinates": [
-            -3,
-            8,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 5440,
           "name": "Le Jardin d'Affaire",
           "coordinates": [
@@ -122806,16 +122458,6 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
-        },
-        {
-          "id": 5441,
-          "coordinates": [
-            -12,
-            -11,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 5450,
@@ -122842,16 +122484,6 @@
           }
         },
         {
-          "id": 5451,
-          "coordinates": [
-            -14,
-            -12,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 5457,
           "name": "Envy",
           "coordinates": [
@@ -122874,16 +122506,6 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
-        },
-        {
-          "id": 5458,
-          "coordinates": [
-            -4,
-            11,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 5460,
@@ -122911,16 +122533,6 @@
           }
         },
         {
-          "id": 5461,
-          "coordinates": [
-            -14,
-            -5,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 5487,
           "name": "The Prosperian Market of Hashan",
           "coordinates": [
@@ -122943,16 +122555,6 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
-        },
-        {
-          "id": 5488,
-          "coordinates": [
-            -5,
-            -1,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 5553,
@@ -122979,16 +122581,6 @@
           }
         },
         {
-          "id": 5554,
-          "coordinates": [
-            -12,
-            -12,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 5754,
           "name": "Dark Side of the Coin",
           "coordinates": [
@@ -123011,16 +122603,6 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
-        },
-        {
-          "id": 5755,
-          "coordinates": [
-            -12,
-            -7,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 5879,
@@ -123546,16 +123128,6 @@
           }
         },
         {
-          "id": 6136,
-          "coordinates": [
-            -2,
-            8,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 6407,
           "name": "Inside a rundown tenement",
           "coordinates": [
@@ -123712,16 +123284,6 @@
           }
         },
         {
-          "id": 6717,
-          "coordinates": [
-            -17,
-            -10,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 6816,
           "name": "Black Diamond Atelier",
           "coordinates": [
@@ -123744,16 +123306,6 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
-        },
-        {
-          "id": 6817,
-          "coordinates": [
-            8,
-            1,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 6818,
@@ -123780,16 +123332,6 @@
           }
         },
         {
-          "id": 6819,
-          "coordinates": [
-            3,
-            -2,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 6820,
           "name": "Symphony of Stars",
           "coordinates": [
@@ -123812,16 +123354,6 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
-        },
-        {
-          "id": 6821,
-          "coordinates": [
-            9,
-            0,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 6822,
@@ -123848,16 +123380,6 @@
           }
         },
         {
-          "id": 6823,
-          "coordinates": [
-            2,
-            1,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 6824,
           "name": "That One Shop",
           "coordinates": [
@@ -123880,16 +123402,6 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
-        },
-        {
-          "id": 6825,
-          "coordinates": [
-            10,
-            1,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 6826,
@@ -123916,16 +123428,6 @@
           }
         },
         {
-          "id": 6827,
-          "coordinates": [
-            5,
-            -2,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 6828,
           "name": "Umbral Outpost",
           "coordinates": [
@@ -123948,16 +123450,6 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
-        },
-        {
-          "id": 6829,
-          "coordinates": [
-            2,
-            -1,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 6830,
@@ -123985,16 +123477,6 @@
           }
         },
         {
-          "id": 6831,
-          "coordinates": [
-            -2,
-            0,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 6832,
           "name": "The Silent Exchange",
           "coordinates": [
@@ -124017,16 +123499,6 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
-        },
-        {
-          "id": 6833,
-          "coordinates": [
-            -2,
-            -2,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 6834,
@@ -124053,16 +123525,6 @@
           }
         },
         {
-          "id": 6835,
-          "coordinates": [
-            -3,
-            -2,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 6836,
           "name": "A Shop in the Dark",
           "coordinates": [
@@ -124085,16 +123547,6 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
-        },
-        {
-          "id": 6837,
-          "coordinates": [
-            -3,
-            0,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 6838,
@@ -124121,16 +123573,6 @@
           }
         },
         {
-          "id": 6839,
-          "coordinates": [
-            -1,
-            -2,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 6840,
           "name": "Dinghy Din-Dins",
           "coordinates": [
@@ -124153,16 +123595,6 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
-        },
-        {
-          "id": 6841,
-          "coordinates": [
-            -1,
-            0,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 6842,
@@ -124189,16 +123621,6 @@
           }
         },
         {
-          "id": 6843,
-          "coordinates": [
-            3,
-            0,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 6864,
           "name": "Cosy Corner of Curiosities",
           "coordinates": [
@@ -124223,16 +123645,6 @@
           }
         },
         {
-          "id": 6865,
-          "coordinates": [
-            6,
-            -1,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 6866,
           "name": "Krymenian Insights",
           "coordinates": [
@@ -124255,16 +123667,6 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
-        },
-        {
-          "id": 6867,
-          "coordinates": [
-            4,
-            -2,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 6879,
@@ -127441,7 +126843,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "39.343"
       }
     },
     {
@@ -128450,7 +127852,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 7810
+              "exitId": 7810,
+              "locked": true
             }
           ],
           "userData": {
@@ -128685,7 +128088,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 7899
+              "exitId": 7899,
+              "locked": true
             }
           ],
           "userData": {
@@ -128842,7 +128246,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 7821
+              "exitId": 7821,
+              "locked": true
             }
           ],
           "userData": {
@@ -129219,7 +128624,7 @@
             -13,
             0
           ],
-          "environment": 30,
+          "environment": 52,
           "exits": [
             {
               "exitId": 6329,
@@ -129758,7 +129163,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 7949
+              "exitId": 7949,
+              "locked": true
             }
           ],
           "userData": {
@@ -129946,7 +129352,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 7932
+              "exitId": 7932,
+              "locked": true
             }
           ],
           "userData": {
@@ -130126,7 +129533,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 7833
+              "exitId": 7833,
+              "locked": true
             }
           ],
           "userData": {
@@ -130949,7 +130357,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 7871
+              "exitId": 7871,
+              "locked": true
             }
           ],
           "userData": {
@@ -131273,7 +130682,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 7827
+              "exitId": 7827,
+              "locked": true
             }
           ],
           "userData": {
@@ -131441,7 +130851,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 7863
+              "exitId": 7863,
+              "locked": true
             }
           ],
           "userData": {
@@ -132586,7 +131997,8 @@
             },
             {
               "name": "enter grate",
-              "exitId": 7843
+              "exitId": 7843,
+              "locked": true
             }
           ],
           "userData": {
@@ -133833,7 +133245,7 @@
         },
         {
           "id": 9459,
-          "name": "a covered bridge",
+          "name": "A covered bridge",
           "coordinates": [
             -5,
             -14,
@@ -152916,7 +152328,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "18.6916"
       }
     },
     {
@@ -186627,7 +186039,7 @@
     {
       "id": 83,
       "name": "Northern Wilderness",
-      "roomCount": 43,
+      "roomCount": 42,
       "rooms": [
         {
           "id": 3526,
@@ -187660,36 +187072,12 @@
               "name": "northeast"
             },
             {
-              "exitId": 4101,
-              "name": "east"
+              "exitId": 67536,
+              "name": "southeast"
             },
             {
               "exitId": 4091,
               "name": "southwest"
-            }
-          ],
-          "userData": {
-            "outdoors": "y",
-            "Game Area": "the Northern Wilderness"
-          }
-        },
-        {
-          "id": 4101,
-          "name": "An ocean cliff",
-          "coordinates": [
-            1,
-            0,
-            0
-          ],
-          "environment": 12,
-          "exits": [
-            {
-              "exitId": 4100,
-              "name": "west"
-            },
-            {
-              "exitId": 8728,
-              "name": "southeast"
             }
           ],
           "userData": {
@@ -187749,7 +187137,7 @@
     {
       "id": 84,
       "name": "Eastern Road, the",
-      "roomCount": 41,
+      "roomCount": 36,
       "rooms": [
         {
           "id": 5675,
@@ -188366,88 +187754,12 @@
           "environment": 12,
           "exits": [
             {
-              "exitId": 8726,
+              "exitId": 67536,
               "name": "northwest"
             },
             {
               "exitId": 8724,
               "name": "southeast"
-            }
-          ],
-          "userData": {
-            "outdoors": "y",
-            "Game Area": "the Eastern Road"
-          }
-        },
-        {
-          "id": 8726,
-          "name": "Rocky road nearing the sea",
-          "coordinates": [
-            -2,
-            14,
-            0
-          ],
-          "environment": 12,
-          "exits": [
-            {
-              "exitId": 8727,
-              "name": "north"
-            },
-            {
-              "exitId": 8725,
-              "name": "southeast"
-            }
-          ],
-          "userData": {
-            "outdoors": "y",
-            "Game Area": "the Eastern Road"
-          }
-        },
-        {
-          "id": 8727,
-          "name": "Rocky road nearing the sea",
-          "coordinates": [
-            -2,
-            15,
-            0
-          ],
-          "environment": 12,
-          "exits": [
-            {
-              "exitId": 8728,
-              "name": "north"
-            },
-            {
-              "exitId": 21147,
-              "name": "east"
-            },
-            {
-              "exitId": 8726,
-              "name": "south"
-            }
-          ],
-          "userData": {
-            "outdoors": "y",
-            "Game Area": "the Eastern Road"
-          }
-        },
-        {
-          "id": 8728,
-          "name": "Rocky road nearing the sea",
-          "coordinates": [
-            -2,
-            16,
-            0
-          ],
-          "environment": 12,
-          "exits": [
-            {
-              "exitId": 4101,
-              "name": "northwest"
-            },
-            {
-              "exitId": 8727,
-              "name": "south"
             }
           ],
           "userData": {
@@ -188520,6 +187832,10 @@
             {
               "exitId": 9151,
               "name": "northeast"
+            },
+            {
+              "exitId": 53088,
+              "name": "northwest"
             },
             {
               "exitId": 9149,
@@ -188612,108 +187928,6 @@
           }
         },
         {
-          "id": 20843,
-          "name": "Upon the side of a cliff",
-          "coordinates": [
-            1,
-            13,
-            0
-          ],
-          "environment": 12,
-          "exits": [
-            {
-              "exitId": 20880,
-              "name": "up",
-              "customLine": {
-                "color24RGB": [
-                  255,
-                  0,
-                  0
-                ],
-                "coordinates": [
-                  [
-                    1,
-                    14
-                  ]
-                ],
-                "endsInArrow": false,
-                "style": "dot line"
-              }
-            },
-            {
-              "exitId": 4442,
-              "name": "down"
-            }
-          ],
-          "userData": {
-            "outdoors": "y",
-            "Game Area": "the Eastern Road"
-          }
-        },
-        {
-          "id": 20880,
-          "name": "Ledge upon a cliff",
-          "coordinates": [
-            1,
-            14,
-            0
-          ],
-          "environment": 12,
-          "exits": [
-            {
-              "exitId": 21147,
-              "name": "up",
-              "customLine": {
-                "color24RGB": [
-                  255,
-                  0,
-                  0
-                ],
-                "coordinates": [
-                  [
-                    1,
-                    15
-                  ]
-                ],
-                "endsInArrow": false,
-                "style": "dot line"
-              }
-            },
-            {
-              "exitId": 20843,
-              "name": "down"
-            }
-          ],
-          "userData": {
-            "outdoors": "y",
-            "Game Area": "the Eastern Road"
-          }
-        },
-        {
-          "id": 21147,
-          "name": "Over a narrow cliff ledge",
-          "coordinates": [
-            1,
-            15,
-            0
-          ],
-          "environment": 12,
-          "exits": [
-            {
-              "exitId": 8727,
-              "name": "west"
-            },
-            {
-              "exitId": 20880,
-              "name": "down"
-            }
-          ],
-          "userData": {
-            "outdoors": "y",
-            "Game Area": "the Eastern Road"
-          }
-        },
-        {
           "id": 27549,
           "name": "A camp amid the hills",
           "coordinates": [
@@ -188789,6 +188003,31 @@
             {
               "exitId": 27549,
               "name": "south"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Eastern Road"
+          }
+        },
+        {
+          "id": 67536,
+          "name": "Across a lengthy rope bridge",
+          "coordinates": [
+            -2,
+            14,
+            0
+          ],
+          "weight": 4,
+          "environment": 12,
+          "exits": [
+            {
+              "exitId": 4100,
+              "name": "northwest"
+            },
+            {
+              "exitId": 8725,
+              "name": "southeast"
             }
           ],
           "userData": {
@@ -192666,7 +191905,8 @@
             },
             {
               "name": "touch 277930",
-              "exitId": 1226
+              "exitId": 1226,
+              "locked": true
             },
             {
               "name": "worm warp",
@@ -202043,7 +201283,7 @@
     {
       "id": 92,
       "name": "Ulangi",
-      "roomCount": 158,
+      "roomCount": 159,
       "rooms": [
         {
           "id": 5961,
@@ -206437,6 +205677,45 @@
             {
               "exitId": 37794,
               "name": "northwest"
+            },
+            {
+              "exitId": 64398,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Ulangi Isles"
+          }
+        },
+        {
+          "id": 64398,
+          "name": "A grotto of rubescent coral",
+          "coordinates": [
+            -4,
+            6,
+            0
+          ],
+          "environment": 25,
+          "exits": [
+            {
+              "exitId": 37801,
+              "name": "up",
+              "customLine": {
+                "color24RGB": [
+                  255,
+                  0,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    -4,
+                    5
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
             }
           ],
           "userData": {
@@ -233988,7 +233267,7 @@
     {
       "id": 109,
       "name": "Targossas",
-      "roomCount": 425,
+      "roomCount": 397,
       "rooms": [
         {
           "id": 42,
@@ -234013,16 +233292,6 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
-        },
-        {
-          "id": 44,
-          "coordinates": [
-            0,
-            -11,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 2048,
@@ -235622,7 +234891,7 @@
           "name": "Bridge Street",
           "coordinates": [
             -8,
-            -28,
+            -29,
             0
           ],
           "environment": 8,
@@ -235650,7 +234919,7 @@
           "name": "Bridge Street",
           "coordinates": [
             -9,
-            -28,
+            -29,
             0
           ],
           "symbol": {
@@ -235678,7 +234947,7 @@
           "name": "Bridge Street before the bridge",
           "coordinates": [
             -10,
-            -28,
+            -29,
             0
           ],
           "environment": 8,
@@ -235702,7 +234971,7 @@
           "name": "The east end of the Shallam Bridge",
           "coordinates": [
             -13,
-            -28,
+            -29,
             0
           ],
           "environment": 8,
@@ -235726,7 +234995,7 @@
           "name": "Upon the Shallam Bridge",
           "coordinates": [
             -14,
-            -28,
+            -29,
             0
           ],
           "environment": 8,
@@ -235750,7 +235019,7 @@
           "name": "Upon the Shallam Bridge",
           "coordinates": [
             -15,
-            -28,
+            -29,
             0
           ],
           "environment": 8,
@@ -235774,7 +235043,7 @@
           "name": "The west end of the Shallam Bridge",
           "coordinates": [
             -16,
-            -28,
+            -29,
             0
           ],
           "environment": 8,
@@ -236142,7 +235411,7 @@
           "name": "Western Darius Avenue",
           "coordinates": [
             -7,
-            -29,
+            -30,
             0
           ],
           "environment": 8,
@@ -237460,8 +236729,8 @@
           "id": 2176,
           "name": "Nearing the western end of Darius Avenue",
           "coordinates": [
-            -1,
-            -29,
+            -2,
+            -30,
             0
           ],
           "environment": 8,
@@ -239480,7 +238749,7 @@
         },
         {
           "id": 2255,
-          "name": "West end of the Southern Wall",
+          "name": "West end of the southern wall",
           "coordinates": [
             11,
             -12,
@@ -239828,7 +239097,7 @@
           "name": "Beneath the southwestern wall staircase",
           "coordinates": [
             -8,
-            -30,
+            -31,
             0
           ],
           "environment": 8,
@@ -240395,16 +239664,6 @@
           }
         },
         {
-          "id": 3552,
-          "coordinates": [
-            6,
-            -8,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 3691,
           "name": "Solarium of Thought",
           "coordinates": [
@@ -240489,16 +239748,6 @@
           }
         },
         {
-          "id": 3723,
-          "coordinates": [
-            4,
-            -8,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 3725,
           "name": "The Ninth Vow",
           "coordinates": [
@@ -240523,21 +239772,11 @@
           }
         },
         {
-          "id": 3726,
-          "coordinates": [
-            26,
-            -18,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 3738,
           "name": "East bank of the Pachacacha River",
           "coordinates": [
             -11,
-            -28,
+            -29,
             0
           ],
           "environment": 8,
@@ -240561,7 +239800,7 @@
           "name": "Inside the gatehouse",
           "coordinates": [
             -12,
-            -28,
+            -29,
             0
           ],
           "environment": 8,
@@ -240577,6 +239816,10 @@
             {
               "exitId": 3740,
               "name": "south"
+            },
+            {
+              "exitId": 68127,
+              "name": "down"
             }
           ],
           "userData": {
@@ -240589,7 +239832,7 @@
           "name": "A small room",
           "coordinates": [
             -12,
-            -29,
+            -30,
             0
           ],
           "environment": 8,
@@ -240613,7 +239856,7 @@
           "name": "The top of the gatehouse",
           "coordinates": [
             -12,
-            -30,
+            -31,
             0
           ],
           "environment": 8,
@@ -240630,7 +239873,7 @@
                 "coordinates": [
                   [
                     -12,
-                    -29
+                    -30
                   ]
                 ],
                 "endsInArrow": false,
@@ -240668,16 +239911,6 @@
           }
         },
         {
-          "id": 3832,
-          "coordinates": [
-            23,
-            -18,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 3852,
           "name": "The Joyous Lantern",
           "coordinates": [
@@ -240700,16 +239933,6 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
-        },
-        {
-          "id": 3853,
-          "coordinates": [
-            26,
-            -16,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 4220,
@@ -240736,16 +239959,6 @@
           }
         },
         {
-          "id": 4221,
-          "coordinates": [
-            2,
-            -13,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 4274,
           "name": "Yen's Arts and Crafts",
           "coordinates": [
@@ -240768,16 +239981,6 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
-        },
-        {
-          "id": 4275,
-          "coordinates": [
-            1,
-            -11,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 4297,
@@ -240854,16 +240057,6 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
-        },
-        {
-          "id": 4310,
-          "coordinates": [
-            28,
-            -15,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 4401,
@@ -240972,10 +240165,6 @@
               "name": "down"
             },
             {
-              "exitId": 66911,
-              "name": "in"
-            },
-            {
               "exitId": 2216,
               "name": "out",
               "customLine": {
@@ -241013,26 +240202,12 @@
             {
               "exitId": 2218,
               "name": "west"
-            },
-            {
-              "exitId": 4432,
-              "name": "down"
             }
           ],
           "userData": {
             "indoors": "y",
             "Game Area": "Targossas"
           }
-        },
-        {
-          "id": 4432,
-          "coordinates": [
-            0,
-            -23,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 4462,
@@ -241059,16 +240234,6 @@
           }
         },
         {
-          "id": 4463,
-          "coordinates": [
-            26,
-            -11,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 4715,
           "name": "Dawnblade Supplies",
           "coordinates": [
@@ -241093,18 +240258,8 @@
           }
         },
         {
-          "id": 4716,
-          "coordinates": [
-            4,
-            -10,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 4883,
-          "name": "Vials & Vintages",
+          "name": "Insults and roses",
           "coordinates": [
             22,
             -20,
@@ -241125,16 +240280,6 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
-        },
-        {
-          "id": 4884,
-          "coordinates": [
-            22,
-            -20,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 4888,
@@ -241161,16 +240306,6 @@
           }
         },
         {
-          "id": 4889,
-          "coordinates": [
-            6,
-            -10,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 5243,
           "name": "Targossian Tonics",
           "coordinates": [
@@ -241195,16 +240330,6 @@
           }
         },
         {
-          "id": 5244,
-          "coordinates": [
-            18,
-            -17,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 5403,
           "name": "Sae's by the Shore",
           "coordinates": [
@@ -241227,16 +240352,6 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
-        },
-        {
-          "id": 5404,
-          "coordinates": [
-            20,
-            -17,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 5466,
@@ -241291,16 +240406,6 @@
           }
         },
         {
-          "id": 5492,
-          "coordinates": [
-            20,
-            -15,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 5494,
           "name": "Leafwalker's Smoking Lounge",
           "coordinates": [
@@ -241323,16 +240428,6 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
-        },
-        {
-          "id": 5495,
-          "coordinates": [
-            18,
-            -15,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 5496,
@@ -241359,16 +240454,6 @@
           }
         },
         {
-          "id": 5497,
-          "coordinates": [
-            19,
-            -15,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 5515,
           "name": "Two Bear Arms",
           "coordinates": [
@@ -241391,16 +240476,6 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
-        },
-        {
-          "id": 5516,
-          "coordinates": [
-            1,
-            -13,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 6705,
@@ -241451,16 +240526,6 @@
           }
         },
         {
-          "id": 6845,
-          "coordinates": [
-            4,
-            -9,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 6846,
           "name": "Veiled Solace",
           "coordinates": [
@@ -241483,16 +240548,6 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
-        },
-        {
-          "id": 6847,
-          "coordinates": [
-            6,
-            -9,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 6848,
@@ -241519,18 +240574,8 @@
           }
         },
         {
-          "id": 6849,
-          "coordinates": [
-            6,
-            -12,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 6850,
-          "name": "Big And Tall",
+          "name": "The Loyal Hound",
           "coordinates": [
             22,
             -18,
@@ -241551,16 +240596,6 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
-        },
-        {
-          "id": 6851,
-          "coordinates": [
-            21,
-            -15,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 6852,
@@ -241587,16 +240622,6 @@
           }
         },
         {
-          "id": 6853,
-          "coordinates": [
-            24,
-            -19,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 6854,
           "name": "Kloaks and Koats",
           "coordinates": [
@@ -241619,16 +240644,6 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
-        },
-        {
-          "id": 6855,
-          "coordinates": [
-            2,
-            -11,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 6856,
@@ -241655,16 +240670,6 @@
           }
         },
         {
-          "id": 6857,
-          "coordinates": [
-            18,
-            -20,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 6858,
           "name": "Silvertongue Supplies",
           "coordinates": [
@@ -241687,16 +240692,6 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
-        },
-        {
-          "id": 6859,
-          "coordinates": [
-            6,
-            -13,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 6860,
@@ -241723,16 +240718,6 @@
           }
         },
         {
-          "id": 6861,
-          "coordinates": [
-            4,
-            -13,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 6862,
           "name": "Sew It Goes",
           "coordinates": [
@@ -241755,16 +240740,6 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
-        },
-        {
-          "id": 6863,
-          "coordinates": [
-            23,
-            -20,
-            -1
-          ],
-          "environment": 8,
-          "exits": []
         },
         {
           "id": 8140,
@@ -242126,7 +241101,7 @@
         },
         {
           "id": 10735,
-          "name": "Deep within the Garden",
+          "name": "Deep within the garden",
           "coordinates": [
             -11,
             -4,
@@ -242205,7 +241180,7 @@
           "name": "The Hearth's jousting grounds",
           "coordinates": [
             -9,
-            -30,
+            -31,
             0
           ],
           "environment": 8,
@@ -243034,6 +242009,10 @@
           "environment": 8,
           "exits": [
             {
+              "exitId": 67287,
+              "name": "south"
+            },
+            {
               "exitId": 36620,
               "name": "southeast"
             },
@@ -243171,6 +242150,10 @@
             {
               "exitId": 2174,
               "name": "northeast"
+            },
+            {
+              "exitId": 68185,
+              "name": "southwest"
             }
           ],
           "userData": {
@@ -243886,7 +242869,7 @@
           "name": "The Gates of the Gauntlet",
           "coordinates": [
             -9,
-            -31,
+            -32,
             0
           ],
           "symbol": {
@@ -243997,7 +242980,7 @@
           "name": "Lofty viewing platform",
           "coordinates": [
             -9,
-            -32,
+            -33,
             0
           ],
           "environment": 8,
@@ -244770,18 +243753,68 @@
           }
         },
         {
-          "id": 66911,
+          "id": 67287,
+          "name": "Lustrarium of Abeyance",
           "coordinates": [
-            -2,
-            -19,
+            -9,
+            -6,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 36623,
+              "name": "north"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "Targossas"
+          }
+        },
+        {
+          "id": 68127,
+          "name": "A shadowed chamber beneath the gatehouse",
+          "coordinates": [
+            -12,
+            -28,
             -1
           ],
           "environment": 8,
-          "exits": []
+          "exits": [
+            {
+              "exitId": 3739,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "Targossas"
+          }
+        },
+        {
+          "id": 68185,
+          "name": "A broad riverside terrace",
+          "coordinates": [
+            -11,
+            -28,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 40235,
+              "name": "northeast"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "Targossas"
+          }
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "88.608"
       }
     },
     {
@@ -437918,7 +436951,8 @@
             },
             {
               "name": "touch 116998",
-              "exitId": 21722
+              "exitId": 21722,
+              "locked": true
             },
             {
               "name": "worm warp",
@@ -463895,6 +462929,7 @@
             }
           ],
           "userData": {
+            "outdoors": "y",
             "Game Area": "somewhere in the Notic Ocean"
           }
         },
@@ -463918,6 +462953,7 @@
             }
           ],
           "userData": {
+            "outdoors": "y",
             "Game Area": "somewhere in the Notic Ocean"
           }
         },
@@ -463945,6 +462981,7 @@
             }
           ],
           "userData": {
+            "outdoors": "y",
             "Game Area": "somewhere in the Notic Ocean"
           }
         },
@@ -463986,6 +463023,7 @@
             }
           ],
           "userData": {
+            "outdoors": "y",
             "Game Area": "somewhere in the Notic Ocean"
           }
         },
@@ -464013,6 +463051,7 @@
             }
           ],
           "userData": {
+            "outdoors": "y",
             "Game Area": "somewhere in the Notic Ocean"
           }
         },
@@ -464036,6 +463075,7 @@
             }
           ],
           "userData": {
+            "outdoors": "y",
             "Game Area": "somewhere in the Notic Ocean"
           }
         },
@@ -464063,6 +463103,7 @@
             }
           ],
           "userData": {
+            "outdoors": "y",
             "Game Area": "somewhere in the Notic Ocean"
           }
         },
@@ -464088,6 +463129,7 @@
             }
           ],
           "userData": {
+            "outdoors": "y",
             "Game Area": "somewhere in the Notic Ocean"
           }
         },
@@ -464115,6 +463157,7 @@
             }
           ],
           "userData": {
+            "outdoors": "y",
             "Game Area": "somewhere in the Notic Ocean"
           }
         },
@@ -464146,6 +463189,7 @@
             }
           ],
           "userData": {
+            "outdoors": "y",
             "Game Area": "somewhere in the Notic Ocean"
           }
         },
@@ -464192,6 +463236,7 @@
             }
           ],
           "userData": {
+            "outdoors": "y",
             "Game Area": "somewhere in the Notic Ocean"
           }
         },
@@ -464219,6 +463264,7 @@
             }
           ],
           "userData": {
+            "outdoors": "y",
             "Game Area": "somewhere in the Notic Ocean"
           }
         },
@@ -464238,6 +463284,7 @@
             }
           ],
           "userData": {
+            "outdoors": "y",
             "Game Area": "somewhere in the Notic Ocean"
           }
         },
@@ -464723,7 +463770,7 @@
             }
           ],
           "userData": {
-            "indoors": "",
+            "outdoors": "y",
             "feature-wilderness": "true",
             "feature-ferry": "true",
             "Game Area": "somewhere in the Notic Ocean"
@@ -490198,7 +489245,7 @@
             10,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 5692,
@@ -490310,7 +489357,7 @@
             15,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 30601,
@@ -490350,7 +489397,7 @@
             15,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 30910,
@@ -490394,7 +489441,7 @@
             12,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 30783,
@@ -490426,7 +489473,7 @@
             16,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 30910,
@@ -490462,7 +489509,7 @@
             14,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 20047,
@@ -490502,7 +489549,7 @@
             14,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 31153,
@@ -490554,7 +489601,7 @@
             14,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 30483,
@@ -490594,7 +489641,7 @@
             13,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 30698,
@@ -490634,7 +489681,7 @@
             13,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 30775,
@@ -490674,7 +489721,7 @@
             13,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 30777,
@@ -490718,7 +489765,7 @@
             16,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 30936,
@@ -490754,7 +489801,7 @@
             16,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 30910,
@@ -490782,7 +489829,7 @@
             14,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 30483,
@@ -490818,7 +489865,7 @@
             15,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 30601,
@@ -490866,11 +489913,15 @@
             16,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 20047,
               "name": "southeast"
+            },
+            {
+              "exitId": 1286,
+              "name": "down"
             }
           ],
           "userData": {
@@ -490886,7 +489937,7 @@
             13,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 30961,
@@ -490918,7 +489969,7 @@
             12,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 30778,
@@ -490942,7 +489993,7 @@
             12,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 31292,
@@ -490970,7 +490021,7 @@
             14,
             2
           ],
-          "environment": 10,
+          "environment": 51,
           "exits": [
             {
               "exitId": 20047,
@@ -494527,8 +493578,96 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
-      }
+        "system.fallback_map2DZoom": "15.2579"
+      },
+      "labels": [
+        {
+          "colors": [
+            {
+              "color24RGB": [
+                255,
+                255,
+                50
+              ]
+            },
+            {
+              "color32RGBA": [
+                50,
+                50,
+                150,
+                100
+              ]
+            }
+          ],
+          "coordinates": [
+            -3.358912467956543,
+            47.712188720703125,
+            0
+          ],
+          "image": [
+            "iVBORw0KGgoAAAANSUhEUgAAAWwAAAAkCAYAAACt4wAMAAAACXBIWXMAAA7EAAAO",
+            "xAGVKw4bAAAJi0lEQVR4nO2cbUxTWRrHjwpSWxlup9O69QUpEhgMNiOtI2KBdZ0t",
+            "jgNDNpsL406Is6XIYoBIjDFx4n7ZOBENqRFXIZLOrhMyYGNUyM7usMLMWsC3Lk4q",
+            "Y4cuFgZb65R0W5e0lBd1PzAnc717b6Fobe/6/D7BpZzn//zPcx7Ouce4SKE4rUUA",
+            "AABA1LM40gIAAACA+QENGwAAgCNAwwYAAOAI0LABAAA4AjRsAAAAjgANGwAAgCNA",
+            "wwYAAOAI0LABAAA4AjRsAAAAjgANGwAAgCNAwwYAAOAI0LABAAA4AjRsAAAAjgAN",
+            "OwohSYusvb1tn1Tq40Xi9yNNJPRz3bOFUlt7XWkyNZ81mZrP1tZeV0ZaDxCcsDbs",
+            "SC0CLi74V7VhkKRFdv26/iRuGidPflkYaU3hJlrmWi53EYWF1qK6uq2fKJXacp0u",
+            "yxQpLVRPXrQ/4Rz7ZRMTaQHAq4tc7iIqK29p6uu36AyG9GG53EXU1NzMj7SuV4W0",
+            "NLcQIYQGB0WeSGsxGNKHDYb0E/8vccJFRBr2yZNfFmZn338fIYRmZhZPNDZu+mNJ",
+            "yZ1fdXYmX9HpskxyuYs4ceJv+8+c2aRHCKH9+6/VxsQ8Web3x3irqnYeMZslXpK0",
+            "yEpLzUUVFQWNTqcggL8/dOidTzWa2yVisX9dR8fnDX19a9pravI7cGy53EWcOvXF",
+            "x3z+DIEQQi0tGU12e4KbHiMtzS0sLTUXPX266OmqVf/JwJ/V6bJMVP1jY/x7Bw7k",
+            "n6HHRAghao719Vt0CCHENGZr64YB6u/fvSs2IoSQSBSI0+sv72PyxWBIH2bL6erV",
+            "tRcRQqix8S8VwbTPpUunyzKRpEWGvcH5ajRFJ1SqUSl+jscxGNKH6d5oNEUnnE5B",
+            "gK0WpqaWTOCGYTZLvFptQRtJWmRs+ql66HNVUVHQqFKNSisrb2n27dtRPzYmCDQ0",
+            "/PW33d1JvTt23PsFU37RVp/B8ptrfqjzQM2HaUyEEKquvrGXz58h9Pr249S5IkmL",
+            "TKO5XRIb+2QZQQRWXrqU+uetW+0qsdi/LtQ6unAhXZ+b+33eXDUczB+jMXGAniM1",
+            "llDoX/3dd2/czMx8qKbqMRjSh6VSH4++tggi8DquledZ93PVdjiIyDvsmpr8DqVS",
+            "W65Uasvb2tafe+896887O5OvZGc7FAghtH27LcXtFtgHB0We6uobe9va1p9TKrXl",
+            "33wjvXr4sLEk2NhuN29Sr9/Y9uBB/LeFhbuqqYtBKvXx6uqu/O7ixTfbcPyuruQh",
+            "thgSiS/5668Te5VKbXlLS0aTWm17Z/du85sZGT+8rdG8f0Cp1JY7HK8NL178eBE9",
+            "Jj3H4uK7arYxEUKI+vsdHalGnAuTL9RCZ8rp2rXVFqY4UqmPF4quvLzRFVRv6uq2",
+            "fjI9vSSQmupOKCvr37VnT8HvlUpteX39Fl1pqbmIyRuxmP3oaTZLvOPjPLde337c",
+            "YLhQQf3ZfPTguRocFHmWLp3hi8U+Xk7OaIbbLbBv325LwbF9vqVTbH5EU33K5S4i",
+            "lFrMyxtdwTQP1LzYxjSbJd6Ghs2nsY533/3NUWrzEQimRE1Nij+1tGQ0FRQMFev1",
+            "G9sWUke5ud/nXb269h/BajiYP83NG41MOfL503E4Vm7uRwf27CkwMOlxOgUBprWV",
+            "mupOeN51H6y2w0VEdthMu7b+/pX38/PvqeVyF5Gd7VD09a36Z1qaW+j1LnO0tm4Y",
+            "QAghozFxoLLy1ttyuYtYSFyValQ6Pb0kgMdDaPZYyBRDLPbFu1wCG35utye4p6eX",
+            "BEZGCE9MzBPeqVNffFxVtfOIVlvQhseZK0c+fzqOacxgmru6kofovsyVE0IIscUJ",
+            "RVdSkvcZbzBJSV4hQUz+TK9vP46f+f0xXo+H52fyJhgk+esmhFATvvwaHhaazp9f",
+            "3zkfPXiuZvNY7khLcwv5/Gl+b+/qWwrFww12e4J7YiLW7/fHTobie6TqM9RaZJsH",
+            "sdjHw813oRq93mWOnp5Ep0o1ilwugQ1/vZA66utbY8vLG9nGVsNzecKUo0AwtZQa",
+            "i0mPVPqTD3TYainUdf+yeekNmyQtsurqG3vxkQUfhaxW0aPxcZ57164BRXx8QNTV",
+            "lTxEb4LRgNUqepSb+9EB/BoCIYTwERPDluNC4uFdKNWXhWpXq+8llZX1l81X18qV",
+            "48LY2MeMuwiXS2DDx33q8/b21P/xxmyWeOfSptNlmbq6koeOHfv7XrHYFx9qbh4P",
+            "79+Zmc5kggi83t0ts6lU9zdnZjqT+/tXfBvKOGweRWt9ss1DOAm1jpi8CyUeU474",
+            "tRn++kWtt2A5MK37+dT2iyQir0TwX2+EEMrJGc3ATeH8+fWd27aNFFmtb9wxmyXe",
+            "wUGRhyAmVn3wwZ0M/Fm3W2DHJi1fPinCxxLqOPSfYXp6Ep2xsY95eDyEZi9cmGKM",
+            "jQnGmbSr1feSjh3r+qXZLPGWlJCHvd5lDrxwqTHZcgwGk2YmX+bKKRih6OrrW2OL",
+            "i5sRqFSjUurzkRHiGc8wJGmRMXlDkhZZd/e5P9B3dSRpkX322eXd+Pu0NLdwairG",
+            "7/MtnWLSQ49LrQejMXHgrbcebnrwIN5uNku8NptwKCXFk2K3J7jn48t8PAp3fYZa",
+            "i2zzMJ8xn7fRhFrfwWqYCewPXf9C9dD9ZqulUNc9W22Hi7DvsCUSX3JHx+cNCM0e",
+            "Zaqqdh6ZnIyZwM8cjtcG8DGrpyfRWVpqthmNiQMIze4uGxo2n96//1rthx8OVFAv",
+            "TAyG9OGcnNGb+KhEHcdgSB8uLr5r1+vbj1MvdfD7LDweQrMXCkwx2HZPIyOEp6ys",
+            "v8xkai5GCKG+vjXt+H0cNSZbjmxQNeNLRwzdFypMOeFLRzqdnetGCgr+NW9dVqvo",
+            "UUdH6uWDB3sPHTzYixCaPWparaJHVM/w86NHVZ9mZd1X072h7oboeWk0t6UmU/NZ",
+            "hJ69vGLTw1YPg4MiT1zcjAB75HQKPBs2/CD88SgvZRszFI/CXZ9s47HVIts8UC/D",
+            "gmlcKKHWEZN3waD7w5Rja2vGJdrnWfUwrS22Wgp13bPVdrhYpFCc1r7MgMGg36xH",
+            "Wk+0EC2+1NZeV2ZnOxQ/vnd+5YiWeeAi4N2LIar+HXZx8V31V1+t7YEJfZZI+mIw",
+            "XKiQyTxKhH46Ib1sDdEC1OfCAe9eDFG1wwYAAADYgf9LBAAAgCNAwwYAAOAI0LAB",
+            "AAA4AjRsAAAAjgANGwAAgCNAwwYAAOAI0LABAAA4AjRsAAAAjgANGwAAgCNAwwYA",
+            "AOAI/wVWSLWe0QD7YwAAAABJRU5ErkJggg=="
+          ],
+          "scaledels": true,
+          "showOnTop": false,
+          "text": "Layout constantly changes. Shown layout one of many iterations.",
+          "size": [
+            8.481273889541626,
+            0.83880615234375
+          ]
+        }
+      ]
     },
     {
       "id": 257,
@@ -546216,7 +545355,7 @@
     {
       "id": 298,
       "name": "Cormorant Rock",
-      "roomCount": 12,
+      "roomCount": 9,
       "rooms": [
         {
           "id": 34507,
@@ -546450,66 +545589,6 @@
           "userData": {
             "outdoors": "y",
             "Game Area": "Cormorant Rock"
-          }
-        },
-        {
-          "id": 39844,
-          "name": "Within the bleak and caliginous ocean",
-          "coordinates": [
-            0,
-            0,
-            -1
-          ],
-          "environment": 36,
-          "exits": [],
-          "userData": {
-            "indoors": "y"
-          }
-        },
-        {
-          "id": 39845,
-          "name": "Within the bleak and caliginous ocean",
-          "coordinates": [
-            0,
-            -1,
-            -1
-          ],
-          "environment": 36,
-          "exits": [
-            {
-              "exitId": 39844,
-              "name": "north"
-            },
-            {
-              "exitId": 39843,
-              "name": "northwest"
-            },
-            {
-              "exitId": 39846,
-              "name": "east"
-            }
-          ],
-          "userData": {
-            "indoors": "y"
-          }
-        },
-        {
-          "id": 39846,
-          "name": "Within the bleak and caliginous ocean",
-          "coordinates": [
-            1,
-            -1,
-            -1
-          ],
-          "environment": 36,
-          "exits": [
-            {
-              "exitId": 39845,
-              "name": "west"
-            }
-          ],
-          "userData": {
-            "indoors": "y"
           }
         }
       ],
@@ -571124,9 +570203,141 @@
     },
     {
       "id": 323,
-      "name": "Unnamed Area_003",
-      "roomCount": 0,
-      "rooms": [],
+      "name": "Imperial Forward Command Camp",
+      "roomCount": 5,
+      "rooms": [
+        {
+          "id": 66465,
+          "name": "Atop a dredging platform",
+          "coordinates": [
+            13,
+            -3,
+            0
+          ],
+          "environment": 5,
+          "exits": [
+            {
+              "exitId": 66807,
+              "name": "down",
+              "customLine": {
+                "color24RGB": [
+                  255,
+                  0,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    12,
+                    -3
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "an Imperial Forward Command Camp"
+          }
+        },
+        {
+          "id": 66768,
+          "name": "A fortified position",
+          "coordinates": [
+            10,
+            -3,
+            0
+          ],
+          "environment": 5,
+          "exits": [
+            {
+              "exitId": 66789,
+              "name": "east"
+            },
+            {
+              "exitId": 24789,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "an Imperial Forward Command Camp"
+          }
+        },
+        {
+          "id": 66770,
+          "name": "A barracks under construction",
+          "coordinates": [
+            11,
+            -2,
+            0
+          ],
+          "environment": 20,
+          "exits": [
+            {
+              "exitId": 66789,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "an Imperial Forward Command Camp"
+          }
+        },
+        {
+          "id": 66789,
+          "name": "Mustering ground",
+          "coordinates": [
+            11,
+            -3,
+            0
+          ],
+          "environment": 5,
+          "exits": [
+            {
+              "exitId": 66770,
+              "name": "north"
+            },
+            {
+              "exitId": 66807,
+              "name": "east"
+            },
+            {
+              "exitId": 66768,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "an Imperial Forward Command Camp"
+          }
+        },
+        {
+          "id": 66807,
+          "name": "Where sea encroaches",
+          "coordinates": [
+            12,
+            -3,
+            0
+          ],
+          "environment": 5,
+          "exits": [
+            {
+              "exitId": 66789,
+              "name": "west"
+            },
+            {
+              "exitId": 66465,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "an Imperial Forward Command Camp"
+          }
+        }
+      ],
       "userData": {
         "system.fallback_map2DZoom": "20"
       }
@@ -607620,7 +606831,7 @@
     {
       "id": 345,
       "name": "Asterian Peninsula",
-      "roomCount": 61,
+      "roomCount": 63,
       "rooms": [
         {
           "id": 17521,
@@ -608179,6 +607390,10 @@
             {
               "exitId": 32713,
               "name": "northeast"
+            },
+            {
+              "exitId": 68121,
+              "name": "west"
             },
             {
               "exitId": 32711,
@@ -609294,6 +608509,48 @@
           "userData": {
             "indoors": "y",
             "Game Area": "the Asterian Peninsula"
+          }
+        },
+        {
+          "id": 67522,
+          "name": "An open vestibule",
+          "coordinates": [
+            -6,
+            -2,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68121,
+              "name": "east"
+            }
+          ],
+          "userData": {
+            "indoors": "y"
+          }
+        },
+        {
+          "id": 68121,
+          "name": "Before the Asterian Restoration",
+          "coordinates": [
+            -5,
+            -2,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 32712,
+              "name": "east"
+            },
+            {
+              "exitId": 67522,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "indoors": "y"
           }
         }
       ],
@@ -613750,8 +613007,38 @@
     {
       "id": 350,
       "name": "Houses",
-      "roomCount": 501,
+      "roomCount": 509,
       "rooms": [
+        {
+          "id": 11,
+          "coordinates": [
+            -1,
+            -3,
+            -7
+          ],
+          "environment": 3,
+          "exits": []
+        },
+        {
+          "id": 44,
+          "coordinates": [
+            -1,
+            -3,
+            -6
+          ],
+          "environment": 3,
+          "exits": []
+        },
+        {
+          "id": 109,
+          "coordinates": [
+            -1,
+            -3,
+            -5
+          ],
+          "environment": 3,
+          "exits": []
+        },
         {
           "id": 4305,
           "name": "The Entrance to the House of Nitre",
@@ -614201,19 +613488,6 @@
           }
         },
         {
-          "id": 13896,
-          "coordinates": [
-            8,
-            -8,
-            -5
-          ],
-          "environment": 8,
-          "exits": [],
-          "userData": {
-            "Game Area": "the village of Tasur'ke"
-          }
-        },
-        {
           "id": 14163,
           "name": "A clear lake in Nyneve's Park",
           "coordinates": [
@@ -614267,33 +613541,12 @@
           "environment": 8,
           "exits": [
             {
-              "exitId": 14858,
-              "name": "west"
-            },
-            {
-              "exitId": 13896,
-              "name": "south"
-            },
-            {
               "exitId": 4444,
               "name": "out"
             }
           ],
           "userData": {
             "indoors": "y",
-            "Game Area": "the village of Tasur'ke"
-          }
-        },
-        {
-          "id": 14858,
-          "coordinates": [
-            7,
-            -7,
-            -5
-          ],
-          "environment": 8,
-          "exits": [],
-          "userData": {
             "Game Area": "the village of Tasur'ke"
           }
         },
@@ -614406,19 +613659,6 @@
           "userData": {
             "indoors": "y",
             "Game Area": "the Dakhota Hills"
-          }
-        },
-        {
-          "id": 19235,
-          "coordinates": [
-            8,
-            -3,
-            -5
-          ],
-          "environment": 5,
-          "exits": [],
-          "userData": {
-            "Game Area": "the village of Tasur'ke"
           }
         },
         {
@@ -616498,6 +615738,26 @@
           "exits": []
         },
         {
+          "id": 54164,
+          "name": "Circling the lake",
+          "coordinates": [
+            -1,
+            -3,
+            -7
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 56962,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Shamtota Hills"
+          }
+        },
+        {
           "id": 54224,
           "name": "Cobblestone path through the grass",
           "coordinates": [
@@ -616737,6 +615997,26 @@
           }
         },
         {
+          "id": 55536,
+          "name": "In the shade of a lone oak tree",
+          "coordinates": [
+            -3,
+            -4,
+            -7
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 56962,
+              "name": "east"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Shamtota Hills"
+          }
+        },
+        {
           "id": 55775,
           "name": "Northern wall of a sandstone temple",
           "coordinates": [
@@ -616784,6 +616064,7 @@
             }
           ],
           "userData": {
+            "outdoors": "y",
             "Game Area": "the Shamtota Hills"
           }
         },
@@ -616892,6 +616173,10 @@
             {
               "exitId": 58532,
               "name": "west"
+            },
+            {
+              "exitId": 66563,
+              "name": "up"
             }
           ],
           "userData": {
@@ -617675,6 +616960,7 @@
             }
           ],
           "userData": {
+            "outdoors": "y",
             "Game Area": "the Shamtota Hills"
           }
         },
@@ -619228,6 +618514,46 @@
           }
         },
         {
+          "id": 58697,
+          "name": "A private alcove",
+          "coordinates": [
+            -4,
+            -6,
+            -4
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 56264,
+              "name": "north"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Shamtota Hills"
+          }
+        },
+        {
+          "id": 58878,
+          "name": "Surrounded by murky water",
+          "coordinates": [
+            1,
+            -5,
+            -7
+          ],
+          "environment": 22,
+          "exits": [
+            {
+              "exitId": 60773,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Shamtota Hills"
+          }
+        },
+        {
           "id": 59088,
           "name": "Aisling - Scarlatan 2nd 539 & Natliya - Miraman 13th 650",
           "coordinates": [
@@ -619913,6 +619239,41 @@
           }
         },
         {
+          "id": 60624,
+          "name": "Squeezing through the jagged crack",
+          "coordinates": [
+            0,
+            -3,
+            -7
+          ],
+          "environment": 3,
+          "exits": [
+            {
+              "exitId": 54164,
+              "name": "out",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    -1,
+                    -3
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Shamtota Hills"
+          }
+        },
+        {
           "id": 60670,
           "name": "Path of Ferocity",
           "coordinates": [
@@ -619957,6 +619318,45 @@
           ],
           "userData": {
             "outdoors": "y",
+            "Game Area": "the Shamtota Hills"
+          }
+        },
+        {
+          "id": 60773,
+          "name": "Dimly lit grotto",
+          "coordinates": [
+            1,
+            -4,
+            -7
+          ],
+          "environment": 3,
+          "exits": [
+            {
+              "exitId": 60624,
+              "name": "northwest"
+            },
+            {
+              "exitId": 58878,
+              "name": "down",
+              "customLine": {
+                "color24RGB": [
+                  255,
+                  0,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    1,
+                    -5
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
             "Game Area": "the Shamtota Hills"
           }
         },
@@ -625441,6 +624841,26 @@
           }
         },
         {
+          "id": 65665,
+          "name": "Anechoic chamber",
+          "coordinates": [
+            -5,
+            -4,
+            -3
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66563,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Shamtota Hills"
+          }
+        },
+        {
           "id": 65707,
           "name": "Darkness Enveloping, Lord Twilight",
           "coordinates": [
@@ -625525,6 +624945,26 @@
           ],
           "environment": 8,
           "exits": []
+        },
+        {
+          "id": 66563,
+          "name": "Lofted space",
+          "coordinates": [
+            -4,
+            -5,
+            -3
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 56264,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Shamtota Hills"
+          }
         },
         {
           "id": 66604,
@@ -797752,7 +797192,7 @@
     {
       "id": 495,
       "name": "Ancyra",
-      "roomCount": 41,
+      "roomCount": 46,
       "rooms": [
         {
           "id": 9938,
@@ -798081,6 +797521,10 @@
               "name": "west"
             },
             {
+              "exitId": 67264,
+              "name": "south"
+            },
+            {
               "exitId": 40260,
               "name": "down"
             }
@@ -798399,7 +797843,7 @@
         },
         {
           "id": 44899,
-          "name": "An unused room",
+          "name": "A cramped bedchamber",
           "coordinates": [
             9,
             10,
@@ -798450,6 +797894,10 @@
             {
               "exitId": 46826,
               "name": "north"
+            },
+            {
+              "exitId": 58051,
+              "name": "east"
             },
             {
               "exitId": 45954,
@@ -798668,6 +798116,38 @@
           }
         },
         {
+          "id": 58051,
+          "name": "The northern bedroom wing",
+          "coordinates": [
+            9,
+            13,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66957,
+              "name": "north"
+            },
+            {
+              "exitId": 66960,
+              "name": "northeast"
+            },
+            {
+              "exitId": 66669,
+              "name": "northwest"
+            },
+            {
+              "exitId": 45479,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "Adryn Keep"
+          }
+        },
+        {
           "id": 60469,
           "name": "Rose garden atop a knoll",
           "coordinates": [
@@ -798856,6 +798336,86 @@
           ],
           "userData": {
             "indoors": "y",
+            "Game Area": "Adryn Keep"
+          }
+        },
+        {
+          "id": 66669,
+          "name": "An unused room",
+          "coordinates": [
+            8,
+            14,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 58051,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "Adryn Keep"
+          }
+        },
+        {
+          "id": 66957,
+          "name": "A very boring room. Change this",
+          "coordinates": [
+            9,
+            14,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 58051,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "Adryn Keep"
+          }
+        },
+        {
+          "id": 66960,
+          "name": "An unused room",
+          "coordinates": [
+            10,
+            14,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 58051,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "Adryn Keep"
+          }
+        },
+        {
+          "id": 67264,
+          "name": "An open balcony",
+          "coordinates": [
+            7,
+            10,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 41463,
+              "name": "north"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
             "Game Area": "Adryn Keep"
           }
         }
@@ -808120,8 +807680,8 @@
     }
   ],
   "areaCount": 477,
-  "roomCount": 29731,
-  "labelCount": 7,
+  "roomCount": 29648,
+  "labelCount": 8,
   "defaultAreaName": "Default Area",
   "anonymousAreaName": "Unnamed Area",
   "envToColorMapping": {
@@ -808160,25 +807720,25 @@
     "36": 3
   },
   "playersRoomId": {
-    "Achaea5_inclient": 4472,
-    "Tahquil - FaFo - Gui": 4474,
-    "Achaea - Thaisen": 12695,
-    "Qwindor": 436,
-    "Aeowynn Mapper": 28627,
-    "Achaea - Rekhyr": 35705,
-    "ACHAEA MAPPING": 20386,
-    "Aeowynn x Legacy 0.9": 40190,
-    "Aeowynn mapper": 40409,
-    "Achaea3_inclient": 6740,
     "Test": 1299,
-    "Achaea1": 18691,
-    "Achaea": 12647,
     "Aeowynn x Legacy 1.0 map": 2083,
+    "ACHAEA MAPPING": 1538,
+    "Aeowynn Mapper": 28627,
+    "Achaea5": 46104,
+    "Achaea - Rekhyr": 35705,
+    "Achaea - Thaisen": 12695,
+    "Achaea1": 18691,
+    "Achaea Fresh Install Ori": 8687,
+    "Achaea": 12647,
+    "Tahquil - FaFo - Gui": 4474,
+    "Qwindor": 436,
+    "Achaea3_inclient": 6740,
+    "Achaea5_inclient": 4472,
     "AchaeaLeg": 35925,
     "Achaea NewUI": 1299,
-    "Achaea Fresh Install Ori": 8687,
     "Achaea Legacy": 56677,
-    "Achaea5": 46104
+    "Aeowynn x Legacy 0.9": 40190,
+    "Aeowynn mapper": 40409
   },
   "customEnvColors": [
     {
@@ -808500,6 +808060,22 @@
         103
       ],
       "id": 48
+    },
+    {
+      "color24RGB": [
+        160,
+        240,
+        255
+      ],
+      "id": 51
+    },
+    {
+      "color24RGB": [
+        0,
+        0,
+        128
+      ],
+      "id": 52
     },
     {
       "color24RGB": [
