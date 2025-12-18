@@ -478,5 +478,6 @@ changelog = {
 	[[June Shop Update, Cyrene entry fix, Ibhnir Ness update, Arcadian Resistance Camp, HMS Iridescent Moon]],
 	[[Remapped the Gauntlet (Targossas Arena)]],
 	[[Elemental fringe areas, City shop updates, Added to Cyrene Eleusis Coterie, Disconnected Sea Temple, Ishana Steppes split]],
-	[[Changes to Cyrene, Eastern Road, Cormorant Rock, Targossas, Ashtan, Mhaldor, Dun Fortress/Valley, Asterian Pennisula, Ancreage(House), Ancyra(House), Shop Update]]
+	[[Changes to Cyrene, Eastern Road, Cormorant Rock, Targossas, Ashtan, Mhaldor, Dun Fortress/Valley, Asterian Pennisula, Ancreage(House), Ancyra(House), Shop Update]],
+	[[Saravoia added (partial), Inbhir Ness update, North Vashnars/Atnoian scar path update, Shop update]] 
 }
