@@ -7,7 +7,7 @@
     {
       "id": -1,
       "name": "Unnamed Area",
-      "roomCount": 4,
+      "roomCount": 1,
       "rooms": [
         {
           "id": 55782,
@@ -18,70 +18,6 @@
           ],
           "environment": 21,
           "exits": []
-        },
-        {
-          "id": 67118,
-          "name": "Crushed steps before the abbey",
-          "coordinates": [
-            -8,
-            5,
-            -2
-          ],
-          "environment": 3,
-          "exits": [
-            {
-              "exitId": 68850,
-              "name": "north"
-            }
-          ],
-          "userData": {
-            "indoors": "y",
-            "Game Area": "Inbhir Ness"
-          }
-        },
-        {
-          "id": 68850,
-          "name": "Imposing double doors of the dwarven abbey",
-          "coordinates": [
-            -8,
-            6,
-            -2
-          ],
-          "environment": 3,
-          "exits": [
-            {
-              "exitId": 69687,
-              "name": "north"
-            },
-            {
-              "exitId": 67118,
-              "name": "south"
-            }
-          ],
-          "userData": {
-            "indoors": "y",
-            "Game Area": "Inbhir Ness"
-          }
-        },
-        {
-          "id": 69687,
-          "name": "Abbey of the Anvil",
-          "coordinates": [
-            -8,
-            7,
-            -2
-          ],
-          "environment": 3,
-          "exits": [
-            {
-              "exitId": 68850,
-              "name": "south"
-            }
-          ],
-          "userData": {
-            "indoors": "y",
-            "Game Area": "Inbhir Ness"
-          }
         }
       ],
       "userData": {
@@ -7222,18 +7158,8 @@
     {
       "id": 5,
       "name": "Ka'doloki, the Village of",
-      "roomCount": 33,
+      "roomCount": 32,
       "rooms": [
-        {
-          "id": 7,
-          "coordinates": [
-            12,
-            -3,
-            0
-          ],
-          "environment": 5,
-          "exits": []
-        },
         {
           "id": 13751,
           "coordinates": [
@@ -8158,10 +8084,10 @@
           "environment": -1,
           "exits": [],
           "userData": {
-            "gotoMapping": "{\"riagath\":\"30234\",\"kamleikan\":\"9578\",\"qboard\":\"23900\",\"ioje\":\"52029\",\"eleusis\":\"6738\",\"ur\":\"50935\",\"yggdrasil\":\"54133\",\"rip\":\"3415\",\"catacombs\":\"36697\",\"tree\":\"2898\",\"newhope\":\"24310\",\"inbhir\":\"10913\",\"sirocco\":\"30152\",\"targossas\":2054,\"lhitsu\":\"52391\",\"moghedu\":\"6\",\"meropis\":\"1226\",\"poly\":5656,\"qerstead\":\"52298\",\"dun\":\"5129\",\"radak\":\"45519\",\"revenant\":\"7211\",\"tir\":\"1102\",\"genji\":\"10095\",\"loramere\":\"52516\",\"kunapi\":\"52123\",\"hashan\":\"4472\",\"mourning\":\"37797\",\"thera\":\"20386\",\"ashtan\":\"436\",\"myrinia\":\"52554\",\"mysia\":\"9869\",\"grukai\":\"27931\",\"yudhi\":5918,\"judgement\":\"35548\",\"excrucio\":\"8121\",\"flame\":\"2898\",\"prialysh\":\"50884\",\"invidia\":\"8162\",\"cyrene\":6298,\"kuthalebak\":\"51850\",\"taryen\":\"21767\",\"uw\":\"14594\",\"not\":\"1299\",\"everglade\":62062,\"mhaldor\":\"11400\",\"letum\":\"8489\",\"istarion\":\"22385\",\"quaskan\":\"50832\",\"delos\":\"1181\",\"wegava\":\"33127\"}",
+            "gotoMapping": "{\"mysia\":\"9869\",\"kunapi\":\"52123\",\"qboard\":\"23900\",\"ioje\":\"52029\",\"eleusis\":\"6738\",\"qerstead\":\"52298\",\"yggdrasil\":\"54133\",\"rip\":\"3415\",\"catacombs\":\"36697\",\"tree\":\"2898\",\"newhope\":\"24310\",\"inbhir\":\"10913\",\"poly\":5656,\"wegava\":\"33127\",\"meropis\":\"1226\",\"moghedu\":\"6\",\"sirocco\":\"30152\",\"ur\":\"50935\",\"istarion\":\"22385\",\"dun\":\"5129\",\"letum\":\"8489\",\"revenant\":\"7211\",\"tir\":\"1102\",\"genji\":\"10095\",\"loramere\":\"52516\",\"targossas\":2054,\"hashan\":\"4472\",\"everglade\":62062,\"thera\":\"20386\",\"ashtan\":\"436\",\"mourning\":\"37797\",\"not\":\"1299\",\"prialysh\":\"50884\",\"taryen\":\"21767\",\"judgement\":\"35548\",\"excrucio\":\"8121\",\"flame\":\"2898\",\"grukai\":\"27931\",\"invidia\":\"8162\",\"cyrene\":6298,\"kuthalebak\":\"51850\",\"yudhi\":5918,\"uw\":\"14594\",\"riagath\":\"30234\",\"kamleikan\":\"9578\",\"mhaldor\":\"11400\",\"myrinia\":\"52554\",\"radak\":\"45519\",\"quaskan\":\"50832\",\"delos\":\"1181\",\"lhitsu\":\"52391\"}",
             "ferry rooms": "[31545,6558,6559,31520,11654,31562,6550,6551,18439,38156,39208,19432,31605]",
             "audit.remapped_area": "0",
-            "areaContinents": "{\"Outer\":[192,193,162,194,206,351,209,294,180,297,181,366,355,207,191],\"Western_Isles\":[162,209,207],\"Eastern_Isles\":[192,180,181,191],\"Arcadia\":[150,154],\"North\":[385,261,197,99,199,34,200,101,202,204,352,353,73,242,147,243,74,212,244,213,214,246,301,108,306,383,308,307],\"Northern_Isles\":[194,206,351,294],\"Island\":[224,161,225,195,98,164,165,464,240,91,317,92,314],\"Main\":[127,158,316,2,3,4,5,7,10,12,14,16,20,24,28,32,40,48,56,64,80,96,112,128,160,320,384,448,386,65,81,387,113,130,388,452,389,131,326,33,41,49,57,66,82,196,264,265,133,394,83,115,134,166,198,268,269,167,17,21,25,29,42,50,58,68,84,116,136,272,400,273,401,137,201,274,402,69,85,117,138,139,203,235,278,470,43,51,59,279,102,118,280,472,281,173,205,346,71,87,103,119,142,174,238,284,348,349,477,9,11,13,22,26,30,36,44,60,72,104,120,144,208,145,290,89,105,121,178,293,357,179,211,37,53,61,90,106,122,148,296,471,463,361,425,149,298,362,426,263,75,107,123,182,300,364,291,365,295,151,302,23,27,31,38,46,54,62,76,124,152,398,368,185,391,77,125,186,267,372,318,367,309,359,155,187,350,310,374,55,63,78,375,110,126,156,319,376,315,270,311,303,299,157,275,259,175,79,95,111,159,462,379,465,443,380,444,378,381,390,377,393,35,489,468,476,466,473,474,488,450,475,467,490,491,109,323],\"Meropis\":[256,322,325,328,329,330,67,332,396,333,399,336,337,338,340,341,342,343,344,345,141,282,285,286,210,487,445,339,215,305,217,218,334,347,335,39,331,327,283,492,494],\"Arena\":[228,229,230,231,232,233,369],\"Off\":[190,380,444,6,257,321,449,324,453,163,390,454,455,456,393,457,458,460,397,168,465,169,170,404,405,469,171,406,35,408,409,410,412,413,15,176,288,416,480,289,417,481,418,482,292,356,420,484,421,485,358,422,45,483,479,478,462,459,245,451,446,443,428,439,363,429,183,379,184,248,415,432,431,430,427,423,419,433,414,411,249,407,434,395,382,381,371,435,436,373,437,438,47,252,440,377,441,271,253,378,442,255,93,100,500,54],\"Northen_Isles\":[351]}",
+            "areaContinents": "{\"Outer\":[192,193,162,194,206,351,209,294,180,297,181,366,355,207,191],\"Western_Isles\":[162,209,207],\"Eastern_Isles\":[192,180,181,191],\"Arcadia\":[150,154],\"North\":[385,261,197,99,199,34,200,101,202,204,352,353,73,242,147,243,74,212,244,213,214,246,301,108,306,383,308,307],\"Northern_Isles\":[194,206,351,294],\"Island\":[224,161,225,195,98,164,165,464,240,91,317,92,314],\"Main\":[127,158,316,2,3,4,5,7,10,12,14,16,20,24,28,32,40,48,56,64,80,96,112,128,160,320,384,448,386,65,81,387,113,130,388,452,389,131,326,33,41,49,57,66,82,196,264,265,133,394,83,115,134,166,198,268,269,167,17,21,25,29,42,50,58,68,84,116,136,272,400,273,401,137,201,274,402,69,85,117,138,139,203,235,278,470,43,51,59,279,102,118,280,472,281,173,205,346,71,87,103,119,142,174,238,284,348,349,477,9,11,13,22,26,30,36,44,60,72,104,120,144,208,145,290,89,105,121,178,293,357,179,211,37,53,61,90,106,122,148,296,471,463,361,425,149,298,362,426,263,75,107,123,182,300,364,291,365,295,151,302,23,27,31,38,46,54,62,76,124,152,398,368,185,391,77,125,186,267,372,318,367,309,359,155,187,350,310,374,55,63,78,375,110,126,156,319,376,315,270,311,303,299,157,275,259,175,79,95,111,159,462,379,465,443,380,444,378,381,390,377,393,35,489,468,476,466,473,474,488,450,475,467,490,491,109,323],\"Meropis\":[256,322,325,328,329,330,67,332,396,333,399,336,337,338,340,341,342,343,344,345,141,282,285,286,210,487,445,339,215,305,217,218,334,347,335,39,331,327,283,492,494,157],\"Arena\":[228,229,230,231,232,233,369],\"Northen_Isles\":[351],\"Off\":[190,380,444,6,257,321,449,324,453,163,390,454,455,456,393,457,458,460,397,168,465,169,170,404,405,469,171,406,35,408,409,410,412,413,15,176,288,416,480,289,417,481,418,482,292,356,420,484,421,485,358,422,45,483,479,478,462,459,245,451,446,443,428,439,363,429,183,379,184,248,415,432,431,430,427,423,419,433,414,411,249,407,434,395,382,381,371,435,436,373,437,438,47,252,440,377,441,271,253,378,442,255,93,100,500,54]}",
             "Game Area": "Haila-ele"
           }
         },
@@ -80322,7 +80248,7 @@
         },
         {
           "id": 13147,
-          "name": "Morbid Emporium",
+          "name": "Baelgrim War Cache",
           "coordinates": [
             3,
             10,
@@ -82053,7 +81979,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "18.6916"
+        "system.fallback_map2DZoom": "24.4353"
       }
     },
     {
@@ -84985,7 +84911,7 @@
     {
       "id": 49,
       "name": "Ashtan, the City of",
-      "roomCount": 546,
+      "roomCount": 544,
       "rooms": [
         {
           "id": 107,
@@ -92912,7 +92838,7 @@
         },
         {
           "id": 4217,
-          "name": "Cheesed to meet you",
+          "name": "Wicked Whispers",
           "coordinates": [
             7,
             -3,
@@ -97100,16 +97026,6 @@
           }
         },
         {
-          "id": 55972,
-          "coordinates": [
-            34,
-            20,
-            2
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 56534,
           "name": "Below Riikeh Pond",
           "coordinates": [
@@ -98403,10 +98319,6 @@
               "name": "northwest"
             },
             {
-              "exitId": 55972,
-              "name": "east"
-            },
-            {
               "exitId": 38564,
               "name": "down"
             }
@@ -99207,10 +99119,6 @@
           "environment": 8,
           "exits": [
             {
-              "exitId": 63314,
-              "name": "northeast"
-            },
-            {
               "exitId": 61294,
               "name": "south"
             },
@@ -99496,16 +99404,6 @@
           }
         },
         {
-          "id": 63314,
-          "coordinates": [
-            32,
-            26,
-            2
-          ],
-          "environment": 8,
-          "exits": []
-        },
-        {
           "id": 63495,
           "name": "Beneath the cavern falls",
           "coordinates": [
@@ -99775,7 +99673,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "59.0433"
+        "system.fallback_map2DZoom": "26.216"
       }
     },
     {
@@ -104065,7 +103963,7 @@
     {
       "id": 51,
       "name": "Eleusis",
-      "roomCount": 262,
+      "roomCount": 268,
       "rooms": [
         {
           "id": 2377,
@@ -108754,7 +108652,12 @@
             "text": "$"
           },
           "environment": 28,
-          "exits": [],
+          "exits": [
+            {
+              "exitId": 6771,
+              "name": "west"
+            }
+          ],
           "userData": {
             "indoors": "y",
             "feature-shop": "true",
@@ -108784,6 +108687,56 @@
             "feature-shop": "true",
             "Game Area": "Eleusis"
           }
+        },
+        {
+          "id": 35002,
+          "coordinates": [
+            14,
+            2,
+            0
+          ],
+          "environment": 28,
+          "exits": []
+        },
+        {
+          "id": 35033,
+          "coordinates": [
+            11,
+            5,
+            0
+          ],
+          "environment": 28,
+          "exits": []
+        },
+        {
+          "id": 35034,
+          "coordinates": [
+            10,
+            4,
+            0
+          ],
+          "environment": 28,
+          "exits": []
+        },
+        {
+          "id": 35038,
+          "coordinates": [
+            13,
+            5,
+            0
+          ],
+          "environment": 28,
+          "exits": []
+        },
+        {
+          "id": 35039,
+          "coordinates": [
+            14,
+            4,
+            0
+          ],
+          "environment": 28,
+          "exits": []
         },
         {
           "id": 35338,
@@ -108847,16 +108800,6 @@
             "feature-shop": "true",
             "Game Area": "Eleusis"
           }
-        },
-        {
-          "id": 36593,
-          "coordinates": [
-            13,
-            5,
-            1
-          ],
-          "environment": 28,
-          "exits": []
         },
         {
           "id": 37107,
@@ -109302,6 +109245,9 @@
             1,
             1
           ],
+          "symbol": {
+            "text": "$"
+          },
           "environment": 28,
           "exits": [
             {
@@ -109311,6 +109257,7 @@
           ],
           "userData": {
             "indoors": "y",
+            "feature-shop": "true",
             "Game Area": "Eleusis"
           }
         },
@@ -109530,6 +109477,10 @@
             {
               "exitId": 6769,
               "name": "southwest"
+            },
+            {
+              "exitId": 66128,
+              "name": "down"
             }
           ],
           "userData": {
@@ -110597,6 +110548,9 @@
             6,
             2
           ],
+          "symbol": {
+            "text": "$"
+          },
           "environment": 28,
           "exits": [
             {
@@ -110606,6 +110560,7 @@
           ],
           "userData": {
             "indoors": "y",
+            "feature-shop": "true",
             "Game Area": "Eleusis"
           }
         },
@@ -110661,6 +110616,9 @@
             7,
             2
           ],
+          "symbol": {
+            "text": "$"
+          },
           "environment": 28,
           "exits": [
             {
@@ -110670,6 +110628,7 @@
           ],
           "userData": {
             "indoors": "y",
+            "feature-shop": "true",
             "Game Area": "Eleusis"
           }
         },
@@ -110739,12 +110698,15 @@
         },
         {
           "id": 46354,
-          "name": "The Mossy Nook",
+          "name": "The Cloud Lily",
           "coordinates": [
             13,
             3,
             2
           ],
+          "symbol": {
+            "text": "$"
+          },
           "environment": 28,
           "exits": [
             {
@@ -110754,6 +110716,7 @@
           ],
           "userData": {
             "indoors": "y",
+            "feature-shop": "true",
             "Game Area": "Eleusis"
           }
         },
@@ -111012,10 +110975,30 @@
             "indoors": "y",
             "Game Area": "Eleusis"
           }
+        },
+        {
+          "id": 66126,
+          "coordinates": [
+            13,
+            1,
+            0
+          ],
+          "environment": 28,
+          "exits": []
+        },
+        {
+          "id": 66128,
+          "coordinates": [
+            14,
+            3,
+            0
+          ],
+          "environment": 28,
+          "exits": []
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "34.3637"
+        "system.fallback_map2DZoom": "12.455"
       }
     },
     {
@@ -115516,7 +115499,7 @@
     {
       "id": 55,
       "name": "Hashan, the City of",
-      "roomCount": 437,
+      "roomCount": 470,
       "rooms": [
         {
           "id": 747,
@@ -116824,6 +116807,10 @@
             {
               "exitId": 1537,
               "name": "east"
+            },
+            {
+              "exitId": 62827,
+              "name": "in"
             }
           ],
           "userData": {
@@ -116906,6 +116893,16 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
+        },
+        {
+          "id": 3490,
+          "coordinates": [
+            -2,
+            11,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 3647,
@@ -117006,6 +117003,16 @@
           }
         },
         {
+          "id": 4400,
+          "coordinates": [
+            -19,
+            -8,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 4405,
           "name": "Postal Office of Hashan",
           "coordinates": [
@@ -117052,6 +117059,16 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
+        },
+        {
+          "id": 4429,
+          "coordinates": [
+            -13,
+            -3,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 4464,
@@ -122340,6 +122357,16 @@
           }
         },
         {
+          "id": 4690,
+          "coordinates": [
+            -4,
+            0,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 4728,
           "name": "The Gift Shop in the House of Delights",
           "coordinates": [
@@ -122388,8 +122415,18 @@
           }
         },
         {
+          "id": 4963,
+          "coordinates": [
+            -3,
+            11,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 4973,
-          "name": "Drunken Dwarf Outfitters",
+          "name": "Veiled Intentions",
           "coordinates": [
             -19,
             -6,
@@ -122410,6 +122447,16 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
+        },
+        {
+          "id": 4974,
+          "coordinates": [
+            -19,
+            -6,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 5008,
@@ -122436,6 +122483,16 @@
           }
         },
         {
+          "id": 5009,
+          "coordinates": [
+            -3,
+            8,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 5440,
           "name": "Le Jardin d'Affaire",
           "coordinates": [
@@ -122458,6 +122515,16 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
+        },
+        {
+          "id": 5441,
+          "coordinates": [
+            -12,
+            -11,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 5450,
@@ -122484,6 +122551,16 @@
           }
         },
         {
+          "id": 5451,
+          "coordinates": [
+            -14,
+            -12,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 5457,
           "name": "Envy",
           "coordinates": [
@@ -122506,6 +122583,16 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
+        },
+        {
+          "id": 5458,
+          "coordinates": [
+            -4,
+            11,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 5460,
@@ -122533,6 +122620,16 @@
           }
         },
         {
+          "id": 5461,
+          "coordinates": [
+            -14,
+            -5,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 5487,
           "name": "The Prosperian Market of Hashan",
           "coordinates": [
@@ -122555,6 +122652,16 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
+        },
+        {
+          "id": 5488,
+          "coordinates": [
+            -5,
+            -1,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 5553,
@@ -122581,6 +122688,16 @@
           }
         },
         {
+          "id": 5554,
+          "coordinates": [
+            -12,
+            -12,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 5754,
           "name": "Dark Side of the Coin",
           "coordinates": [
@@ -122603,6 +122720,16 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
+        },
+        {
+          "id": 5755,
+          "coordinates": [
+            -12,
+            -7,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 5879,
@@ -123128,6 +123255,16 @@
           }
         },
         {
+          "id": 6136,
+          "coordinates": [
+            -2,
+            8,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 6407,
           "name": "Inside a rundown tenement",
           "coordinates": [
@@ -123284,6 +123421,16 @@
           }
         },
         {
+          "id": 6717,
+          "coordinates": [
+            -17,
+            -10,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 6816,
           "name": "Black Diamond Atelier",
           "coordinates": [
@@ -123306,6 +123453,16 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
+        },
+        {
+          "id": 6817,
+          "coordinates": [
+            8,
+            1,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 6818,
@@ -123332,6 +123489,16 @@
           }
         },
         {
+          "id": 6819,
+          "coordinates": [
+            3,
+            -2,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 6820,
           "name": "Symphony of Stars",
           "coordinates": [
@@ -123354,6 +123521,16 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
+        },
+        {
+          "id": 6821,
+          "coordinates": [
+            9,
+            0,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 6822,
@@ -123380,6 +123557,16 @@
           }
         },
         {
+          "id": 6823,
+          "coordinates": [
+            2,
+            1,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 6824,
           "name": "That One Shop",
           "coordinates": [
@@ -123402,6 +123589,16 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
+        },
+        {
+          "id": 6825,
+          "coordinates": [
+            10,
+            1,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 6826,
@@ -123428,6 +123625,16 @@
           }
         },
         {
+          "id": 6827,
+          "coordinates": [
+            5,
+            -2,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 6828,
           "name": "Umbral Outpost",
           "coordinates": [
@@ -123452,8 +123659,18 @@
           }
         },
         {
+          "id": 6829,
+          "coordinates": [
+            2,
+            -1,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 6830,
-          "name": "The Bone Dragon",
+          "name": "Crescent's Pink Moon",
           "coordinates": [
             -2,
             0,
@@ -123475,6 +123692,16 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
+        },
+        {
+          "id": 6831,
+          "coordinates": [
+            -2,
+            0,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 6832,
@@ -123501,6 +123728,16 @@
           }
         },
         {
+          "id": 6833,
+          "coordinates": [
+            -2,
+            -2,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 6834,
           "name": "Silver Dragon's Lair",
           "coordinates": [
@@ -123523,6 +123760,16 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
+        },
+        {
+          "id": 6835,
+          "coordinates": [
+            -3,
+            -2,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 6836,
@@ -123549,6 +123796,16 @@
           }
         },
         {
+          "id": 6837,
+          "coordinates": [
+            -3,
+            0,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 6838,
           "name": "Meteor Shower",
           "coordinates": [
@@ -123571,6 +123828,16 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
+        },
+        {
+          "id": 6839,
+          "coordinates": [
+            -1,
+            -2,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 6840,
@@ -123597,6 +123864,16 @@
           }
         },
         {
+          "id": 6841,
+          "coordinates": [
+            -1,
+            0,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 6842,
           "name": "Krymenian Commodities",
           "coordinates": [
@@ -123619,6 +123896,16 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
+        },
+        {
+          "id": 6843,
+          "coordinates": [
+            3,
+            0,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 6864,
@@ -123645,6 +123932,16 @@
           }
         },
         {
+          "id": 6865,
+          "coordinates": [
+            6,
+            -1,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 6866,
           "name": "Krymenian Insights",
           "coordinates": [
@@ -123667,6 +123964,16 @@
             "feature-shop": "true",
             "Game Area": "Hashan"
           }
+        },
+        {
+          "id": 6867,
+          "coordinates": [
+            4,
+            -2,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 6879,
@@ -126752,6 +127059,16 @@
             2
           ],
           "environment": 8,
+          "exits": []
+        },
+        {
+          "id": 62827,
+          "coordinates": [
+            -12,
+            -15,
+            -1
+          ],
+          "environment": 2,
           "exits": []
         },
         {
@@ -133211,7 +133528,7 @@
         },
         {
           "id": 8536,
-          "name": "Stitch Please",
+          "name": "Wild Rose Cafe",
           "coordinates": [
             -20,
             -16,
@@ -133962,7 +134279,7 @@
         },
         {
           "id": 9636,
-          "name": "The Doctor's Arcane Accountrements",
+          "name": "Song & Sea",
           "coordinates": [
             -13,
             2,
@@ -134064,7 +134381,7 @@
         },
         {
           "id": 9642,
-          "name": "Blue Dragon's Lair",
+          "name": "The Curatrix",
           "coordinates": [
             -15,
             -1,
@@ -134584,7 +134901,7 @@
         },
         {
           "id": 10604,
-          "name": "The Angel and Hammer",
+          "name": "Harlequin Hovel",
           "coordinates": [
             -9,
             -4,
@@ -136326,6 +136643,9 @@
             -14,
             0
           ],
+          "symbol": {
+            "text": "$"
+          },
           "environment": 8,
           "exits": [
             {
@@ -136358,6 +136678,7 @@
           ],
           "userData": {
             "indoors": "y",
+            "feature-shop": "true",
             "Game Area": "Cyrene"
           }
         },
@@ -136369,6 +136690,9 @@
             -14,
             0
           ],
+          "symbol": {
+            "text": "$"
+          },
           "environment": 8,
           "exits": [
             {
@@ -136378,6 +136702,7 @@
           ],
           "userData": {
             "indoors": "y",
+            "feature-shop": "true",
             "Game Area": "Cyrene"
           }
         },
@@ -176920,7 +177245,7 @@
     {
       "id": 79,
       "name": "Vashnar Mountains, the (North)",
-      "roomCount": 82,
+      "roomCount": 86,
       "rooms": [
         {
           "id": 281,
@@ -177320,7 +177645,7 @@
             -3,
             0
           ],
-          "environment": 10,
+          "environment": 11,
           "exits": [
             {
               "exitId": 10411,
@@ -177337,7 +177662,7 @@
           ],
           "userData": {
             "outdoors": "y",
-            "Game Area": "the Flooded Vashnars"
+            "Game Area": "the Northern Vashnar Mountains"
           }
         },
         {
@@ -177439,7 +177764,7 @@
             -3,
             0
           ],
-          "environment": 10,
+          "environment": 11,
           "exits": [
             {
               "exitId": 34221,
@@ -177475,7 +177800,7 @@
           ],
           "userData": {
             "outdoors": "y",
-            "Game Area": "the Flooded Vashnars"
+            "Game Area": "the Northern Vashnar Mountains"
           }
         },
         {
@@ -177486,7 +177811,7 @@
             -3,
             0
           ],
-          "environment": 10,
+          "environment": 11,
           "exits": [
             {
               "exitId": 10389,
@@ -177499,7 +177824,7 @@
           ],
           "userData": {
             "outdoors": "y",
-            "Game Area": "the Flooded Vashnars"
+            "Game Area": "the Northern Vashnar Mountains"
           }
         },
         {
@@ -177577,7 +177902,7 @@
             -4,
             0
           ],
-          "environment": 10,
+          "environment": 9,
           "exits": [
             {
               "exitId": 10290,
@@ -179038,7 +179363,7 @@
             -4,
             0
           ],
-          "environment": 10,
+          "environment": 13,
           "exits": [
             {
               "exitId": 10389,
@@ -179051,7 +179376,7 @@
           ],
           "userData": {
             "outdoors": "y",
-            "Game Area": "the Flooded Vashnars"
+            "Game Area": "the Northern Vashnar Mountains"
           }
         },
         {
@@ -179062,7 +179387,7 @@
             -5,
             0
           ],
-          "environment": 10,
+          "environment": 13,
           "exits": [
             {
               "exitId": 64217,
@@ -179075,7 +179400,7 @@
           ],
           "userData": {
             "outdoors": "y",
-            "Game Area": "the Flooded Vashnars"
+            "Game Area": "the Northern Vashnar Mountains"
           }
         },
         {
@@ -179086,7 +179411,7 @@
             -6,
             0
           ],
-          "environment": 10,
+          "environment": 13,
           "exits": [
             {
               "exitId": 64241,
@@ -179099,7 +179424,7 @@
           ],
           "userData": {
             "outdoors": "y",
-            "Game Area": "the Flooded Vashnars"
+            "Game Area": "the Northern Vashnar Mountains"
           }
         },
         {
@@ -179110,40 +179435,140 @@
             -7,
             0
           ],
-          "environment": 10,
+          "environment": 13,
           "exits": [
             {
               "exitId": 65760,
               "name": "north"
             },
             {
-              "exitId": 65762,
-              "name": "southeast"
+              "exitId": 65763,
+              "name": "south"
             }
           ],
           "userData": {
             "outdoors": "y",
-            "Game Area": "the Flooded Vashnars"
+            "Game Area": "the Northern Vashnar Mountains"
           }
         },
         {
-          "id": 65762,
-          "name": "A roaring waterfall",
+          "id": 65763,
+          "name": "Rough, narrow valley through the mountains",
           "coordinates": [
-            -1,
+            -2,
             -8,
             0
           ],
-          "environment": 10,
+          "environment": 14,
           "exits": [
             {
               "exitId": 65761,
-              "name": "northwest"
+              "name": "north"
+            },
+            {
+              "exitId": 65774,
+              "name": "south"
             }
           ],
           "userData": {
             "outdoors": "y",
-            "Game Area": "the Flooded Vashnars"
+            "Game Area": "the Northern Vashnar Mountains"
+          }
+        },
+        {
+          "id": 65774,
+          "name": "Rough, narrow valley through the mountains",
+          "coordinates": [
+            -2,
+            -9,
+            0
+          ],
+          "environment": 14,
+          "exits": [
+            {
+              "exitId": 65763,
+              "name": "north"
+            },
+            {
+              "exitId": 65780,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Northern Vashnar Mountains"
+          }
+        },
+        {
+          "id": 65780,
+          "name": "Rough, narrow valley through the mountains",
+          "coordinates": [
+            -2,
+            -10,
+            0
+          ],
+          "environment": 14,
+          "exits": [
+            {
+              "exitId": 65774,
+              "name": "north"
+            },
+            {
+              "exitId": 65782,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Northern Vashnar Mountains"
+          }
+        },
+        {
+          "id": 65782,
+          "name": "Rough, narrow valley through the mountains",
+          "coordinates": [
+            -2,
+            -11,
+            0
+          ],
+          "environment": 14,
+          "exits": [
+            {
+              "exitId": 65780,
+              "name": "north"
+            },
+            {
+              "exitId": 65783,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Northern Vashnar Mountains"
+          }
+        },
+        {
+          "id": 65783,
+          "name": "Southern end of the Antoninan Scar",
+          "coordinates": [
+            -2,
+            -12,
+            0
+          ],
+          "environment": 14,
+          "exits": [
+            {
+              "exitId": 65782,
+              "name": "north"
+            },
+            {
+              "exitId": 35645,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Northern Vashnar Mountains"
           }
         }
       ],
@@ -191905,8 +192330,7 @@
             },
             {
               "name": "touch 277930",
-              "exitId": 1226,
-              "locked": true
+              "exitId": 1226
             },
             {
               "name": "worm warp",
@@ -233267,7 +233691,7 @@
     {
       "id": 109,
       "name": "Targossas",
-      "roomCount": 397,
+      "roomCount": 425,
       "rooms": [
         {
           "id": 42,
@@ -239664,6 +240088,16 @@
           }
         },
         {
+          "id": 3552,
+          "coordinates": [
+            6,
+            -8,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 3691,
           "name": "Solarium of Thought",
           "coordinates": [
@@ -239748,6 +240182,16 @@
           }
         },
         {
+          "id": 3723,
+          "coordinates": [
+            4,
+            -8,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 3725,
           "name": "The Ninth Vow",
           "coordinates": [
@@ -239770,6 +240214,16 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
+        },
+        {
+          "id": 3726,
+          "coordinates": [
+            26,
+            -18,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 3738,
@@ -239911,6 +240365,16 @@
           }
         },
         {
+          "id": 3832,
+          "coordinates": [
+            23,
+            -18,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 3852,
           "name": "The Joyous Lantern",
           "coordinates": [
@@ -239933,6 +240397,16 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
+        },
+        {
+          "id": 3853,
+          "coordinates": [
+            26,
+            -16,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 4220,
@@ -239959,6 +240433,16 @@
           }
         },
         {
+          "id": 4221,
+          "coordinates": [
+            2,
+            -13,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 4274,
           "name": "Yen's Arts and Crafts",
           "coordinates": [
@@ -239981,6 +240465,16 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
+        },
+        {
+          "id": 4275,
+          "coordinates": [
+            1,
+            -11,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 4297,
@@ -240057,6 +240551,16 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
+        },
+        {
+          "id": 4310,
+          "coordinates": [
+            28,
+            -15,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 4401,
@@ -240234,6 +240738,16 @@
           }
         },
         {
+          "id": 4463,
+          "coordinates": [
+            26,
+            -13,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 4715,
           "name": "Dawnblade Supplies",
           "coordinates": [
@@ -240256,6 +240770,16 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
+        },
+        {
+          "id": 4716,
+          "coordinates": [
+            4,
+            -10,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 4883,
@@ -240282,6 +240806,16 @@
           }
         },
         {
+          "id": 4884,
+          "coordinates": [
+            22,
+            -20,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 4888,
           "name": "The Harbinger Accord",
           "coordinates": [
@@ -240304,6 +240838,16 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
+        },
+        {
+          "id": 4889,
+          "coordinates": [
+            6,
+            -10,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 5243,
@@ -240330,6 +240874,16 @@
           }
         },
         {
+          "id": 5244,
+          "coordinates": [
+            19,
+            -20,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 5403,
           "name": "Sae's by the Shore",
           "coordinates": [
@@ -240352,6 +240906,16 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
+        },
+        {
+          "id": 5404,
+          "coordinates": [
+            21,
+            -20,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 5466,
@@ -240406,6 +240970,16 @@
           }
         },
         {
+          "id": 5492,
+          "coordinates": [
+            21,
+            -18,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 5494,
           "name": "Leafwalker's Smoking Lounge",
           "coordinates": [
@@ -240428,6 +241002,16 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
+        },
+        {
+          "id": 5495,
+          "coordinates": [
+            19,
+            -18,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 5496,
@@ -240454,6 +241038,16 @@
           }
         },
         {
+          "id": 5497,
+          "coordinates": [
+            20,
+            -18,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 5515,
           "name": "Two Bear Arms",
           "coordinates": [
@@ -240476,6 +241070,16 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
+        },
+        {
+          "id": 5516,
+          "coordinates": [
+            1,
+            -13,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 6705,
@@ -240526,6 +241130,16 @@
           }
         },
         {
+          "id": 6845,
+          "coordinates": [
+            4,
+            -9,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 6846,
           "name": "Veiled Solace",
           "coordinates": [
@@ -240548,6 +241162,16 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
+        },
+        {
+          "id": 6847,
+          "coordinates": [
+            6,
+            -9,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 6848,
@@ -240574,6 +241198,16 @@
           }
         },
         {
+          "id": 6849,
+          "coordinates": [
+            6,
+            -12,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 6850,
           "name": "The Loyal Hound",
           "coordinates": [
@@ -240596,6 +241230,16 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
+        },
+        {
+          "id": 6851,
+          "coordinates": [
+            22,
+            -18,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 6852,
@@ -240622,6 +241266,16 @@
           }
         },
         {
+          "id": 6853,
+          "coordinates": [
+            24,
+            -19,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 6854,
           "name": "Kloaks and Koats",
           "coordinates": [
@@ -240644,6 +241298,16 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
+        },
+        {
+          "id": 6855,
+          "coordinates": [
+            2,
+            -11,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 6856,
@@ -240670,6 +241334,16 @@
           }
         },
         {
+          "id": 6857,
+          "coordinates": [
+            18,
+            -20,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 6858,
           "name": "Silvertongue Supplies",
           "coordinates": [
@@ -240692,6 +241366,16 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
+        },
+        {
+          "id": 6859,
+          "coordinates": [
+            6,
+            -13,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 6860,
@@ -240718,6 +241402,16 @@
           }
         },
         {
+          "id": 6861,
+          "coordinates": [
+            4,
+            -13,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
           "id": 6862,
           "name": "Sew It Goes",
           "coordinates": [
@@ -240740,6 +241434,16 @@
             "feature-shop": "true",
             "Game Area": "Targossas"
           }
+        },
+        {
+          "id": 6863,
+          "coordinates": [
+            23,
+            -20,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
         },
         {
           "id": 8140,
@@ -243814,7 +244518,7 @@
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "88.608"
+        "system.fallback_map2DZoom": "14.2597"
       }
     },
     {
@@ -310442,7 +311146,7 @@
     {
       "id": 147,
       "name": "Inbhir Ness",
-      "roomCount": 128,
+      "roomCount": 131,
       "rooms": [
         {
           "id": 8360,
@@ -310640,16 +311344,16 @@
         },
         {
           "id": 8518,
-          "name": "A tailor's workshop",
+          "name": "The Caskshadow throwing hall",
           "coordinates": [
-            6,
-            1,
+            4,
+            2,
             0
           ],
           "environment": 8,
           "exits": [
             {
-              "exitId": 13821,
+              "exitId": 10960,
               "name": "east"
             }
           ],
@@ -310770,38 +311474,33 @@
           }
         },
         {
-          "id": 10802,
-          "name": "Inside a bakery",
-          "coordinates": [
-            6,
-            5,
-            0
-          ],
-          "environment": 8,
-          "exits": [
-            {
-              "exitId": 11825,
-              "name": "west"
-            }
-          ],
-          "userData": {
-            "indoors": "y",
-            "Game Area": "Inbhir Ness"
-          }
-        },
-        {
           "id": 10804,
-          "name": "In the smithy",
+          "name": "Guest chambers",
           "coordinates": [
-            6,
+            4,
             3,
             0
           ],
           "environment": 8,
           "exits": [
             {
-              "exitId": 10812,
-              "name": "east"
+              "exitId": 10960,
+              "name": "down",
+              "customLine": {
+                "color24RGB": [
+                  255,
+                  0,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    5,
+                    2
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
             }
           ],
           "userData": {
@@ -310842,13 +311541,13 @@
           "name": "A small park cul-de-sac",
           "coordinates": [
             5,
-            6,
+            5,
             0
           ],
           "environment": 8,
           "exits": [
             {
-              "exitId": 11825,
+              "exitId": 11179,
               "name": "south"
             }
           ],
@@ -310989,10 +311688,6 @@
             {
               "exitId": 10805,
               "name": "east"
-            },
-            {
-              "exitId": 10804,
-              "name": "west"
             },
             {
               "exitId": 10801,
@@ -311241,6 +311936,10 @@
           ],
           "environment": 8,
           "exits": [
+            {
+              "exitId": 11173,
+              "name": "northeast"
+            },
             {
               "exitId": 10870,
               "name": "east"
@@ -311517,10 +312216,6 @@
             {
               "exitId": 10944,
               "name": "south"
-            },
-            {
-              "exitId": 67089,
-              "name": "down"
             }
           ],
           "userData": {
@@ -311622,7 +312317,7 @@
         },
         {
           "id": 10870,
-          "name": "Claideb Street before the home of the Chief",
+          "name": "Claideb Street",
           "coordinates": [
             7,
             4,
@@ -311770,7 +312465,7 @@
         },
         {
           "id": 10960,
-          "name": "A woodworker's shed",
+          "name": "The Mount Inn",
           "coordinates": [
             5,
             2,
@@ -311781,6 +312476,14 @@
             {
               "exitId": 10807,
               "name": "north"
+            },
+            {
+              "exitId": 8518,
+              "name": "west"
+            },
+            {
+              "exitId": 10804,
+              "name": "up"
             }
           ],
           "userData": {
@@ -312036,50 +312739,11 @@
             },
             {
               "exitId": 14393,
-              "name": "in",
-              "customLine": {
-                "color24RGB": [
-                  0,
-                  255,
-                  0
-                ],
-                "coordinates": [
-                  [
-                    -5,
-                    -3
-                  ]
-                ],
-                "endsInArrow": false,
-                "style": "dot line"
-              }
+              "name": "in"
             }
           ],
           "userData": {
             "outdoors": "y",
-            "Game Area": "Inbhir Ness"
-          }
-        },
-        {
-          "id": 10988,
-          "name": "Inside a shop",
-          "coordinates": [
-            8,
-            1,
-            0
-          ],
-          "symbol": {
-            "text": "$"
-          },
-          "environment": 8,
-          "exits": [
-            {
-              "exitId": 13821,
-              "name": "west"
-            }
-          ],
-          "userData": {
-            "indoors": "y",
-            "feature-shop": "true",
             "Game Area": "Inbhir Ness"
           }
         },
@@ -312239,7 +312903,7 @@
         },
         {
           "id": 11173,
-          "name": "In the dwarf Chief's home",
+          "name": "Hearthside park",
           "coordinates": [
             7,
             5,
@@ -312251,16 +312915,20 @@
               "exitId": 10870,
               "name": "south",
               "door": "open"
+            },
+            {
+              "exitId": 10822,
+              "name": "southwest"
             }
           ],
           "userData": {
-            "indoors": "y",
+            "outdoors": "y",
             "Game Area": "Inbhir Ness"
           }
         },
         {
           "id": 11179,
-          "name": "Cride Street in the residential sector",
+          "name": "Cride Street approaching the outskirts",
           "coordinates": [
             5,
             4,
@@ -312269,7 +312937,7 @@
           "environment": 8,
           "exits": [
             {
-              "exitId": 11825,
+              "exitId": 10806,
               "name": "north"
             },
             {
@@ -312379,34 +313047,6 @@
           }
         },
         {
-          "id": 11825,
-          "name": "Cride Street outside a bakery",
-          "coordinates": [
-            5,
-            5,
-            0
-          ],
-          "environment": 8,
-          "exits": [
-            {
-              "exitId": 10806,
-              "name": "north"
-            },
-            {
-              "exitId": 10802,
-              "name": "east"
-            },
-            {
-              "exitId": 11179,
-              "name": "south"
-            }
-          ],
-          "userData": {
-            "outdoors": "y",
-            "Game Area": "Inbhir Ness"
-          }
-        },
-        {
           "id": 11856,
           "name": "Dusty mountain path",
           "coordinates": [
@@ -312462,9 +313102,9 @@
           "id": 12845,
           "name": "A narrow, sloping crevasse",
           "coordinates": [
-            -7,
-            -4,
-            0
+            -2,
+            -6,
+            -1
           ],
           "environment": 2,
           "exits": [
@@ -312532,7 +313172,7 @@
         },
         {
           "id": 13821,
-          "name": "Along Claideb Street in the market district",
+          "name": "Along Claideb Street",
           "coordinates": [
             7,
             1,
@@ -312543,14 +313183,6 @@
             {
               "exitId": 10801,
               "name": "north"
-            },
-            {
-              "exitId": 10988,
-              "name": "east"
-            },
-            {
-              "exitId": 8518,
-              "name": "west"
             },
             {
               "exitId": 10800,
@@ -312564,11 +313196,11 @@
         },
         {
           "id": 13998,
-          "name": "Before a set of twisted iron doors",
+          "name": "Before a pair of reforged iron doors",
           "coordinates": [
-            -7,
-            -5,
-            0
+            -1,
+            -6,
+            -1
           ],
           "environment": 2,
           "exits": [
@@ -312583,8 +313215,27 @@
                 ],
                 "coordinates": [
                   [
-                    -7,
-                    -4
+                    -2,
+                    -6
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            },
+            {
+              "exitId": 67450,
+              "name": "in",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    -1,
+                    -5
                   ]
                 ],
                 "endsInArrow": false,
@@ -312601,9 +313252,9 @@
           "id": 14260,
           "name": "A tunnel under excavation",
           "coordinates": [
-            -8,
             -3,
-            0
+            -5,
+            -1
           ],
           "environment": 2,
           "exits": [
@@ -312625,9 +313276,9 @@
           "id": 14393,
           "name": "Within an adit",
           "coordinates": [
+            -2,
             -5,
-            -3,
-            0
+            -1
           ],
           "environment": 2,
           "exits": [
@@ -312647,13 +313298,13 @@
         },
         {
           "id": 23911,
-          "name": "A dripping tunnel",
+          "name": "A smooth rock passage",
           "coordinates": [
-            -9,
-            5,
+            -3,
+            1,
             -1
           ],
-          "environment": 30,
+          "environment": 3,
           "exits": [
             {
               "exitId": 66929,
@@ -312671,10 +313322,10 @@
         },
         {
           "id": 63823,
-          "name": "Before an obsidian door hanging by a sole hinge",
+          "name": "Further along a stone passage",
           "coordinates": [
-            -9,
-            8,
+            -3,
+            5,
             -1
           ],
           "environment": 3,
@@ -312695,10 +313346,10 @@
         },
         {
           "id": 63889,
-          "name": "An abandoned corner",
+          "name": "A carved reading hall",
           "coordinates": [
-            -2,
-            4,
+            5,
+            0,
             -1
           ],
           "environment": 3,
@@ -312719,10 +313370,10 @@
         },
         {
           "id": 64228,
-          "name": "Before the Stone Chorus",
+          "name": "Brewery passage",
           "coordinates": [
-            -10,
-            5,
+            -4,
+            1,
             -1
           ],
           "environment": 3,
@@ -312743,10 +313394,10 @@
         },
         {
           "id": 65269,
-          "name": "A damp tunnel",
+          "name": "A carved tunnel",
           "coordinates": [
-            -7,
-            5,
+            0,
+            1,
             -1
           ],
           "environment": 3,
@@ -312767,10 +313418,10 @@
         },
         {
           "id": 66045,
-          "name": "Stone doors before a large hall",
+          "name": "The Inbhir dining hall",
           "coordinates": [
-            -9,
-            3,
+            -3,
+            -2,
             -1
           ],
           "environment": 3,
@@ -312790,6 +313441,14 @@
             {
               "exitId": 66886,
               "name": "south"
+            },
+            {
+              "exitId": 67176,
+              "name": "southeast"
+            },
+            {
+              "exitId": 67064,
+              "name": "southwest"
             }
           ],
           "userData": {
@@ -312801,8 +313460,8 @@
           "id": 66151,
           "name": "The Amethyst Mines",
           "coordinates": [
-            -6,
-            3,
+            1,
+            -1,
             -1
           ],
           "environment": 3,
@@ -312823,10 +313482,10 @@
         },
         {
           "id": 66494,
-          "name": "A twisted hallway of churned earth",
+          "name": "Stone passage",
           "coordinates": [
-            -9,
-            7,
+            -3,
+            4,
             -1
           ],
           "environment": 3,
@@ -312847,14 +313506,21 @@
         },
         {
           "id": 66599,
-          "name": "The Obsidian Reliquary",
+          "name": "Inbhir Bites",
           "coordinates": [
-            -9,
-            9,
+            -3,
+            6,
             -1
           ],
+          "symbol": {
+            "text": "$"
+          },
           "environment": 3,
           "exits": [
+            {
+              "exitId": 66992,
+              "name": "north"
+            },
             {
               "exitId": 66907,
               "name": "northeast"
@@ -312878,6 +313544,7 @@
           ],
           "userData": {
             "indoors": "y",
+            "feature-shop": "true",
             "Game Area": "Inbhir Ness"
           }
         },
@@ -312885,8 +313552,8 @@
           "id": 66602,
           "name": "A winding descent",
           "coordinates": [
-            -5,
             2,
+            -2,
             -1
           ],
           "environment": 3,
@@ -312907,10 +313574,10 @@
         },
         {
           "id": 66633,
-          "name": "A destroyed vault",
+          "name": "The Gems of Inbhir Ness",
           "coordinates": [
-            -8,
-            8,
+            -2,
+            5,
             -1
           ],
           "environment": 3,
@@ -312931,14 +313598,23 @@
         },
         {
           "id": 66639,
-          "name": "Surrounded by darkness",
+          "name": "A huge vein of crystals",
           "coordinates": [
-            -3,
-            2,
+            4,
+            -2,
             -1
           ],
           "environment": 3,
-          "exits": [],
+          "exits": [
+            {
+              "exitId": 66676,
+              "name": "northeast"
+            },
+            {
+              "exitId": 66989,
+              "name": "west"
+            }
+          ],
           "userData": {
             "indoors": "y",
             "Game Area": "Inbhir Ness"
@@ -312946,10 +313622,10 @@
         },
         {
           "id": 66654,
-          "name": "Amid stone benches",
+          "name": "Stone bench walkway",
           "coordinates": [
-            -12,
-            6,
+            -6,
+            2,
             -1
           ],
           "environment": 3,
@@ -312970,10 +313646,10 @@
         },
         {
           "id": 66661,
-          "name": "Hall of Chiselled Silence",
+          "name": "A rune-lit hall",
           "coordinates": [
-            -5,
-            4,
+            2,
+            0,
             -1
           ],
           "environment": 3,
@@ -312997,11 +313673,31 @@
           }
         },
         {
-          "id": 66777,
-          "name": "A destroyed stage ramp",
+          "id": 66676,
+          "name": "Surrounded by gleaming amethysts",
           "coordinates": [
-            -12,
-            7,
+            5,
+            -1,
+            -1
+          ],
+          "environment": 3,
+          "exits": [
+            {
+              "exitId": 66639,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "Inbhir Ness"
+          }
+        },
+        {
+          "id": 66777,
+          "name": "A gleaming copper brewery",
+          "coordinates": [
+            -6,
+            3,
             -1
           ],
           "environment": 3,
@@ -313018,10 +313714,10 @@
         },
         {
           "id": 66850,
-          "name": "Amid stone benches",
+          "name": "Rune chilled room",
           "coordinates": [
-            -10,
-            6,
+            -4,
+            2,
             -1
           ],
           "environment": 3,
@@ -313042,10 +313738,10 @@
         },
         {
           "id": 66852,
-          "name": "Northwestern control valves",
+          "name": "Woodworker's hall",
           "coordinates": [
-            -6,
-            9,
+            1,
+            5,
             -1
           ],
           "environment": 3,
@@ -313066,10 +313762,10 @@
         },
         {
           "id": 66867,
-          "name": "Overlooking the ampitheatre",
+          "name": "A bustling brewing area",
           "coordinates": [
-            -10,
-            7,
+            -4,
+            3,
             -1
           ],
           "environment": 3,
@@ -313086,10 +313782,10 @@
         },
         {
           "id": 66886,
-          "name": "A collapsed great hall",
+          "name": "The Hall of Hammered Decree",
           "coordinates": [
-            -9,
-            2,
+            -3,
+            -3,
             -1
           ],
           "environment": 3,
@@ -313097,10 +313793,6 @@
             {
               "exitId": 66045,
               "name": "north"
-            },
-            {
-              "exitId": 67842,
-              "name": "south"
             }
           ],
           "userData": {
@@ -313110,10 +313802,10 @@
         },
         {
           "id": 66896,
-          "name": "A damp tunnel",
+          "name": "A stone hallway",
           "coordinates": [
-            -7,
-            6,
+            0,
+            2,
             -1
           ],
           "environment": 3,
@@ -313134,10 +313826,10 @@
         },
         {
           "id": 66904,
-          "name": "A rubble-filled chamber",
+          "name": "The Mountain Bouquet",
           "coordinates": [
-            -10,
-            10,
+            -4,
+            7,
             -1
           ],
           "environment": 3,
@@ -313158,10 +313850,10 @@
         },
         {
           "id": 66905,
-          "name": "A devastated library",
+          "name": "Mountain Leathers",
           "coordinates": [
-            -10,
-            8,
+            -4,
+            5,
             -1
           ],
           "environment": 3,
@@ -313182,12 +313874,15 @@
         },
         {
           "id": 66907,
-          "name": "The black reliquarium",
+          "name": "Dwarven Duds",
           "coordinates": [
-            -8,
-            10,
+            -2,
+            7,
             -1
           ],
+          "symbol": {
+            "text": "$"
+          },
           "environment": 3,
           "exits": [
             {
@@ -313201,19 +313896,24 @@
           ],
           "userData": {
             "indoors": "y",
+            "feature-shop": "true",
             "Game Area": "Inbhir Ness"
           }
         },
         {
           "id": 66929,
-          "name": "Ashen Plaza",
+          "name": "A bustling plaza",
           "coordinates": [
-            -8,
-            5,
+            -1,
+            1,
             -1
           ],
           "environment": 3,
           "exits": [
+            {
+              "exitId": 67118,
+              "name": "north"
+            },
             {
               "exitId": 66896,
               "name": "northeast"
@@ -313250,10 +313950,10 @@
         },
         {
           "id": 66945,
-          "name": "A caved-in tunnel",
+          "name": "Room of mushrooms",
           "coordinates": [
-            -9,
-            6,
+            -3,
+            3,
             -1
           ],
           "environment": 3,
@@ -313274,10 +313974,10 @@
         },
         {
           "id": 66948,
-          "name": "A rune-sealed catacomb",
+          "name": "A quiet alcove",
           "coordinates": [
-            -3,
-            3,
+            4,
+            -1,
             -1
           ],
           "environment": 3,
@@ -313298,10 +313998,10 @@
         },
         {
           "id": 66974,
-          "name": "A crushed sitting room",
+          "name": "In the dwarf Chief's room",
           "coordinates": [
-            -10,
-            3,
+            -4,
+            -2,
             -1
           ],
           "environment": 3,
@@ -313309,10 +314009,6 @@
             {
               "exitId": 66045,
               "name": "east"
-            },
-            {
-              "exitId": 67064,
-              "name": "south"
             }
           ],
           "userData": {
@@ -313322,10 +314018,10 @@
         },
         {
           "id": 66986,
-          "name": "The Stone Chorus",
+          "name": "The Tasting Room",
           "coordinates": [
-            -11,
-            5,
+            -5,
+            1,
             -1
           ],
           "environment": 3,
@@ -313354,10 +314050,10 @@
         },
         {
           "id": 66989,
-          "name": "Endless tunnels and mineshafts",
+          "name": "The heart of the mine",
           "coordinates": [
-            -4,
-            2,
+            3,
+            -2,
             -1
           ],
           "environment": 3,
@@ -313377,18 +314073,42 @@
           }
         },
         {
-          "id": 67064,
-          "name": "A cold hallway of scattered scrolls",
+          "id": 66992,
+          "name": "General Store",
           "coordinates": [
-            -10,
-            2,
+            -3,
+            7,
+            -1
+          ],
+          "symbol": {
+            "text": "$"
+          },
+          "environment": 3,
+          "exits": [
+            {
+              "exitId": 66599,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "feature-shop": "true",
+            "Game Area": "Inbhir Ness"
+          }
+        },
+        {
+          "id": 67064,
+          "name": "Cosy dwarven barracks",
+          "coordinates": [
+            -4,
+            -3,
             -1
           ],
           "environment": 3,
           "exits": [
             {
-              "exitId": 66974,
-              "name": "north"
+              "exitId": 66045,
+              "name": "northeast"
             },
             {
               "exitId": 67842,
@@ -313402,10 +314122,10 @@
         },
         {
           "id": 67089,
-          "name": "A collapsed tunnel",
+          "name": "Upon the Granite Causeway",
           "coordinates": [
-            -8,
-            4,
+            -1,
+            -4,
             -1
           ],
           "environment": 3,
@@ -313415,31 +314135,7 @@
               "name": "north"
             },
             {
-              "exitId": 10834,
-              "name": "up"
-            }
-          ],
-          "userData": {
-            "indoors": "y",
-            "Game Area": "Inbhir Ness"
-          }
-        },
-        {
-          "id": 67103,
-          "name": "A war room of echoes",
-          "coordinates": [
-            -8,
-            3,
-            -1
-          ],
-          "environment": 3,
-          "exits": [
-            {
-              "exitId": 66045,
-              "name": "west"
-            },
-            {
-              "exitId": 67176,
+              "exitId": 67450,
               "name": "south"
             }
           ],
@@ -313449,11 +314145,31 @@
           }
         },
         {
-          "id": 67111,
-          "name": "Stonebeard alcove",
+          "id": 67103,
+          "name": "A cramped cooking chamber",
           "coordinates": [
-            -4,
+            -2,
+            -2,
+            -1
+          ],
+          "environment": 3,
+          "exits": [
+            {
+              "exitId": 66045,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "Inbhir Ness"
+          }
+        },
+        {
+          "id": 67111,
+          "name": "Chamber of eternal vigil",
+          "coordinates": [
             3,
+            -1,
             -1
           ],
           "environment": 3,
@@ -313473,11 +314189,35 @@
           }
         },
         {
-          "id": 67126,
-          "name": "A debris-covered grand stage",
+          "id": 67118,
+          "name": "Steps before the abbey",
           "coordinates": [
-            -11,
-            6,
+            -1,
+            2,
+            -1
+          ],
+          "environment": 3,
+          "exits": [
+            {
+              "exitId": 68850,
+              "name": "north"
+            },
+            {
+              "exitId": 66929,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "Inbhir Ness"
+          }
+        },
+        {
+          "id": 67126,
+          "name": "Brewery Pantry",
+          "coordinates": [
+            -5,
+            2,
             -1
           ],
           "environment": 3,
@@ -313494,10 +314234,10 @@
         },
         {
           "id": 67164,
-          "name": "Entering Anvilwake Ossuary",
+          "name": "Entering Anvilwake Memorial",
           "coordinates": [
-            -6,
-            5,
+            1,
+            1,
             -1
           ],
           "environment": 3,
@@ -313518,21 +314258,17 @@
         },
         {
           "id": 67176,
-          "name": "A dead-end hallway of split scribed slates",
+          "name": "A bustling dwarven schoolroom",
           "coordinates": [
-            -8,
-            2,
+            -2,
+            -3,
             -1
           ],
           "environment": 3,
           "exits": [
             {
-              "exitId": 67103,
-              "name": "north"
-            },
-            {
-              "exitId": 67842,
-              "name": "southwest"
+              "exitId": 66045,
+              "name": "northwest"
             }
           ],
           "userData": {
@@ -313542,10 +314278,10 @@
         },
         {
           "id": 67182,
-          "name": "The Crucible Core",
+          "name": "Central Forgehall",
           "coordinates": [
-            -5,
-            8,
+            2,
+            4,
             -1
           ],
           "environment": 3,
@@ -313570,10 +314306,10 @@
         },
         {
           "id": 67184,
-          "name": "A discordant tunnel",
+          "name": "A discordant entry passage",
           "coordinates": [
-            -9,
-            4,
+            -3,
+            -1,
             -1
           ],
           "environment": 3,
@@ -313594,10 +314330,10 @@
         },
         {
           "id": 67249,
-          "name": "The Crypt of a Thousand Picks",
+          "name": "A simple stone vault",
           "coordinates": [
-            -4,
-            4,
+            3,
+            0,
             -1
           ],
           "environment": 3,
@@ -313618,10 +314354,10 @@
         },
         {
           "id": 67250,
-          "name": "A rough tunnel",
+          "name": "A well-carved tunnel",
           "coordinates": [
-            -7,
-            4,
+            0,
+            0,
             -1
           ],
           "environment": 3,
@@ -313642,10 +314378,10 @@
         },
         {
           "id": 67284,
-          "name": "Approaching the Lava Crucible",
+          "name": "Hallway near the crafting area",
           "coordinates": [
-            -6,
-            7,
+            1,
+            3,
             -1
           ],
           "environment": 3,
@@ -313666,10 +314402,10 @@
         },
         {
           "id": 67288,
-          "name": "Anvilwake sepulcher",
+          "name": "Chamber of relics",
           "coordinates": [
-            -3,
             4,
+            0,
             -1
           ],
           "environment": 3,
@@ -313690,10 +314426,10 @@
         },
         {
           "id": 67289,
-          "name": "Amid levers and pulleys",
+          "name": "A textile workroom",
           "coordinates": [
-            -5,
-            10,
+            2,
+            6,
             -1
           ],
           "environment": 3,
@@ -313713,23 +314449,39 @@
           }
         },
         {
-          "id": 67842,
-          "name": "Chambers of Hammered Decree",
+          "id": 67450,
+          "name": "Approaching the Granite Causeway",
           "coordinates": [
-            -9,
-            1,
+            -1,
+            -5,
             -1
           ],
           "environment": 3,
           "exits": [
             {
-              "exitId": 66886,
+              "exitId": 67089,
               "name": "north"
             },
             {
-              "exitId": 67176,
-              "name": "northeast"
-            },
+              "exitId": 13998,
+              "name": "out"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "Inbhir Ness"
+          }
+        },
+        {
+          "id": 67842,
+          "name": "Inside the dwarven bathing chambers",
+          "coordinates": [
+            -3,
+            -4,
+            -1
+          ],
+          "environment": 3,
+          "exits": [
             {
               "exitId": 67064,
               "name": "northwest"
@@ -313742,10 +314494,10 @@
         },
         {
           "id": 67917,
-          "name": "Before a seized valve",
+          "name": "Stonecutters' gallery",
           "coordinates": [
-            -4,
-            9,
+            3,
+            5,
             -1
           ],
           "environment": 3,
@@ -313766,10 +314518,10 @@
         },
         {
           "id": 68322,
-          "name": "A darkened corner",
+          "name": "Tinker's nook",
           "coordinates": [
-            -3,
-            8,
+            4,
+            4,
             -1
           ],
           "environment": 3,
@@ -313790,10 +314542,10 @@
         },
         {
           "id": 68462,
-          "name": "Southeastern control valves",
+          "name": "A quaint bakery",
           "coordinates": [
-            -4,
-            7,
+            3,
+            3,
             -1
           ],
           "environment": 3,
@@ -313811,10 +314563,54 @@
             "indoors": "y",
             "Game Area": "Inbhir Ness"
           }
+        },
+        {
+          "id": 68850,
+          "name": "Imposing double doors of the dwarven abbey",
+          "coordinates": [
+            -1,
+            3,
+            -1
+          ],
+          "environment": 3,
+          "exits": [
+            {
+              "exitId": 69687,
+              "name": "north"
+            },
+            {
+              "exitId": 67118,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "Inbhir Ness"
+          }
+        },
+        {
+          "id": 69687,
+          "name": "Abbey of the Anvil",
+          "coordinates": [
+            -1,
+            4,
+            -1
+          ],
+          "environment": 3,
+          "exits": [
+            {
+              "exitId": 68850,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "Inbhir Ness"
+          }
         }
       ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "26.2159"
       }
     },
     {
@@ -334520,11 +335316,4802 @@
     },
     {
       "id": 157,
-      "name": "OPEN 10",
-      "roomCount": 0,
-      "rooms": [],
+      "name": "Saravoia (House)",
+      "roomCount": 162,
+      "rooms": [
+        {
+          "id": 112,
+          "coordinates": [
+            1,
+            13,
+            1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
+          "id": 6161,
+          "name": "Within an isolated copse of juniper",
+          "coordinates": [
+            -2,
+            13,
+            0
+          ],
+          "environment": 21,
+          "exits": [
+            {
+              "exitId": 64810,
+              "name": "north"
+            },
+            {
+              "exitId": 64952,
+              "name": "northwest"
+            },
+            {
+              "exitId": 65097,
+              "name": "west"
+            },
+            {
+              "exitId": 66524,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 15244,
+          "name": "Atop the steps before Atralazari",
+          "coordinates": [
+            1,
+            10,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68874,
+              "name": "down"
+            },
+            {
+              "exitId": 67614,
+              "name": "in"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 18655,
+          "name": "Stage left under construction",
+          "coordinates": [
+            4,
+            13,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 64811,
+              "name": "east"
+            },
+            {
+              "exitId": 66402,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 23378,
+          "name": "Between Edelweiss and Iron",
+          "coordinates": [
+            -6,
+            10,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 62473,
+              "name": "north"
+            },
+            {
+              "exitId": 67805,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 37454,
+          "name": "A golden and scarlet ballroom",
+          "coordinates": [
+            -1,
+            10,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67944,
+              "name": "north"
+            },
+            {
+              "exitId": 67954,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67716,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 39343,
+          "name": "A marble balcony overlooking Meropis",
+          "coordinates": [
+            2,
+            15,
+            2
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 65812,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 57678,
+          "name": "Passing the village granaries",
+          "coordinates": [
+            -1,
+            3,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67466,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67617,
+              "name": "east"
+            },
+            {
+              "exitId": 67602,
+              "name": "west"
+            },
+            {
+              "exitId": 66233,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 62473,
+          "name": "The base of the Great Iron Tower",
+          "coordinates": [
+            -6,
+            12,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67429,
+              "name": "north"
+            },
+            {
+              "exitId": 23378,
+              "name": "south"
+            },
+            {
+              "exitId": 68438,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 64086,
+          "name": "Beyond the Witchfort",
+          "coordinates": [
+            1,
+            9,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67633,
+              "name": "north"
+            },
+            {
+              "exitId": 67637,
+              "name": "northeast"
+            },
+            {
+              "exitId": 67582,
+              "name": "northwest"
+            },
+            {
+              "exitId": 66641,
+              "name": "east"
+            },
+            {
+              "exitId": 66586,
+              "name": "west"
+            },
+            {
+              "exitId": 67136,
+              "name": "out",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    1,
+                    6
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 64810,
+          "name": "A lantern-lit refuge of roses",
+          "coordinates": [
+            -2,
+            15,
+            0
+          ],
+          "environment": 21,
+          "exits": [
+            {
+              "exitId": 65013,
+              "name": "west"
+            },
+            {
+              "exitId": 6161,
+              "name": "south"
+            },
+            {
+              "exitId": 67090,
+              "name": "southeast"
+            },
+            {
+              "exitId": 64952,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 64811,
+          "name": "Backstage under construction",
+          "coordinates": [
+            5,
+            13,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 65089,
+              "name": "north"
+            },
+            {
+              "exitId": 64962,
+              "name": "east"
+            },
+            {
+              "exitId": 18655,
+              "name": "west"
+            },
+            {
+              "exitId": 66402,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 64952,
+          "name": "A gilded crystal pond",
+          "coordinates": [
+            -3,
+            14,
+            0
+          ],
+          "environment": 22,
+          "exits": [
+            {
+              "exitId": 64810,
+              "name": "northeast"
+            },
+            {
+              "exitId": 65013,
+              "name": "northwest"
+            },
+            {
+              "exitId": 6161,
+              "name": "southeast"
+            },
+            {
+              "exitId": 65097,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 64962,
+          "name": "Stage right under construction",
+          "coordinates": [
+            6,
+            13,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 64811,
+              "name": "west"
+            },
+            {
+              "exitId": 66402,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 65013,
+          "name": "Lost in gnarled juniper",
+          "coordinates": [
+            -4,
+            15,
+            0
+          ],
+          "environment": 21,
+          "exits": [
+            {
+              "exitId": 64810,
+              "name": "east"
+            },
+            {
+              "exitId": 65097,
+              "name": "south"
+            },
+            {
+              "exitId": 64952,
+              "name": "southeast"
+            },
+            {
+              "exitId": 66472,
+              "name": "in"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 65089,
+          "name": "An alcove in the back of a theatre",
+          "coordinates": [
+            5,
+            14,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 64811,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 65097,
+          "name": "Deep within a dark wood",
+          "coordinates": [
+            -4,
+            13,
+            0
+          ],
+          "environment": 21,
+          "exits": [
+            {
+              "exitId": 65013,
+              "name": "north"
+            },
+            {
+              "exitId": 64952,
+              "name": "northeast"
+            },
+            {
+              "exitId": 6161,
+              "name": "east"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 65476,
+          "name": "Between the Witchfort and Stella'aria",
+          "coordinates": [
+            5,
+            7,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67631,
+              "name": "east"
+            },
+            {
+              "exitId": 68098,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 65478,
+          "name": "A twisting cliffside road",
+          "coordinates": [
+            0,
+            0,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67995,
+              "name": "northeast"
+            },
+            {
+              "exitId": 9238,
+              "name": "out"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 65653,
+          "name": "Ruganala Square",
+          "coordinates": [
+            -1,
+            10,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66524,
+              "name": "northeast"
+            },
+            {
+              "exitId": 67582,
+              "name": "east"
+            },
+            {
+              "exitId": 67300,
+              "name": "west"
+            },
+            {
+              "exitId": 66586,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 65746,
+          "name": "A hamlet in the hillside",
+          "coordinates": [
+            4,
+            2,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67788,
+              "name": "north"
+            },
+            {
+              "exitId": 67270,
+              "name": "northeast"
+            },
+            {
+              "exitId": 67625,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67862,
+              "name": "east"
+            },
+            {
+              "exitId": 67470,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 65812,
+          "name": "A whimsical vaulted apartment",
+          "coordinates": [
+            2,
+            14,
+            2
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 39343,
+              "name": "north"
+            },
+            {
+              "exitId": 68025,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 65916,
+          "name": "Where the flocks roost",
+          "coordinates": [
+            -1,
+            2,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67602,
+              "name": "northwest"
+            },
+            {
+              "exitId": 66233,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 66049,
+          "name": "A scenic curve above the Daoric",
+          "coordinates": [
+            2,
+            2,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67617,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67995,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 66233,
+          "name": "An experimental vineyard",
+          "coordinates": [
+            -2,
+            2,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67602,
+              "name": "north"
+            },
+            {
+              "exitId": 57678,
+              "name": "northeast"
+            },
+            {
+              "exitId": 67686,
+              "name": "northwest"
+            },
+            {
+              "exitId": 65916,
+              "name": "east"
+            },
+            {
+              "exitId": 67507,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 66402,
+          "name": "Concert hall being built",
+          "coordinates": [
+            5,
+            12,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 64811,
+              "name": "north"
+            },
+            {
+              "exitId": 64962,
+              "name": "northeast"
+            },
+            {
+              "exitId": 18655,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67445,
+              "name": "out",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    5,
+                    11
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 66472,
+          "name": "Within a beautiful black tent",
+          "coordinates": [
+            -4,
+            16,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 65013,
+              "name": "out",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    -4,
+                    15
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 66524,
+          "name": "Witchrose Circle",
+          "coordinates": [
+            0,
+            11,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68874,
+              "name": "northeast"
+            },
+            {
+              "exitId": 6161,
+              "name": "northwest"
+            },
+            {
+              "exitId": 66561,
+              "name": "east"
+            },
+            {
+              "exitId": 67582,
+              "name": "south"
+            },
+            {
+              "exitId": 67633,
+              "name": "southeast"
+            },
+            {
+              "exitId": 65653,
+              "name": "southwest"
+            },
+            {
+              "exitId": 67532,
+              "name": "in"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 66561,
+          "name": "Before a magnificent fountain",
+          "coordinates": [
+            1,
+            11,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68874,
+              "name": "north"
+            },
+            {
+              "exitId": 66581,
+              "name": "east"
+            },
+            {
+              "exitId": 66524,
+              "name": "west"
+            },
+            {
+              "exitId": 67633,
+              "name": "south"
+            },
+            {
+              "exitId": 67637,
+              "name": "southeast"
+            },
+            {
+              "exitId": 67582,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 66581,
+          "name": "Lemon Promenade",
+          "coordinates": [
+            2,
+            11,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67455,
+              "name": "northeast"
+            },
+            {
+              "exitId": 68874,
+              "name": "northwest"
+            },
+            {
+              "exitId": 66561,
+              "name": "west"
+            },
+            {
+              "exitId": 67637,
+              "name": "south"
+            },
+            {
+              "exitId": 67682,
+              "name": "southeast"
+            },
+            {
+              "exitId": 67633,
+              "name": "southwest"
+            },
+            {
+              "exitId": 68074,
+              "name": "in"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 66586,
+          "name": "Albedo Plaza",
+          "coordinates": [
+            0,
+            9,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67582,
+              "name": "north"
+            },
+            {
+              "exitId": 67633,
+              "name": "northeast"
+            },
+            {
+              "exitId": 65653,
+              "name": "northwest"
+            },
+            {
+              "exitId": 64086,
+              "name": "east"
+            },
+            {
+              "exitId": 69420,
+              "name": "in"
+            },
+            {
+              "exitId": 68086,
+              "name": "out"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 66600,
+          "name": "The Grand Court of the Saravyn",
+          "coordinates": [
+            1,
+            13,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67628,
+              "name": "north"
+            },
+            {
+              "exitId": 67942,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 66641,
+          "name": "Serenity Concourse",
+          "coordinates": [
+            2,
+            9,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67637,
+              "name": "north"
+            },
+            {
+              "exitId": 67682,
+              "name": "northeast"
+            },
+            {
+              "exitId": 67633,
+              "name": "northwest"
+            },
+            {
+              "exitId": 70156,
+              "name": "east"
+            },
+            {
+              "exitId": 64086,
+              "name": "west"
+            },
+            {
+              "exitId": 67407,
+              "name": "in"
+            },
+            {
+              "exitId": 68098,
+              "name": "out"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 66787,
+          "name": "Wandering the western Hall of Dusk",
+          "coordinates": [
+            -2,
+            13,
+            2
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67902,
+              "name": "east"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 66902,
+          "name": "The parlour of the Saravyn Countess",
+          "coordinates": [
+            0,
+            14,
+            2
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67902,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67058,
+          "name": "A corridor to other corridors",
+          "coordinates": [
+            3,
+            11,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67122,
+              "name": "east"
+            },
+            {
+              "exitId": 67614,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67090,
+          "name": "A road between the living and the dead",
+          "coordinates": [
+            -1,
+            14,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 64810,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67114,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67114,
+          "name": "Lienas'neina Cemetary",
+          "coordinates": [
+            -1,
+            13,
+            0
+          ],
+          "environment": 21,
+          "exits": [
+            {
+              "exitId": 67090,
+              "name": "north"
+            },
+            {
+              "exitId": 67135,
+              "name": "in"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67122,
+          "name": "The Visindi Collection",
+          "coordinates": [
+            4,
+            11,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67845,
+              "name": "north"
+            },
+            {
+              "exitId": 67445,
+              "name": "east"
+            },
+            {
+              "exitId": 67058,
+              "name": "west"
+            },
+            {
+              "exitId": 67846,
+              "name": "south"
+            },
+            {
+              "exitId": 68958,
+              "name": "up",
+              "customLine": {
+                "color24RGB": [
+                  255,
+                  0,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    3,
+                    12
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67135,
+          "name": "Atrabalan'Ylnova",
+          "coordinates": [
+            0,
+            13,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67114,
+              "name": "out",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    -1,
+                    13
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67136,
+          "name": "Within a torch-lit gatehouse",
+          "coordinates": [
+            1,
+            6,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67142,
+              "name": "east"
+            },
+            {
+              "exitId": 67276,
+              "name": "west"
+            },
+            {
+              "exitId": 67941,
+              "name": "south"
+            },
+            {
+              "exitId": 64086,
+              "name": "in"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67142,
+          "name": "The base of Tor-Strega",
+          "coordinates": [
+            4,
+            6,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67136,
+              "name": "west"
+            },
+            {
+              "exitId": 68098,
+              "name": "up",
+              "customLine": {
+                "color24RGB": [
+                  255,
+                  0,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    4,
+                    7
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67216,
+          "name": "An apartment of dignified luxury",
+          "coordinates": [
+            3,
+            13,
+            2
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68109,
+              "name": "east"
+            },
+            {
+              "exitId": 68025,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67220,
+          "name": "Above the main gate of the Witchfort",
+          "coordinates": [
+            0,
+            7,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68098,
+              "name": "east"
+            },
+            {
+              "exitId": 68086,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67224,
+          "name": "The base of the Windviper Watchtower",
+          "coordinates": [
+            8,
+            12,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67281,
+              "name": "north"
+            },
+            {
+              "exitId": 67271,
+              "name": "south"
+            },
+            {
+              "exitId": 68566,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67268,
+          "name": "The base of South Spirit Lance Bastion",
+          "coordinates": [
+            8,
+            16,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67730,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67281,
+              "name": "south"
+            },
+            {
+              "exitId": 68715,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67270,
+          "name": "The glass cliff",
+          "coordinates": [
+            5,
+            3,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68466,
+              "name": "north"
+            },
+            {
+              "exitId": 68449,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67788,
+              "name": "west"
+            },
+            {
+              "exitId": 67862,
+              "name": "south"
+            },
+            {
+              "exitId": 65746,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67271,
+          "name": "Between Stella'aria and Windviper",
+          "coordinates": [
+            8,
+            10,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67224,
+              "name": "north"
+            },
+            {
+              "exitId": 67945,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67276,
+          "name": "The base of Tor-Cabot",
+          "coordinates": [
+            -2,
+            6,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67136,
+              "name": "east"
+            },
+            {
+              "exitId": 68086,
+              "name": "up",
+              "customLine": {
+                "color24RGB": [
+                  255,
+                  0,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    -2,
+                    7
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67279,
+          "name": "Stra'as Street",
+          "coordinates": [
+            4,
+            10,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67331,
+              "name": "north"
+            },
+            {
+              "exitId": 68055,
+              "name": "northeast"
+            },
+            {
+              "exitId": 67682,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67281,
+          "name": "Between Windviper and Spirit Lance",
+          "coordinates": [
+            8,
+            14,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67268,
+              "name": "north"
+            },
+            {
+              "exitId": 67224,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67300,
+          "name": "Rugalana Road",
+          "coordinates": [
+            -2,
+            10,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67302,
+              "name": "north"
+            },
+            {
+              "exitId": 68632,
+              "name": "northwest"
+            },
+            {
+              "exitId": 65653,
+              "name": "east"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67302,
+          "name": "Ferocity",
+          "coordinates": [
+            -2,
+            11,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67300,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67303,
+          "name": "The base of North Tigress Bastion",
+          "coordinates": [
+            -5,
+            17,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67963,
+              "name": "east"
+            },
+            {
+              "exitId": 67315,
+              "name": "southwest"
+            },
+            {
+              "exitId": 68766,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67315,
+          "name": "The base of South Tigress Bastion",
+          "coordinates": [
+            -6,
+            16,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67303,
+              "name": "northeast"
+            },
+            {
+              "exitId": 67429,
+              "name": "south"
+            },
+            {
+              "exitId": 68779,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67330,
+          "name": "Amongst towering stacks of lumber",
+          "coordinates": [
+            3,
+            4,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68449,
+              "name": "east"
+            },
+            {
+              "exitId": 67788,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67331,
+          "name": "Stra'as Street Metal Co",
+          "coordinates": [
+            4,
+            11,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67279,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67346,
+          "name": "The Black Descent",
+          "coordinates": [
+            2,
+            8,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67407,
+              "name": "up"
+            },
+            {
+              "exitId": 67565,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67407,
+          "name": "Atelier Qamad",
+          "coordinates": [
+            2,
+            8,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67440,
+              "name": "up"
+            },
+            {
+              "exitId": 67346,
+              "name": "down"
+            },
+            {
+              "exitId": 66641,
+              "name": "out",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    2,
+                    9
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67429,
+          "name": "Between Tigress and Iron",
+          "coordinates": [
+            -6,
+            14,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67315,
+              "name": "north"
+            },
+            {
+              "exitId": 62473,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67440,
+          "name": "Within shi-Ama'kailar d'Cetatea",
+          "coordinates": [
+            2,
+            8,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67562,
+              "name": "up"
+            },
+            {
+              "exitId": 67407,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67445,
+          "name": "Some kind of big lobby",
+          "coordinates": [
+            5,
+            11,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67122,
+              "name": "west"
+            },
+            {
+              "exitId": 66402,
+              "name": "in"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67455,
+          "name": "A cobble road to the Black Sun Stables",
+          "coordinates": [
+            3,
+            12,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66581,
+              "name": "southwest"
+            },
+            {
+              "exitId": 68241,
+              "name": "in"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67457,
+          "name": "The killing corner",
+          "coordinates": [
+            -1,
+            4,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67466,
+              "name": "west"
+            },
+            {
+              "exitId": 67602,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67466,
+          "name": "A shepherd's pasture",
+          "coordinates": [
+            -2,
+            4,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67457,
+              "name": "east"
+            },
+            {
+              "exitId": 67706,
+              "name": "west"
+            },
+            {
+              "exitId": 67602,
+              "name": "south"
+            },
+            {
+              "exitId": 57678,
+              "name": "southeast"
+            },
+            {
+              "exitId": 67686,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67470,
+          "name": "Cabotsaria Castleworks",
+          "coordinates": [
+            3,
+            2,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67788,
+              "name": "northeast"
+            },
+            {
+              "exitId": 65746,
+              "name": "east"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67507,
+          "name": "An orderly domain of lush orchards",
+          "coordinates": [
+            -3,
+            2,
+            0
+          ],
+          "environment": 21,
+          "exits": [
+            {
+              "exitId": 67686,
+              "name": "north"
+            },
+            {
+              "exitId": 67602,
+              "name": "northeast"
+            },
+            {
+              "exitId": 66233,
+              "name": "east"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67532,
+          "name": "Atelier Nocturna",
+          "coordinates": [
+            -1,
+            11,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67624,
+              "name": "up"
+            },
+            {
+              "exitId": 66524,
+              "name": "out",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    0,
+                    11
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67562,
+          "name": "Isilar'Saravyn Fulcrum",
+          "coordinates": [
+            2,
+            9,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67440,
+              "name": "down",
+              "customLine": {
+                "color24RGB": [
+                  255,
+                  0,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    2,
+                    8
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            },
+            {
+              "exitId": 67563,
+              "name": "out",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    3,
+                    9
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67563,
+          "name": "The parapets of a black tower",
+          "coordinates": [
+            3,
+            9,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67562,
+              "name": "in"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67565,
+          "name": "The heart of Amberwick Gaol",
+          "coordinates": [
+            2,
+            7,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67891,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67567,
+              "name": "southeast"
+            },
+            {
+              "exitId": 67346,
+              "name": "up",
+              "customLine": {
+                "color24RGB": [
+                  255,
+                  0,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    2,
+                    8
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            },
+            {
+              "exitId": 68173,
+              "name": "down"
+            },
+            {
+              "exitId": 68215,
+              "name": "in"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67567,
+          "name": "Dha'Shavar'd'Qavhresh",
+          "coordinates": [
+            3,
+            6,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67565,
+              "name": "northwest"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67576,
+          "name": "Between the Witchfort and Edelweiss",
+          "coordinates": [
+            -3,
+            7,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68086,
+              "name": "east"
+            },
+            {
+              "exitId": 67680,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67582,
+          "name": "Winding through the west Tetra",
+          "coordinates": [
+            0,
+            10,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66524,
+              "name": "north"
+            },
+            {
+              "exitId": 66561,
+              "name": "northeast"
+            },
+            {
+              "exitId": 67633,
+              "name": "east"
+            },
+            {
+              "exitId": 65653,
+              "name": "west"
+            },
+            {
+              "exitId": 66586,
+              "name": "south"
+            },
+            {
+              "exitId": 64086,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67602,
+          "name": "An eclectic farming village",
+          "coordinates": [
+            -2,
+            3,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67466,
+              "name": "north"
+            },
+            {
+              "exitId": 67457,
+              "name": "northeast"
+            },
+            {
+              "exitId": 67706,
+              "name": "northwest"
+            },
+            {
+              "exitId": 57678,
+              "name": "east"
+            },
+            {
+              "exitId": 67686,
+              "name": "west"
+            },
+            {
+              "exitId": 66233,
+              "name": "south"
+            },
+            {
+              "exitId": 65916,
+              "name": "southeast"
+            },
+            {
+              "exitId": 67507,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67614,
+          "name": "Grand Hall of the Black Sun Palace",
+          "coordinates": [
+            1,
+            11,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67942,
+              "name": "north"
+            },
+            {
+              "exitId": 67058,
+              "name": "east"
+            },
+            {
+              "exitId": 67944,
+              "name": "west"
+            },
+            {
+              "exitId": 68951,
+              "name": "up"
+            },
+            {
+              "exitId": 15244,
+              "name": "out",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    1,
+                    10
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67617,
+          "name": "A crossroads between villages",
+          "coordinates": [
+            1,
+            3,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67672,
+              "name": "north"
+            },
+            {
+              "exitId": 67625,
+              "name": "east"
+            },
+            {
+              "exitId": 57678,
+              "name": "west"
+            },
+            {
+              "exitId": 66049,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67624,
+          "name": "Thaumaturgia Nocturna",
+          "coordinates": [
+            -2,
+            13,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67642,
+              "name": "up",
+              "customLine": {
+                "color24RGB": [
+                  255,
+                  0,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    -2,
+                    14
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            },
+            {
+              "exitId": 67532,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67625,
+          "name": "Outside an industrial village",
+          "coordinates": [
+            3,
+            3,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68449,
+              "name": "northeast"
+            },
+            {
+              "exitId": 67788,
+              "name": "east"
+            },
+            {
+              "exitId": 67617,
+              "name": "west"
+            },
+            {
+              "exitId": 65746,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67628,
+          "name": "Adytum Elunaitzas",
+          "coordinates": [
+            1,
+            14,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68638,
+              "name": "west"
+            },
+            {
+              "exitId": 66600,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67631,
+          "name": "The base of South Stella'aria Bastion",
+          "coordinates": [
+            7,
+            7,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67945,
+              "name": "northeast"
+            },
+            {
+              "exitId": 65476,
+              "name": "west"
+            },
+            {
+              "exitId": 67913,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67633,
+          "name": "Outside a small but serene chapel",
+          "coordinates": [
+            1,
+            10,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66561,
+              "name": "north"
+            },
+            {
+              "exitId": 66581,
+              "name": "northeast"
+            },
+            {
+              "exitId": 66524,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67637,
+              "name": "east"
+            },
+            {
+              "exitId": 67582,
+              "name": "west"
+            },
+            {
+              "exitId": 64086,
+              "name": "south"
+            },
+            {
+              "exitId": 66641,
+              "name": "southeast"
+            },
+            {
+              "exitId": 66586,
+              "name": "southwest"
+            },
+            {
+              "exitId": 67649,
+              "name": "in"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67637,
+          "name": "Winding through the east Tetra",
+          "coordinates": [
+            2,
+            10,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66581,
+              "name": "north"
+            },
+            {
+              "exitId": 66561,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67682,
+              "name": "east"
+            },
+            {
+              "exitId": 67633,
+              "name": "west"
+            },
+            {
+              "exitId": 66641,
+              "name": "south"
+            },
+            {
+              "exitId": 64086,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67642,
+          "name": "Grimoirium Nocturna",
+          "coordinates": [
+            -2,
+            14,
+            1
+          ],
+          "symbol": {
+            "text": "N"
+          },
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67657,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67675,
+              "name": "up",
+              "customLine": {
+                "color24RGB": [
+                  255,
+                  0,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    -2,
+                    15
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            },
+            {
+              "exitId": 67624,
+              "name": "down"
+            },
+            {
+              "exitId": 67847,
+              "name": "out"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "feature-news": "true",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67649,
+          "coordinates": [
+            1,
+            10,
+            -1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
+          "id": 67657,
+          "coordinates": [
+            -3,
+            15,
+            1
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
+          "id": 67672,
+          "name": "Upon a road to Cetatea Visindi",
+          "coordinates": [
+            1,
+            4,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67941,
+              "name": "north"
+            },
+            {
+              "exitId": 67617,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67675,
+          "coordinates": [
+            -2,
+            14,
+            2
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
+          "id": 67677,
+          "name": "The base of the Wishing Tower",
+          "coordinates": [
+            1,
+            17,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68046,
+              "name": "east"
+            },
+            {
+              "exitId": 68016,
+              "name": "west"
+            },
+            {
+              "exitId": 68749,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67680,
+          "name": "The base of South Edelweiss Bastion",
+          "coordinates": [
+            -5,
+            7,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67805,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67576,
+              "name": "east"
+            },
+            {
+              "exitId": 68303,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67682,
+          "name": "Stra'as Square",
+          "coordinates": [
+            3,
+            10,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66581,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67279,
+              "name": "east"
+            },
+            {
+              "exitId": 67637,
+              "name": "west"
+            },
+            {
+              "exitId": 66641,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67684,
+          "name": "The top of Tor-Cabot",
+          "coordinates": [
+            -2,
+            7,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68086,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67686,
+          "name": "Terraced farmland in the hills",
+          "coordinates": [
+            -3,
+            3,
+            0
+          ],
+          "environment": 7,
+          "exits": [
+            {
+              "exitId": 67706,
+              "name": "north"
+            },
+            {
+              "exitId": 67466,
+              "name": "northeast"
+            },
+            {
+              "exitId": 67602,
+              "name": "east"
+            },
+            {
+              "exitId": 67507,
+              "name": "south"
+            },
+            {
+              "exitId": 66233,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67706,
+          "name": "Vast terraced pastures",
+          "coordinates": [
+            -3,
+            4,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67466,
+              "name": "east"
+            },
+            {
+              "exitId": 67686,
+              "name": "south"
+            },
+            {
+              "exitId": 67602,
+              "name": "southeast"
+            },
+            {
+              "exitId": 68574,
+              "name": "in"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67716,
+          "name": "A cavernous banquet hall",
+          "coordinates": [
+            -2,
+            10,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67954,
+              "name": "north"
+            },
+            {
+              "exitId": 67944,
+              "name": "northeast"
+            },
+            {
+              "exitId": 37454,
+              "name": "east"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67730,
+          "name": "The base of North Spirit Lance Bastion",
+          "coordinates": [
+            7,
+            17,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67812,
+              "name": "west"
+            },
+            {
+              "exitId": 67268,
+              "name": "southeast"
+            },
+            {
+              "exitId": 68723,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67788,
+          "name": "A frontier industrial camp",
+          "coordinates": [
+            4,
+            3,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68449,
+              "name": "north"
+            },
+            {
+              "exitId": 68466,
+              "name": "northeast"
+            },
+            {
+              "exitId": 67330,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67270,
+              "name": "east"
+            },
+            {
+              "exitId": 67625,
+              "name": "west"
+            },
+            {
+              "exitId": 65746,
+              "name": "south"
+            },
+            {
+              "exitId": 67862,
+              "name": "southeast"
+            },
+            {
+              "exitId": 67470,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67805,
+          "name": "The base of North Edelweiss Bastion",
+          "coordinates": [
+            -6,
+            8,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 23378,
+              "name": "north"
+            },
+            {
+              "exitId": 67680,
+              "name": "southeast"
+            },
+            {
+              "exitId": 68330,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67812,
+          "name": "Between Spirit Lance and the Children",
+          "coordinates": [
+            5,
+            17,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67730,
+              "name": "east"
+            },
+            {
+              "exitId": 68046,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67833,
+          "name": "An elegant family dining hall",
+          "coordinates": [
+            -2,
+            12,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67944,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67845,
+          "name": "The Visindi Collection: North Wing",
+          "coordinates": [
+            4,
+            12,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67122,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67846,
+          "name": "The Visindi Collection: South Wing",
+          "coordinates": [
+            4,
+            10,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67122,
+              "name": "north"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67847,
+          "coordinates": [
+            -1,
+            11,
+            3
+          ],
+          "environment": 8,
+          "exits": []
+        },
+        {
+          "id": 67853,
+          "name": "The parapets of Tor'Vitrae",
+          "coordinates": [
+            -1,
+            9,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 69441,
+              "name": "in",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    0,
+                    9
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67862,
+          "name": "The Cliffside Pub",
+          "coordinates": [
+            5,
+            2,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67270,
+              "name": "north"
+            },
+            {
+              "exitId": 67788,
+              "name": "northwest"
+            },
+            {
+              "exitId": 65746,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67872,
+          "name": "The parapets of Tor'Ancyrion",
+          "coordinates": [
+            2,
+            14,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68123,
+              "name": "in"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67891,
+          "name": "A claustrophobic black cell",
+          "coordinates": [
+            1,
+            8,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67565,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67902,
+          "name": "The Hall of Dusk before grand doors",
+          "coordinates": [
+            0,
+            13,
+            2
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66902,
+              "name": "north"
+            },
+            {
+              "exitId": 68025,
+              "name": "east"
+            },
+            {
+              "exitId": 66787,
+              "name": "west"
+            },
+            {
+              "exitId": 68951,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67903,
+          "name": "The Red Star's Lair in Haskor's Arena",
+          "coordinates": [
+            4,
+            15,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67937,
+              "name": "east"
+            },
+            {
+              "exitId": 68154,
+              "name": "south"
+            },
+            {
+              "exitId": 68174,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67913,
+          "name": "Atop Stella'aria above Cabotsaria",
+          "coordinates": [
+            7,
+            7,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68153,
+              "name": "northeast"
+            },
+            {
+              "exitId": 67631,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67937,
+          "name": "The northern edge of Haskor's Arena",
+          "coordinates": [
+            5,
+            15,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68069,
+              "name": "east"
+            },
+            {
+              "exitId": 67903,
+              "name": "west"
+            },
+            {
+              "exitId": 68174,
+              "name": "south"
+            },
+            {
+              "exitId": 68178,
+              "name": "southeast"
+            },
+            {
+              "exitId": 68154,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67941,
+          "name": "Before an enormous black keep",
+          "coordinates": [
+            1,
+            5,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67136,
+              "name": "north"
+            },
+            {
+              "exitId": 67672,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67942,
+          "name": "The Scarlet Vestibule",
+          "coordinates": [
+            1,
+            12,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66600,
+              "name": "north"
+            },
+            {
+              "exitId": 67614,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67944,
+          "name": "Mieri's Lounge",
+          "coordinates": [
+            -1,
+            11,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67833,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67614,
+              "name": "east"
+            },
+            {
+              "exitId": 67954,
+              "name": "west"
+            },
+            {
+              "exitId": 37454,
+              "name": "south"
+            },
+            {
+              "exitId": 67716,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67945,
+          "name": "The base of North Stella'aria Bastion",
+          "coordinates": [
+            8,
+            8,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67271,
+              "name": "north"
+            },
+            {
+              "exitId": 67631,
+              "name": "southwest"
+            },
+            {
+              "exitId": 68153,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67954,
+          "name": "The Cetatea kitchens",
+          "coordinates": [
+            -2,
+            11,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67944,
+              "name": "east"
+            },
+            {
+              "exitId": 67716,
+              "name": "south"
+            },
+            {
+              "exitId": 37454,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67963,
+          "name": "Between Tigress and the Children",
+          "coordinates": [
+            -3,
+            17,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68016,
+              "name": "east"
+            },
+            {
+              "exitId": 67303,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 67995,
+          "name": "The Saravyn Gate",
+          "coordinates": [
+            1,
+            1,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66049,
+              "name": "northeast"
+            },
+            {
+              "exitId": 65478,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68016,
+          "name": "Octopus Overlook",
+          "coordinates": [
+            -1,
+            17,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67677,
+              "name": "east"
+            },
+            {
+              "exitId": 67963,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68025,
+          "name": "Wandering the eastern Hall of Dusk",
+          "coordinates": [
+            2,
+            13,
+            2
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 65812,
+              "name": "north"
+            },
+            {
+              "exitId": 67216,
+              "name": "east"
+            },
+            {
+              "exitId": 67902,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68046,
+          "name": "Fortification Fromage",
+          "coordinates": [
+            3,
+            17,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67812,
+              "name": "east"
+            },
+            {
+              "exitId": 67677,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68055,
+          "name": "The plaza of Haskor's Debate Hall",
+          "coordinates": [
+            5,
+            11,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68265,
+              "name": "north"
+            },
+            {
+              "exitId": 67279,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68069,
+          "name": "The Packmother's Den in Haskor's Arena",
+          "coordinates": [
+            6,
+            15,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67937,
+              "name": "west"
+            },
+            {
+              "exitId": 68178,
+              "name": "south"
+            },
+            {
+              "exitId": 68174,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68074,
+          "name": "Atelier Ancyrion",
+          "coordinates": [
+            3,
+            11,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68118,
+              "name": "up"
+            },
+            {
+              "exitId": 66581,
+              "name": "out",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    2,
+                    11
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68086,
+          "name": "Tor-Cabot, within the Witchfort",
+          "coordinates": [
+            -2,
+            7,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67220,
+              "name": "east"
+            },
+            {
+              "exitId": 67576,
+              "name": "west"
+            },
+            {
+              "exitId": 67684,
+              "name": "up"
+            },
+            {
+              "exitId": 67276,
+              "name": "down"
+            },
+            {
+              "exitId": 66586,
+              "name": "in",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    0,
+                    9
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68098,
+          "name": "Tor-Strega, within the Witchfort",
+          "coordinates": [
+            4,
+            7,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 65476,
+              "name": "east"
+            },
+            {
+              "exitId": 67220,
+              "name": "west"
+            },
+            {
+              "exitId": 67142,
+              "name": "down"
+            },
+            {
+              "exitId": 66641,
+              "name": "in",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    2,
+                    9
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68109,
+          "name": "A balcony looking past the Lance",
+          "coordinates": [
+            4,
+            13,
+            2
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67216,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68118,
+          "name": "Arsenal Ancyrion",
+          "coordinates": [
+            2,
+            12,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68123,
+              "name": "up",
+              "customLine": {
+                "color24RGB": [
+                  255,
+                  0,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    2,
+                    13
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            },
+            {
+              "exitId": 68074,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68123,
+          "name": "Garrison Ancyrion",
+          "coordinates": [
+            2,
+            13,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68118,
+              "name": "down"
+            },
+            {
+              "exitId": 67872,
+              "name": "out",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    2,
+                    14
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68153,
+          "name": "Atop Stella'aria and the mist below",
+          "coordinates": [
+            8,
+            8,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67913,
+              "name": "southwest"
+            },
+            {
+              "exitId": 67945,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68154,
+          "name": "The western edge of Haskor's Arena",
+          "coordinates": [
+            4,
+            14,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67903,
+              "name": "north"
+            },
+            {
+              "exitId": 67937,
+              "name": "northeast"
+            },
+            {
+              "exitId": 68174,
+              "name": "east"
+            },
+            {
+              "exitId": 68306,
+              "name": "south"
+            },
+            {
+              "exitId": 68265,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68173,
+          "name": "The hellish Maal'jio",
+          "coordinates": [
+            2,
+            6,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67565,
+              "name": "up",
+              "customLine": {
+                "color24RGB": [
+                  255,
+                  0,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    2,
+                    7
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68174,
+          "name": "Before the golden chariot",
+          "coordinates": [
+            5,
+            14,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67937,
+              "name": "north"
+            },
+            {
+              "exitId": 68069,
+              "name": "northeast"
+            },
+            {
+              "exitId": 67903,
+              "name": "northwest"
+            },
+            {
+              "exitId": 68178,
+              "name": "east"
+            },
+            {
+              "exitId": 68154,
+              "name": "west"
+            },
+            {
+              "exitId": 68265,
+              "name": "south"
+            },
+            {
+              "exitId": 68301,
+              "name": "southeast"
+            },
+            {
+              "exitId": 68306,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68178,
+          "name": "The eastern edge of Haskor's Arena",
+          "coordinates": [
+            6,
+            14,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68069,
+              "name": "north"
+            },
+            {
+              "exitId": 67937,
+              "name": "northwest"
+            },
+            {
+              "exitId": 68174,
+              "name": "west"
+            },
+            {
+              "exitId": 68301,
+              "name": "south"
+            },
+            {
+              "exitId": 68265,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68215,
+          "name": "Large cells to confine the crowd",
+          "coordinates": [
+            3,
+            7,
+            -1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67565,
+              "name": "out",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    2,
+                    7
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68241,
+          "name": "Black Sun Stables",
+          "coordinates": [
+            3,
+            13,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67455,
+              "name": "out",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    3,
+                    12
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68265,
+          "name": "Past the Artus Gate of Haskor's Arena",
+          "coordinates": [
+            5,
+            13,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68174,
+              "name": "north"
+            },
+            {
+              "exitId": 68178,
+              "name": "northeast"
+            },
+            {
+              "exitId": 68154,
+              "name": "northwest"
+            },
+            {
+              "exitId": 68301,
+              "name": "east"
+            },
+            {
+              "exitId": 68306,
+              "name": "west"
+            },
+            {
+              "exitId": 68055,
+              "name": "south"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68301,
+          "name": "The Blazesong in Haskor's Arena",
+          "coordinates": [
+            6,
+            13,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68178,
+              "name": "north"
+            },
+            {
+              "exitId": 68174,
+              "name": "northwest"
+            },
+            {
+              "exitId": 68265,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68303,
+          "name": "Atop Edelweiss watching the terraces",
+          "coordinates": [
+            -5,
+            7,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68330,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67680,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68306,
+          "name": "The Rotsheart in Haskor's Arena",
+          "coordinates": [
+            4,
+            13,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68154,
+              "name": "north"
+            },
+            {
+              "exitId": 68174,
+              "name": "northeast"
+            },
+            {
+              "exitId": 68265,
+              "name": "east"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68330,
+          "name": "Edelweiss overlooking the mountain",
+          "coordinates": [
+            -6,
+            8,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68303,
+              "name": "southeast"
+            },
+            {
+              "exitId": 67805,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68438,
+          "name": "Great Iron's apex",
+          "coordinates": [
+            -6,
+            12,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 62473,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68449,
+          "name": "The leatherworkers",
+          "coordinates": [
+            4,
+            4,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68466,
+              "name": "east"
+            },
+            {
+              "exitId": 67330,
+              "name": "west"
+            },
+            {
+              "exitId": 67788,
+              "name": "south"
+            },
+            {
+              "exitId": 67270,
+              "name": "southeast"
+            },
+            {
+              "exitId": 67625,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68466,
+          "name": "Among the weavers and potters",
+          "coordinates": [
+            5,
+            4,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68449,
+              "name": "west"
+            },
+            {
+              "exitId": 67270,
+              "name": "south"
+            },
+            {
+              "exitId": 67788,
+              "name": "southwest"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68566,
+          "name": "The Windviper overlooking the Daoric",
+          "coordinates": [
+            8,
+            12,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67224,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68574,
+          "name": "The Cabotsaria stables",
+          "coordinates": [
+            -4,
+            4,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67706,
+              "name": "out",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    -3,
+                    4
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68632,
+          "name": "Witchtown",
+          "coordinates": [
+            -3,
+            11,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67300,
+              "name": "southeast"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68638,
+          "name": "A well-lit vault",
+          "coordinates": [
+            0,
+            14,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67628,
+              "name": "east"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68715,
+          "name": "The Lance above the Swaying Sea",
+          "coordinates": [
+            8,
+            16,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68723,
+              "name": "northwest"
+            },
+            {
+              "exitId": 67268,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68723,
+          "name": "The Spirits above the hillside",
+          "coordinates": [
+            7,
+            17,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68715,
+              "name": "southeast"
+            },
+            {
+              "exitId": 67730,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68749,
+          "name": "The Wish's Wail",
+          "coordinates": [
+            1,
+            17,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67677,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68766,
+          "name": "The Tigress surveying the Tears",
+          "coordinates": [
+            -5,
+            17,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68779,
+              "name": "southwest"
+            },
+            {
+              "exitId": 67303,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68779,
+          "name": "The Tigress above the dominion",
+          "coordinates": [
+            -6,
+            16,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68766,
+              "name": "northeast"
+            },
+            {
+              "exitId": 67315,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68874,
+          "name": "At the base of the palace steps",
+          "coordinates": [
+            1,
+            12,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 66561,
+              "name": "south"
+            },
+            {
+              "exitId": 66581,
+              "name": "southeast"
+            },
+            {
+              "exitId": 66524,
+              "name": "southwest"
+            },
+            {
+              "exitId": 15244,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68951,
+          "name": "Above the Grand Hall",
+          "coordinates": [
+            0,
+            12,
+            2
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 67902,
+              "name": "north"
+            },
+            {
+              "exitId": 67614,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 68958,
+          "name": "A studio overlooking the Visindi Collection",
+          "coordinates": [
+            3,
+            12,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 69217,
+              "name": "north"
+            },
+            {
+              "exitId": 67122,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 69217,
+          "name": "The Sacristy of Inspiration",
+          "coordinates": [
+            3,
+            13,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 68958,
+              "name": "south"
+            },
+            {
+              "exitId": 69311,
+              "name": "up"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 69311,
+          "name": "The Madrigal Rotunda",
+          "coordinates": [
+            3,
+            14,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 69217,
+              "name": "down",
+              "customLine": {
+                "color24RGB": [
+                  255,
+                  0,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    3,
+                    13
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 69420,
+          "name": "Atelier Vitrae",
+          "coordinates": [
+            0,
+            8,
+            0
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 69436,
+              "name": "up"
+            },
+            {
+              "exitId": 66586,
+              "name": "out",
+              "customLine": {
+                "color24RGB": [
+                  0,
+                  255,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    0,
+                    9
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 69436,
+          "name": "Codex Vitrae",
+          "coordinates": [
+            0,
+            8,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 69441,
+              "name": "up"
+            },
+            {
+              "exitId": 69420,
+              "name": "down"
+            }
+          ],
+          "userData": {
+            "indoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 69441,
+          "name": "Aedes Lunastra",
+          "coordinates": [
+            0,
+            9,
+            1
+          ],
+          "environment": 8,
+          "exits": [
+            {
+              "exitId": 69436,
+              "name": "down",
+              "customLine": {
+                "color24RGB": [
+                  255,
+                  0,
+                  0
+                ],
+                "coordinates": [
+                  [
+                    0,
+                    8
+                  ]
+                ],
+                "endsInArrow": false,
+                "style": "dot line"
+              }
+            },
+            {
+              "exitId": 67853,
+              "name": "out"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        },
+        {
+          "id": 70156,
+          "name": "A field behind Tor'Qamad",
+          "coordinates": [
+            3,
+            9,
+            0
+          ],
+          "environment": 21,
+          "exits": [
+            {
+              "exitId": 66641,
+              "name": "west"
+            }
+          ],
+          "userData": {
+            "outdoors": "y",
+            "Game Area": "the Sarave Foothills"
+          }
+        }
+      ],
       "userData": {
-        "system.fallback_map2DZoom": "20"
+        "system.fallback_map2DZoom": "13.3268"
       }
     },
     {
@@ -436951,8 +442538,7 @@
             },
             {
               "name": "touch 116998",
-              "exitId": 21722,
-              "locked": true
+              "exitId": 21722
             },
             {
               "name": "worm warp",
@@ -445540,6 +451126,10 @@
             {
               "exitId": 9232,
               "name": "down"
+            },
+            {
+              "exitId": 65478,
+              "name": "in"
             }
           ],
           "userData": {
@@ -537856,6 +543446,10 @@
           ],
           "environment": 9,
           "exits": [
+            {
+              "exitId": 65783,
+              "name": "north"
+            },
             {
               "exitId": 35642,
               "name": "southeast"
@@ -807680,7 +813274,7 @@
     }
   ],
   "areaCount": 477,
-  "roomCount": 29648,
+  "roomCount": 29878,
   "labelCount": 8,
   "defaultAreaName": "Default Area",
   "anonymousAreaName": "Unnamed Area",
@@ -807720,25 +813314,25 @@
     "36": 3
   },
   "playersRoomId": {
-    "Test": 1299,
-    "Aeowynn x Legacy 1.0 map": 2083,
-    "ACHAEA MAPPING": 1538,
-    "Aeowynn Mapper": 28627,
-    "Achaea5": 46104,
-    "Achaea - Rekhyr": 35705,
-    "Achaea - Thaisen": 12695,
-    "Achaea1": 18691,
-    "Achaea Fresh Install Ori": 8687,
-    "Achaea": 12647,
-    "Tahquil - FaFo - Gui": 4474,
+    "ACHAEA MAPPING": 437,
     "Qwindor": 436,
-    "Achaea3_inclient": 6740,
-    "Achaea5_inclient": 4472,
     "AchaeaLeg": 35925,
-    "Achaea NewUI": 1299,
-    "Achaea Legacy": 56677,
+    "Aeowynn Mapper": 28627,
+    "Achaea3_inclient": 6740,
+    "Achaea - Thaisen": 12695,
+    "Test": 1299,
+    "Achaea1": 18691,
     "Aeowynn x Legacy 0.9": 40190,
-    "Aeowynn mapper": 40409
+    "Achaea NewUI": 1299,
+    "Achaea Fresh Install Ori": 8687,
+    "Achaea5_inclient": 4472,
+    "Tahquil - FaFo - Gui": 4474,
+    "Achaea5": 46104,
+    "Aeowynn x Legacy 1.0 map": 2083,
+    "Aeowynn mapper": 40409,
+    "Achaea - Rekhyr": 35705,
+    "Achaea Legacy": 56677,
+    "Achaea": 12647
   },
   "customEnvColors": [
     {
