@@ -2,17 +2,23 @@ name: Map diffs
 
 on: [pull_request_target]
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   map-diff:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout base
         uses: actions/checkout@v6
         with:
-          ref: ${{github.event.pull_request.head.ref}}
-          repository: ${{github.event.pull_request.head.repo.full_name}}
           fetch-depth: 0
-          
+      - name: Fetch PR head
+        run: |
+          git fetch origin pull/${{ github.event.pull_request.number }}/head:pr-head
+          git checkout pr-head
+
       - name: Check if the map was changed in this PR
         id: map-change-detected
         uses: tj-actions/changed-files@v47.0.4
@@ -21,7 +27,7 @@ jobs:
           files: Map/map
           sha: ${{github.event.pull_request.head.sha}}
           base_sha: ${{github.event.pull_request.base.sha}}
-        
+
       - name: Create map diffs
         if: steps.map-change-detected.outputs.any_changed == 'true'
         uses: Delwing/mudlet-map-diff-action@details-tag-fix

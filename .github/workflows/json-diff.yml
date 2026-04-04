@@ -2,31 +2,35 @@ name: JSON diff
 
 on: pull_request_target
 
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
 jobs:
   json-diff:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout current version
+      - name: Checkout base version
         uses: actions/checkout@v6
         with:
-          ref: ${{github.event.pull_request.head.ref}}
-          repository: ${{github.event.pull_request.head.repo.full_name}}
-          fetch-depth: 0
-          path: current
-      - name: Checkout old version
-        uses: actions/checkout@v6
-        with:
-          ref: ${{ github.event.pull_request.base.ref }}
-          repository: ${{ github.event.pull_request.base.repo.full_name }}
           fetch-depth: 0
           path: old
-
+      - name: Checkout base again for PR overlay
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          path: current
+      - name: Fetch PR changes into current
+        working-directory: current
+        run: |
+          git fetch origin pull/${{ github.event.pull_request.number }}/head:pr-head
+          git checkout pr-head
 
       - uses: actions/setup-node@v6.2.0
       - name: Install dependencies
         run: |
           sudo apt-get install jq diffutils
-
 
       - name: Generate json map files for diffing
         run: |
