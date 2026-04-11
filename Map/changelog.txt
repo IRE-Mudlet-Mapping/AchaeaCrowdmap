@@ -479,5 +479,6 @@ changelog = {
 	[[Remapped the Gauntlet (Targossas Arena)]],
 	[[Elemental fringe areas, City shop updates, Added to Cyrene Eleusis Coterie, Disconnected Sea Temple, Ishana Steppes split]],
 	[[Changes to Cyrene, Eastern Road, Cormorant Rock, Targossas, Ashtan, Mhaldor, Dun Fortress/Valley, Asterian Pennisula, Ancreage(House), Ancyra(House), Shop Update]],
-	[[Saravoia Added (partial), Inbhir Ness update, N. Vashnars Antonian Scar update, Mhaldor Tweak, Shop Update]]
+	[[Saravoia Added (partial), Inbhir Ness update, N. Vashnars Antonian Scar update, Mhaldor Tweak, Shop Update]],
+	[[Updates to Ashtan, Cyrene, Eleusis, Hashan, Targossas, Mhaldor, New Thera, Delos, Aalen kingdom, Eastern Road, Chaghut encampment, Dun Fortress, Mirror caves. Added/reattached : Uphimmin, Collar of Uphimmin, path of memories, Sparrow's Rest, Temple of Oneiros, Temple of Cataclysm, Hesperia, Temple of the Messenger, Aeraithian Falls, Temple of the Demon Queen, Temple of Destruction, Temple of Beauty, Temple of Justice, Caves of Delmarin, Temple of Agatheis, Krenindala, Temple of Strife, Soulrealms, El'Jazira, Grotto of Maya, Elysia, Loom Island, Ivory Temple]]
 }
