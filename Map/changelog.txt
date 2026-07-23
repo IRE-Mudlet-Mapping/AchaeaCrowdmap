@@ -481,4 +481,5 @@ changelog = {
 	[[Changes to Cyrene, Eastern Road, Cormorant Rock, Targossas, Ashtan, Mhaldor, Dun Fortress/Valley, Asterian Pennisula, Ancreage(House), Ancyra(House), Shop Update]],
 	[[Saravoia Added (partial), Inbhir Ness update, N. Vashnars Antonian Scar update, Mhaldor Tweak, Shop Update]],
 	[[Updates city shops, Delos, New Thera, Azdun Dungeon, Aalen Kingdom, Eastern Road, Dun Fortress Collar of Uphimmin, Uphimmin, Path of Memories, Sparrow's Rest, Temple of Oneiros, Temple of Cataclysm, Hesperia, Temple of the Messenger, Aeraithian Falls, Temple of the Demon Queen, Temple of Destruction, Temple of Beauty, Temple of Justice, Caves of Delmarin, Temple of Agatheis, Krenindala, Temple of Strife, Soulrealms, El'Jazira, Grotto of Maya, Elysia, Loom Island, Ivory Temple, Mirror Cave entrance, Mysia ferry]]
+	[[Updated Polyargos, Targossas Nexus of Culture and Festivities, Banazir Estate, Seleucarian ruins including whirlpool, Creville Foray]]
 }
