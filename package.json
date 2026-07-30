@@ -3,7 +3,7 @@
     "@types/js-yaml": "^4.0.9",
     "@types/lodash": "^4.17.24",
     "@types/yargs": "^17.0.35",
-    "danger": "^13.0.5",
+    "danger": "^13.0.10",
     "js-yaml": "^4.3.0",
     "lodash": "^4.18.1",
     "mudlet-map-binary-reader": "^0.6.0",
