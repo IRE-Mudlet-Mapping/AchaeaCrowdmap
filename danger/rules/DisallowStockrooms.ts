@@ -1,7 +1,7 @@
 
-import * as _ from "lodash";
-import { RoomCheckRule } from "../classes/Rule";
-import mapModel from "../helpers/MapModel";
+import _ from "lodash";
+import { RoomCheckRule } from "../classes/Rule.ts";
+import mapModel from "../helpers/MapModel.ts";
 
 
 const rooms = _.filter(mapModel.rooms, (room) =>

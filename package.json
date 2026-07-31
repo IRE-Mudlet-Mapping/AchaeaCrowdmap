@@ -13,5 +13,8 @@
   "dependencies": {
     "dotenv": "^17.4.0",
     "realm": "^12.14.2"
+  },
+  "engines": { 
+    "node": ">=22.12.0"
   }
 }
