@@ -206854,6 +206854,7 @@
             8.82911205291748,
             0
           ],
+          "id": 0,
           "image": [
             "iVBORw0KGgoAAAANSUhEUgAAADgAAAAXCAYAAABefIz9AAAACXBIWXMAAA7EAAAO",
             "xAGVKw4bAAABSUlEQVRYhWM0Np6WwjCMAdNAO4DWYNSDQx2MenCog1EPDnUA92Bo",
@@ -206895,6 +206896,7 @@
             8.850305557250977,
             0
           ],
+          "id": 1,
           "image": [
             "iVBORw0KGgoAAAANSUhEUgAAADkAAAAXCAYAAACxvufDAAAACXBIWXMAAA7EAAAO",
             "xAGVKw4bAAABTUlEQVRYhWM0Np6WwjDMAdNAO4AeYNSTwwWMenK4gFFPDheA4snQ",
@@ -460999,6 +461001,7 @@
             1.3823224306106567,
             0
           ],
+          "id": 0,
           "image": [
             "iVBORw0KGgoAAAANSUhEUgAAAFQAAAAfCAYAAAB59OpuAAAACXBIWXMAAA7EAAAO",
             "xAGVKw4bAAADhElEQVRoge2Yb0gTYRzHf+ak063YGhs8ZstZuqZLiEZRLF+VQjSl",
@@ -461052,6 +461055,7 @@
             2.320761203765869,
             0
           ],
+          "id": 1,
           "image": [
             "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACXBIWXMAAA7EAAAO",
             "xAGVKw4bAAAADUlEQVQImWN4+tT+CgAHmgLe73HbgQAAAABJRU5ErkJggg=="
@@ -461086,6 +461090,7 @@
             0.4801749885082245,
             0
           ],
+          "id": 2,
           "image": [
             "iVBORw0KGgoAAAANSUhEUgAAAHMAAAAUCAYAAAC+sgIEAAAACXBIWXMAAA7EAAAO",
             "xAGVKw4bAAACoElEQVRoge2ZQUhacRzHfzqDzCKHFJjDtMKRmbB8l5xd5vbyIAuK",
@@ -461134,6 +461139,7 @@
             0.14065976440906525,
             0
           ],
+          "id": 3,
           "image": [
             "iVBORw0KGgoAAAANSUhEUgAAAF8AAAAYCAYAAACcESEhAAAACXBIWXMAAA7EAAAO",
             "xAGVKw4bAAAB/0lEQVRogWM0Np6WwjAKBgQwDbQDRjIYDfwBBKOBP4BgNPAHEIwG",
@@ -461179,6 +461185,7 @@
             -1.9602731466293335,
             0
           ],
+          "id": 4,
           "image": [
             "iVBORw0KGgoAAAANSUhEUgAAAFIAAAAcCAYAAADyfuiHAAAACXBIWXMAAA7EAAAO",
             "xAGVKw4bAAACyElEQVRoge2ZUUgaYRzA/5Uyy1gnokxqmhGR43YwlGSQPfSwYgQ9",
@@ -497810,6 +497817,7 @@
             47.712188720703125,
             0
           ],
+          "id": 0,
           "image": [
             "iVBORw0KGgoAAAANSUhEUgAAAWwAAAAkCAYAAACt4wAMAAAACXBIWXMAAA7EAAAO",
             "xAGVKw4bAAAJi0lEQVR4nO2cbUxTWRrHjwpSWxlup9O69QUpEhgMNiOtI2KBdZ0t",
