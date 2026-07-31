@@ -6,7 +6,7 @@
     "danger": "^13.0.10",
     "js-yaml": "^5.2.2",
     "lodash": "^4.18.1",
-    "mudlet-map-binary-reader": "^0.6.0",
+    "mudlet-map-binary-reader": "^1.2.0",
     "typescript": "^6.0.3",
     "yargs": "^18.1.0"
   },
