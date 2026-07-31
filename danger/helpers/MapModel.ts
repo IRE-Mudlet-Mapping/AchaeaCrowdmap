@@ -1,4 +1,5 @@
-import mudletMapBinaryReader from "mudlet-map-binary-reader";
+import {MudletMapReader} from "mudlet-map-binary-reader";
 
 const inputFile = "./Map/map";
-export default mudletMapBinaryReader.MudletMapReader.read(inputFile);
+import fs from "fs";
+export default MudletMapReader.readBuffer(fs.readFileSync(inputFile));
