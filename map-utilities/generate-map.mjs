@@ -16,9 +16,9 @@ const mapData = MudletMapReader.readBuffer(inputBuffer);
 const readableMap = MudletMapReader.exportJson(mapData, false);
 fs.writeFileSync(`${argv.baseDir}/Map/map.json`, readableMap, "utf-8");
 const miniMap = MudletMapReader.exportJson(mapData, true)
-fs.writeFileSync(`${argv.baseDir}/Map/map-mini.json`, miniMap, "utf-8");
+fs.writeFileSync(`${argv.baseDir}/Map/map_mini.json`, miniMap, "utf-8");
 const {mapData: exportMapData, colors} = MudletMapReader.export(mapData);
 fs.writeFileSync(`${argv.baseDir}/Map/mapExport.json`, JSON.stringify(exportMapData), "utf-8");
 fs.writeFileSync(`${argv.baseDir}/Map/mapExport.js`, `mapData = ${JSON.stringify(exportMapData)}`, "utf-8");
-fs.writeFileSync(`${argv.baseDir}/Map/colours.json`, JSON.stringify(colors), "utf-8");
-fs.writeFileSync(`${argv.baseDir}/Map/colours.js`, `colours = ${JSON.stringify(colors)}`, "utf-8");
+fs.writeFileSync(`${argv.baseDir}/Map/colors.json`, JSON.stringify(colors), "utf-8");
+fs.writeFileSync(`${argv.baseDir}/Map/colors.js`, `colors = ${JSON.stringify(colors)}`, "utf-8");
