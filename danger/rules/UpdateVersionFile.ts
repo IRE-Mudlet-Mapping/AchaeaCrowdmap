@@ -1,5 +1,5 @@
-import { DangerDSLType } from "danger";
-import { MapChangeRule } from "../classes/Rule";
+import type { DangerDSLType } from "danger";
+import { MapChangeRule } from "../classes/Rule.ts";
 
 const versionFilePath = "Map/version.txt";
 

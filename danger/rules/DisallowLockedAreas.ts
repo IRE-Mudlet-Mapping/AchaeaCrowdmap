@@ -1,6 +1,6 @@
-import * as _ from "lodash";
-import { MapChangeRule } from "../classes/Rule";
-import mapModel from "../helpers/MapModel";
+import _ from "lodash";
+import { MapChangeRule } from "../classes/Rule.ts";
+import mapModel from "../helpers/MapModel.ts";
 
 const areasWithAllRoomsLocked = _.chain(mapModel.areas)
   .map((area, id) => {return {area, id}})

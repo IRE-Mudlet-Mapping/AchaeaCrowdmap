@@ -1,7 +1,5 @@
-//import { DangerDSLType, message, warn, fail } from "danger";
-
-import { DangerDSLType } from "danger";
-import * as _ from "lodash";
+import type { DangerDSLType } from "danger";
+import _ from "lodash";
 
 /**
  * Type alias for a function that returns a human readable name.

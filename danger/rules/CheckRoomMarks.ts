@@ -1,8 +1,8 @@
 import * as fs from "fs";
 import * as yaml from "js-yaml";
-import * as _ from "lodash";
-import { MapChangeRule } from "../classes/Rule";
-import mapModel from "../helpers/MapModel";
+import _ from "lodash";
+import { MapChangeRule } from "../classes/Rule.ts";
+import mapModel from "../helpers/MapModel.ts";
 
 const allowedRoomMarks = yaml.load(
   fs.readFileSync("./danger/rules/allowed_room_marks.yaml", "utf-8")

@@ -1,5 +1,5 @@
-import { DangerDSLType } from "danger";
-import { SanityCheckRule } from "../classes/Rule";
+import type { DangerDSLType } from "danger";
+import { SanityCheckRule } from "../classes/Rule.ts";
 
 export const checkCorrectBranch = new SanityCheckRule(
   async (danger: DangerDSLType) => danger.github.pr.base.ref === 'development',
