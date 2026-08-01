@@ -1,0 +1,75 @@
+name: Auto-merge Dependabot updates
+
+on:
+  workflow_run:
+    workflows:
+      - Validate dependency update
+    types:
+      - completed
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: dependabot-auto-merge-${{ github.event.workflow_run.id }}
+  cancel-in-progress: false
+
+jobs:
+  enable-auto-merge:
+    if: github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Find associated pull request
+        id: pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          pr="$(
+            gh api \
+              --method GET \
+              "/repos/$REPOSITORY/commits/$HEAD_SHA/pulls" \
+              --jq '.[0].number // empty'
+          )"
+
+          if [ -z "$pr" ]; then
+            echo "No associated pull request found"
+            exit 1
+          fi
+
+          echo "number=$pr" >> "$GITHUB_OUTPUT"
+
+      - name: Verify Dependabot pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
+        run: |
+          author="$(
+            gh api "/repos/$REPOSITORY/pulls/$PR_NUMBER" \
+              --jq '.user.login'
+          )"
+
+          base="$(
+            gh api "/repos/$REPOSITORY/pulls/$PR_NUMBER" \
+              --jq '.base.ref'
+          )"
+
+          if [ "$author" != "dependabot[bot]" ]; then
+            echo "Pull request was not opened by Dependabot"
+            exit 1
+          fi
+
+          if [ "$base" != "development" ]; then
+            echo "Unexpected target branch: $base"
+            exit 1
+          fi
+
+      - name: Enable squash auto-merge
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URL: https://github.com/${{ github.repository }}/pull/${{ steps.pr.outputs.number }}
+        run: gh pr merge --auto --squash "$PR_URL"
