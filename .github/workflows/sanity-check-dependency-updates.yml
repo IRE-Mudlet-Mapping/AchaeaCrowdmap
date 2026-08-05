@@ -1,0 +1,38 @@
+name: Validate dependency update
+
+on:
+  pull_request
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if the map was changed in this PR
+        id: map-change-detected
+        uses: tj-actions/changed-files@v47.0.6
+        with:
+          # the only source of truth is the actual map
+          files: Map/map
+          sha: ${{github.event.pull_request.head.sha}}
+          base_sha: ${{github.event.pull_request.base.sha}}
+      - name: Checkout base version
+        if: steps.map-change-detected.outputs.any_changed == 'false'
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v7.0.0
+        if: steps.map-change-detected.outputs.any_changed == 'false'
+      - name: Run all JS scripts to find out, whether some of them break
+        if: steps.map-change-detected.outputs.any_changed == 'false'
+        run: |
+          set -e
+          yarn install --frozen-lockfile
+          node ./map-utilities/generate-map.mjs
+          stat --printf="%s" Map/colors.js
+          stat --printf="%s" Map/colors.json
+          danger_output=$(yarn danger ci -d danger/dangerfile.ts --text-only)
+          echo "$danger_output" | grep -q "found only warnings"
+          echo "$danger_output" | grep -q "Main map file not edited. Are you sure you uploaded the file with the correct name?"
