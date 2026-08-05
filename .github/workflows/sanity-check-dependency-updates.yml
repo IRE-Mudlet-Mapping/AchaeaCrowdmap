@@ -36,3 +36,5 @@ jobs:
           danger_output=$(yarn danger ci -d danger/dangerfile.ts --text-only)
           echo "$danger_output" | grep -q "found only warnings"
           echo "$danger_output" | grep -q "Main map file not edited. Are you sure you uploaded the file with the correct name?"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
