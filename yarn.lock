@@ -718,10 +718,10 @@ ms@2.1.2:
   resolved "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-mudlet-map-binary-reader@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/mudlet-map-binary-reader/-/mudlet-map-binary-reader-1.2.0.tgz#c963b6688ea0fba094084d5089ec8408447cd071"
-  integrity sha512-CgjNPGkM/X3X/3CozMWn334z7aUbpvev5FSYMHMqo6cqsmdYj/vSUmCsKgWqkedCdL8Qsu+zr7bmL9i82dkvUw==
+mudlet-map-binary-reader@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/mudlet-map-binary-reader/-/mudlet-map-binary-reader-2.0.0.tgz#d3a9317b4f3c7ba8298b687fd8939175f0753684"
+  integrity sha512-IKY4TBHF8k1IT/WVunZeg0ABl365zxDNtzRSzFaqhyu73bfI011d2oLGiSwuUSCrpIxNohXMWr8/nnPtg0B0pw==
   dependencies:
     qtdatastream-web "^0.0.1"
 
