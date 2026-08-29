@@ -1,0 +1,23 @@
+{
+  "allowed": { "home": 10, "bank": 20 },
+  "valid": {
+    "rooms": {
+      "1": { "id": 1, "userData": { "gotoMapping": "{\"home\":\"10\",\"bank\":\"20\"}" } }
+    }
+  },
+  "missing": {
+    "rooms": {
+      "1": { "id": 1, "userData": { "gotoMapping": "{\"home\":\"10\"}" } }
+    }
+  },
+  "extra": {
+    "rooms": {
+      "1": { "id": 1, "userData": { "gotoMapping": "{\"home\":\"10\",\"bank\":\"20\",\"shop\":\"30\"}" } }
+    }
+  },
+  "moved": {
+    "rooms": {
+      "1": { "id": 1, "userData": { "gotoMapping": "{\"home\":\"11\",\"bank\":\"20\"}" } }
+    }
+  }
+}

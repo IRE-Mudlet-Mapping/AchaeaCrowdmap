@@ -1,11 +1,14 @@
-
+import type { MudletMap } from "mudlet-map-binary-reader";
 import _ from "lodash";
 import { RoomCheckRule } from "../classes/Rule.ts";
 import mapModel from "../helpers/MapModel.ts";
 
-
-const rooms = _.filter(mapModel.rooms, (room) =>
+export function createDisallowStockroomsRule(map: Pick<MudletMap, "rooms">) {
+  const rooms = _.filter(map.rooms, (room) =>
     room.symbol === '$' && room.down !== -1
-);
+  );
 
-export const disallowStockrooms = new RoomCheckRule(rooms, 'shops with stockrooms');
+  return new RoomCheckRule(rooms, 'shops with stockrooms');
+}
+
+export const disallowStockrooms = createDisallowStockroomsRule(mapModel);

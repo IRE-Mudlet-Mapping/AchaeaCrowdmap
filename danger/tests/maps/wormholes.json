@@ -1,0 +1,20 @@
+{
+  "locked": {
+    "rooms": {
+      "1": {
+        "id": 1,
+        "mSpecialExits": { "worm warp": 2 },
+        "mSpecialExitLocks": ["worm warp"]
+      }
+    }
+  },
+  "unlocked": {
+    "rooms": {
+      "1": {
+        "id": 1,
+        "mSpecialExits": { "worm warp": 2 },
+        "mSpecialExitLocks": []
+      }
+    }
+  }
+}
