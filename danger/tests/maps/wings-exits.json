@@ -1,0 +1,12 @@
+{
+  "valid": {
+    "rooms": {
+      "1": { "id": 1, "mSpecialExits": { "enter portal": 2 } }
+    }
+  },
+  "invalid": {
+    "rooms": {
+      "1": { "id": 1, "mSpecialExits": { "duanastand": 2 } }
+    }
+  }
+}

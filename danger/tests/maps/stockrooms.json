@@ -1,0 +1,12 @@
+{
+  "valid": {
+    "rooms": {
+      "1": { "id": 1, "symbol": "$", "down": -1 }
+    }
+  },
+  "invalid": {
+    "rooms": {
+      "1": { "id": 1, "symbol": "$", "down": 2 }
+    }
+  }
+}

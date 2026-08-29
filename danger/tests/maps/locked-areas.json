@@ -1,0 +1,18 @@
+{
+  "valid": {
+    "areaNames": { "1": "Partly open" },
+    "areas": { "1": { "rooms": [1, 2] } },
+    "rooms": {
+      "1": { "id": 1, "isLocked": true },
+      "2": { "id": 2, "isLocked": false }
+    }
+  },
+  "invalid": {
+    "areaNames": { "1": "Closed" },
+    "areas": { "1": { "rooms": [1, 2] } },
+    "rooms": {
+      "1": { "id": 1, "isLocked": true },
+      "2": { "id": 2, "isLocked": true }
+    }
+  }
+}

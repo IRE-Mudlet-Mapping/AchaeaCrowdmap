@@ -70,6 +70,7 @@ jobs:
 
           run_check install "Install dependencies" yarn install --frozen-lockfile
           run_check typecheck "Type check TypeScript sources" yarn typecheck
+          run_check test "Test Danger rules" yarn test
           run_check generate-map "Generate map outputs" node ./map-utilities/generate-map.mjs
           run_check colors-js "Check generated colors.js" stat --printf="%s\n" Map/colors.js
           run_check colors-json "Check generated colors.json" stat --printf="%s\n" Map/colors.json
