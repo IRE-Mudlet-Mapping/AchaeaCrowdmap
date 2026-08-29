@@ -1,16 +1,10 @@
 import _ from "lodash";
-import type { MudletRoom } from "mudlet-map-binary-reader";
 import { RoomCheckRule } from "../classes/Rule.ts";
 import mapModel from "../helpers/MapModel.ts";
 
-const exitLocked = (room: MudletRoom, target: number) => {
-    return room.mSpecialExitLocks?.some(specialTarget => specialTarget === target) ?? false;
-}
-
 const rooms = _.filter(mapModel.rooms, (room) =>
-    _.some(room.mSpecialExits, (target, exitCommand) =>
-        exitCommand === "worm warp" && !exitLocked(room, target)
-    )
+    Object.hasOwn(room.mSpecialExits, "worm warp") &&
+    !room.mSpecialExitLocks?.includes("worm warp")
 );
 
 export const disallowUnlockedWormholes = new RoomCheckRule(rooms, 'rooms with unlocked wormholes', false);
