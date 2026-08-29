@@ -1,7 +1,11 @@
 {
+  "scripts": {
+    "typecheck": "tsc"
+  },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
     "@types/lodash": "^4.17.25",
+    "@types/node": "^26.4.0",
     "@types/yargs": "^17.0.35",
     "danger": "^14.0.5",
     "js-yaml": "^5.4.0",
@@ -14,7 +18,7 @@
     "dotenv": "^17.4.2",
     "realm": "^12.14.2"
   },
-  "engines": { 
+  "engines": {
     "node": ">=22.12.0"
   }
 }

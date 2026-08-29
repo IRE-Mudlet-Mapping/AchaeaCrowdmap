@@ -1,4 +1,4 @@
-import type { DangerDSLType } from "danger";
+import { fail, message, warn, type DangerDSLType } from "danger";
 import _ from "lodash";
 
 /**
