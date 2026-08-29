@@ -25,21 +25,88 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v7.0.0
         if: steps.map-change-detected.outputs.any_changed == 'false'
-      - name: Install dependencies
-        if: steps.map-change-detected.outputs.any_changed == 'false'
-        run: yarn install --frozen-lockfile
-      - name: Type check TypeScript sources
-        if: steps.map-change-detected.outputs.any_changed == 'false'
-        run: yarn typecheck
-      - name: Run all JS scripts to find out, whether some of them break
+      - name: Validate dependency update
         if: steps.map-change-detected.outputs.any_changed == 'false'
         run: |
-          set -e
-          node ./map-utilities/generate-map.mjs
-          stat --printf="%s" Map/colors.js
-          stat --printf="%s" Map/colors.json
-          danger_output=$(yarn danger ci -d danger/dangerfile.ts --text-only)
-          echo "$danger_output" | grep -q "found only warnings"
-          echo "$danger_output" | grep -q "Main map file not edited. Are you sure you uploaded the file with the correct name?"
+          set -o pipefail
+
+          declare -a check_ids=()
+          declare -A check_names=()
+          declare -A check_results=()
+          declare -A check_logs=()
+          failed=0
+
+          run_check() {
+            local id="$1"
+            local name="$2"
+            shift 2
+
+            local log_file="$RUNNER_TEMP/$id.log"
+            check_ids+=("$id")
+            check_names["$id"]="$name"
+            check_logs["$id"]="$log_file"
+
+            echo "::group::$name"
+            if "$@" 2>&1 | tee "$log_file"; then
+              check_results["$id"]="Passed"
+            else
+              check_results["$id"]="Failed"
+              failed=1
+            fi
+            echo "::endgroup::"
+          }
+
+          check_log_contains() {
+            local log_file="$1"
+            local expected="$2"
+
+            if grep -Fq "$expected" "$log_file"; then
+              echo "Found expected output: $expected"
+            else
+              echo "Missing expected output: $expected"
+              return 1
+            fi
+          }
+
+          run_check install "Install dependencies" yarn install --frozen-lockfile
+          run_check typecheck "Type check TypeScript sources" yarn typecheck
+          run_check generate-map "Generate map outputs" node ./map-utilities/generate-map.mjs
+          run_check colors-js "Check generated colors.js" stat --printf="%s\n" Map/colors.js
+          run_check colors-json "Check generated colors.json" stat --printf="%s\n" Map/colors.json
+          run_check danger "Run Danger rules" yarn danger ci -d danger/dangerfile.ts --text-only
+          run_check danger-result "Check Danger result" check_log_contains \
+            "$RUNNER_TEMP/danger.log" "found only warnings"
+          run_check map-warning "Check missing-map warning" check_log_contains \
+            "$RUNNER_TEMP/danger.log" \
+            "Main map file not edited. Are you sure you uploaded the file with the correct name?"
+
+          {
+            echo "## Dependency update validation"
+            echo
+            echo "| Check | Result |"
+            echo "| --- | --- |"
+            for id in "${check_ids[@]}"; do
+              if [[ "${check_results[$id]}" == "Passed" ]]; then
+                echo "| ${check_names[$id]} | ✅ Passed |"
+              else
+                echo "| ${check_names[$id]} | ❌ Failed |"
+              fi
+            done
+
+            for id in "${check_ids[@]}"; do
+              if [[ "${check_results[$id]}" == "Failed" ]]; then
+                echo
+                echo "<details>"
+                echo "<summary>${check_names[$id]}</summary>"
+                echo
+                echo '```text'
+                cat "${check_logs[$id]}"
+                echo '```'
+                echo "</details>"
+              fi
+            done
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          exit "$failed"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
