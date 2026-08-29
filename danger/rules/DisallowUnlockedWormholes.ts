@@ -1,4 +1,5 @@
 import _ from "lodash";
+import type { MudletRoom } from "mudlet-map-binary-reader";
 import { RoomCheckRule } from "../classes/Rule.ts";
 import mapModel from "../helpers/MapModel.ts";
 
