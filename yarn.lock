@@ -390,10 +390,10 @@ core-js@^3.8.2:
   resolved "https://registry.npmjs.org/core-js/-/core-js-3.22.5.tgz"
   integrity sha512-VP/xYuvJ0MJWRAobcmQ8F2H6Bsn+s7zqAAjFaHGBMc5AQm7zaelhD1LGduFn2EehEcQcU+br6t+fwbpQ5d1ZWA==
 
-danger@^14.0.5:
-  version "14.0.5"
-  resolved "https://registry.yarnpkg.com/danger/-/danger-14.0.5.tgz#d3346c6af8dc656852606a274d19ace4cb3ca4b3"
-  integrity sha512-A/UpbybVjLpeAH96NtBTvkO5U5+eBYZvAU7T2P7cnyw8xnnmUd+ZrYdgFkqP40qh7iFjDuDNgDh9VRRHCLvhcA==
+danger@^14.0.7:
+  version "14.0.7"
+  resolved "https://registry.yarnpkg.com/danger/-/danger-14.0.7.tgz#a398ef9227352f7ec50092240e053d6950df8e80"
+  integrity sha512-tOPndifqtQchQxJ0Wfs7cr9s+cCVtt0RSUzaLEoL9quzLi2tDfa1POyqFF1f4bL7DNOgpNOKAIdP9lSlgksLhw==
   dependencies:
     "@gitbeaker/rest" "^38.0.0"
     "@octokit/rest" "^20.1.2"
