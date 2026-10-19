@@ -1,4 +1,5 @@
 changelog = {
+    [[DISPOSABLE VISUAL DIFF TEST: move one room one grid square; do not merge]],
 	[[Initial release.]],
 	[[Added Temple of War]],
 	[[Added in special exits for Hashan's warp hubs]],
