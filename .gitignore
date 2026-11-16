@@ -7,3 +7,7 @@ Map/*
 !Map/map
 !Map/version.txt
 .env
+
+# Claude Code personal files (may hold secrets)
+**/.claude/settings.local.json
+CLAUDE.local.md
